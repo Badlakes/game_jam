@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 1",
+	"name": "MG1Sheet",
 	"events": [
 		{
 			"eventType": "variable",
@@ -112,18 +112,9 @@
 					}
 				},
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 952840219108892,
-					"parameters": {
-						"audio-file": {
-							"path": "happyWheels"
-						},
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
+					"id": "destroy",
+					"objectClass": "PlayerTextBox",
+					"sid": 577908229840893
 				}
 			],
 			"sid": 700076762750721
@@ -305,6 +296,32 @@
 						"variable": "TotalTime",
 						"value": "int(Clock.Text)"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PlayerTextBox",
+					"sid": 106416393316474,
+					"parameters": {
+						"text": "uppercase(PlayerTextBox.Text)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 886369810012705,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "uppercase(PlayerTextBox.PlayerInput)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 276164596638118,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "(PlayerTextBox.Text)"
+					}
 				}
 			],
 			"sid": 942375920937884,
@@ -422,45 +439,6 @@
 					"sid": 303258927121545
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-text-changed",
-					"objectClass": "PlayerTextBox",
-					"sid": 265744718766411
-				}
-			],
-			"actions": [
-				{
-					"id": "set-text",
-					"objectClass": "PlayerTextBox",
-					"sid": 855452509100240,
-					"parameters": {
-						"text": "uppercase(PlayerTextBox.Text)"
-					}
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "PlayerTextBox",
-					"sid": 880225976671267,
-					"parameters": {
-						"instance-variable": "PlayerInput",
-						"value": "uppercase(PlayerTextBox.PlayerInput)"
-					}
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "PlayerTextBox",
-					"sid": 853000507838103,
-					"parameters": {
-						"instance-variable": "PlayerInput",
-						"value": "(PlayerTextBox.Text)"
-					}
-				}
-			],
-			"sid": 249940320962177
 		}
 	],
 	"sid": 689993274237722

@@ -86,7 +86,11 @@
 			"Clock",
 			"background",
 			"Sprite2",
-			"Audio"
+			"Audio",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6"
 		],
 		"subfolders": []
 	},
@@ -99,13 +103,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"MiniGame1",
+			"MainScreen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"MG1Sheet",
+			"MG1Sheet2"
 		],
 		"subfolders": []
 	},
@@ -208,6 +214,14 @@
 					"sid": 258916628310490,
 					"file-info": {
 						"purpose": "stylesheet"
+					}
+				},
+				{
+					"name": "words_array.json",
+					"type": "application/json",
+					"sid": 808170217091040,
+					"file-info": {
+						"purpose": "none"
 					}
 				}
 			],

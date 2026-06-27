@@ -1,0 +1,166 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 186876738532589
+				},
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 323761881550355,
+					"parameters": {
+						"object": "Enemy"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 145670309888596,
+					"parameters": {
+						"first-value": "left(Enemy.values,1)",
+						"comparison": 0,
+						"second-value": "Keyboard.TypedKey"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Enemy",
+					"sid": 522253654424367,
+					"parameters": {
+						"instance-variable": "values",
+						"value": "right(Enemy.values,len(Enemy.values)-1)"
+					}
+				}
+			],
+			"sid": 239987136184267,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Enemy",
+					"sid": 421835645151428,
+					"parameters": {
+						"instance-variable": "values",
+						"comparison": 0,
+						"value": "\"\""
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "EnemyText",
+					"sid": 703305513608940,
+					"parameters": {
+						"unique-id": "Enemy.textID"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Enemy",
+					"sid": 349071481698320
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyText",
+					"sid": 649012720609921
+				}
+			],
+			"sid": 191176867242299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 229664315372233
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "EnemyText",
+					"sid": 951419833822186,
+					"parameters": {
+						"text": "Enemy.values"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PlayerText",
+					"sid": 540905340168188,
+					"parameters": {
+						"text": "PlayerText.PlayerInput"
+					}
+				}
+			],
+			"sid": 121800846904380
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 806367983281056
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 733841116168847,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 298694666713814,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "\"\""
+					}
+				}
+			],
+			"sid": 942375920937884,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 739894346019807
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerText",
+					"sid": 264426943627615,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "PlayerText.PlayerInput&Keyboard.TypedKey"
+					}
+				}
+			],
+			"sid": 292542252734932,
+			"disabled": true
+		}
+	],
+	"sid": 689993274237722
+}

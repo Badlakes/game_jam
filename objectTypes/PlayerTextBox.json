@@ -1,0 +1,17 @@
+{
+	"name": "PlayerTextBox",
+	"plugin-id": "TextBox",
+	"sid": 180112124808236,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "PlayerInput",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 399791659405880
+		}
+	],
+	"behaviorTypes": []
+}

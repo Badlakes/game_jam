@@ -301,8 +301,8 @@
 				{
 					"type": "Clock",
 					"properties": {
-						"text": "5",
-						"enable-bbcode": true,
+						"text": "30",
+						"enable-bbcode": false,
 						"font": "Arial",
 						"size": 50,
 						"line-height": 0,
@@ -428,8 +428,8 @@
 		}
 	],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 1280,
+	"height": 720,
 	"unboundedScrolling": false,
 	"sampling": "auto",
 	"vpX": 0.5,

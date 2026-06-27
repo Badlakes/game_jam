@@ -1,7 +1,7 @@
 {
 	"name": "Enemy",
 	"plugin-id": "Sprite",
-	"sid": 675632236148588,
+	"sid": 994868976973390,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [
@@ -10,14 +10,14 @@
 			"type": "string",
 			"desc": "",
 			"show": true,
-			"sid": 527623237185592
+			"sid": 287853658312151
 		},
 		{
 			"name": "textID",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 735831336362104
+			"sid": 679312705114758
 		}
 	],
 	"behaviorTypes": [],
@@ -35,13 +35,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 5229877,
+						"imageSpriteId": 7325508,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 784464412105842,
+				"sid": 605396957306769,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

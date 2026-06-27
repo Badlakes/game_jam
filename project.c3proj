@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 48703,
-	"name": "teste",
+	"name": "Conquer and Win",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -57,6 +64,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -70,27 +84,36 @@
 			"bundled": false
 		}
 	],
-	"uniqueId": "0gxltu5cvbb",
+	"uniqueId": "9ob5bzox5f2",
 	"objectTypes": {
 		"items": [
-			"Keyboard",
-			"Enemy",
-			"EnemyText",
 			"PlayerTextBox",
-			"Browser",
-			"PlayerTextSprite",
+			"DebugMain",
 			"DebugText",
-			"Sprite",
-			"WordsAndStuff",
-			"Exemplo",
+			"EnemyText",
 			"Clock",
 			"background",
-			"Sprite2",
+			"PoetryHouse",
+			"TrainingDummy",
+			"EvilCastle",
+			"MainHero",
+			"FadeToBlack",
+			"PlayerTextSprite",
+			"Enemy",
+			"TelaFimMG1",
 			"Audio",
+			"Browser",
+			"Exemplo",
+			"Keyboard",
+			"Sprite",
+			"WordsAndStuff",
 			"Sprite3",
 			"Sprite4",
-			"Sprite5",
-			"Sprite6"
+			"Dragonborn",
+			"ClockMG2",
+			"PointCount",
+			"Mouse",
+			"TelaFimMG2"
 		],
 		"subfolders": []
 	},
@@ -103,15 +126,19 @@
 	},
 	"layouts": {
 		"items": [
+			"MainScreen",
 			"MiniGame1",
-			"MainScreen"
+			"FinalBoss",
+			"MiniGame2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+			"MainSheet",
 			"MG1Sheet",
-			"MG1Sheet2"
+			"MG2Sheet",
+			"FinalBossSheet"
 		],
 		"subfolders": []
 	},
@@ -125,16 +152,7 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [
-				{
-					"name": "happyWheels.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 804220870624894,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"video": {
@@ -150,7 +168,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 187829582235118,
+					"sid": 553911070818164,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -158,7 +176,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 450497839060878,
+					"sid": 772301248168379,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -166,7 +184,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 966613954621990,
+					"sid": 348048074943627,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -174,7 +192,7 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 597354404097546,
+					"sid": 332012930029093,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -182,7 +200,7 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 285547946487909,
+					"sid": 271590827325562,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -190,7 +208,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 818050790097429,
+					"sid": 869632274476265,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -198,7 +216,7 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 549972361956565,
+					"sid": 223243961652246,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
@@ -209,19 +227,19 @@
 		"general": {
 			"items": [
 				{
-					"name": "styles.css",
-					"type": "text/css",
-					"sid": 258916628310490,
+					"name": "words_array.json",
+					"type": "application/json",
+					"sid": 709019484700623,
 					"file-info": {
-						"purpose": "stylesheet"
+						"purpose": "none"
 					}
 				},
 				{
-					"name": "words_array.json",
-					"type": "application/json",
-					"sid": 808170217091040,
+					"name": "styles.css",
+					"type": "text/css",
+					"sid": 753944063778313,
 					"file-info": {
-						"purpose": "none"
+						"purpose": "stylesheet"
 					}
 				}
 			],
@@ -304,7 +322,7 @@
 		"exportFileStructure": "folders",
 		"scriptsType": "module"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 1216,
+	"viewportHeight": 684,
 	"firstLayout": null
 }

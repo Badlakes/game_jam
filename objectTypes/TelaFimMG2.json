@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "TelaFimMG2",
 	"plugin-id": "Sprite",
-	"sid": 256720294570013,
+	"sid": 955564083938225,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4728245,
+						"imageSpriteId": 9619070,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 628006952795999,
+				"sid": 280830097125173,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

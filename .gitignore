@@ -1,3 +1,2 @@
-**/.DS_Store
-*uistate.json
-*project.c3proj
+*.uistate.json
+ts-defs

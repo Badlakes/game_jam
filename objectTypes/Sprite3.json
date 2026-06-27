@@ -1,10 +1,18 @@
 {
 	"name": "Sprite3",
 	"plugin-id": "Sprite",
-	"sid": 489780483765230,
+	"sid": 824072616693569,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "isFlipped",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 346821772785909
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -20,13 +28,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 1783092,
+						"imageSpriteId": 9534955,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 145315298925717,
+				"sid": 750844479960001,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

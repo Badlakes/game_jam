@@ -9,7 +9,7 @@
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 635978626194587
+			"sid": 515831300620224
 		},
 		{
 			"eventType": "variable",
@@ -19,7 +19,7 @@
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 844873733025607
+			"sid": 600822181460309
 		},
 		{
 			"functionName": "LoadNextWord",
@@ -35,7 +35,7 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "Enemy",
-					"sid": 356210622044978,
+					"sid": 190096071679285,
 					"parameters": {
 						"instance-variable": "values",
 						"value": "uppercase(WordsAndStuff.At(PlayerTextBox.CurrentWord,0,0))"
@@ -44,13 +44,13 @@
 				{
 					"id": "set-text",
 					"objectClass": "EnemyText",
-					"sid": 707705172790923,
+					"sid": 276040256523357,
 					"parameters": {
 						"text": "uppercase(Enemy.values)"
 					}
 				}
 			],
-			"sid": 659977385425732
+			"sid": 932432033800908
 		},
 		{
 			"functionName": "ReorderArray",
@@ -66,7 +66,7 @@
 				{
 					"id": "shuffle",
 					"objectClass": "WordsAndStuff",
-					"sid": 951228485124019,
+					"sid": 390086369202727,
 					"parameters": {
 						"axis": "x"
 					}
@@ -74,7 +74,7 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "PlayerTextBox",
-					"sid": 590293273681961,
+					"sid": 691271631903550,
 					"parameters": {
 						"instance-variable": "CurrentWord",
 						"value": "0"
@@ -82,10 +82,10 @@
 				},
 				{
 					"callFunction": "LoadNextWord",
-					"sid": 718929290058646
+					"sid": 943698268873572
 				}
 			],
-			"sid": 179469122610596
+			"sid": 801909777046786
 		},
 		{
 			"functionName": "EndMiniGameText",
@@ -101,12 +101,12 @@
 				{
 					"id": "set-unfocused",
 					"objectClass": "PlayerTextBox",
-					"sid": 801619883884846
+					"sid": 712341007188147
 				},
 				{
 					"id": "set-text",
 					"objectClass": "Clock",
-					"sid": 656011282555011,
+					"sid": 289904529662329,
 					"parameters": {
 						"text": "\"\""
 					}
@@ -114,10 +114,28 @@
 				{
 					"id": "destroy",
 					"objectClass": "PlayerTextBox",
-					"sid": 577908229840893
+					"sid": 238159011486202
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Enemy",
+					"sid": 720502404207757
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyText",
+					"sid": 106549407838182
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "TelaFimMG1",
+					"sid": 155449207144530,
+					"parameters": {
+						"opacity": "100"
+					}
 				}
 			],
-			"sid": 700076762750721
+			"sid": 707801559742019
 		},
 		{
 			"eventType": "block",
@@ -125,14 +143,14 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 490620392411049
+					"sid": 543487916371292
 				}
 			],
 			"actions": [
 				{
 					"id": "set-text",
 					"objectClass": "DebugText",
-					"sid": 119965936909805,
+					"sid": 333110650906486,
 					"parameters": {
 						"text": " \"Points: \" & PlayerTextBox.NumberPoints & newline & \"Misses: \" & PlayerTextBox.NumberMisses"
 					}
@@ -140,13 +158,39 @@
 				{
 					"id": "set-text",
 					"objectClass": "Clock",
-					"sid": 825853705339471,
+					"sid": 290488941829897,
 					"parameters": {
 						"text": "TotalTime"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PlayerTextBox",
+					"sid": 315065913768250,
+					"parameters": {
+						"text": "uppercase(PlayerTextBox.Text)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 616240721020663,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "uppercase(PlayerTextBox.PlayerInput)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 575811295001473,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "(PlayerTextBox.Text)"
+					}
 				}
 			],
-			"sid": 498633676305064,
+			"sid": 185880785934898,
 			"children": [
 				{
 					"eventType": "block",
@@ -154,7 +198,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 328548677893284,
+							"sid": 677104285150203,
 							"parameters": {
 								"interval-seconds": "1.0"
 							}
@@ -162,7 +206,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 397314652367469,
+							"sid": 368565180175900,
 							"parameters": {
 								"first-value": "TotalTime",
 								"comparison": 1,
@@ -174,14 +218,14 @@
 						{
 							"id": "subtract-from-eventvar",
 							"objectClass": "System",
-							"sid": 266793814383988,
+							"sid": 516161869733014,
 							"parameters": {
 								"variable": "TotalTime",
 								"value": "1"
 							}
 						}
 					],
-					"sid": 699300879482551
+					"sid": 702704775813858
 				},
 				{
 					"eventType": "block",
@@ -189,7 +233,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 418237581346554,
+							"sid": 450401700550090,
 							"parameters": {
 								"first-value": "PlayerTextBox.CurrentWord",
 								"comparison": 5,
@@ -200,10 +244,10 @@
 					"actions": [
 						{
 							"callFunction": "ReorderArray",
-							"sid": 607897321885720
+							"sid": 336886600452882
 						}
 					],
-					"sid": 685115215828027
+					"sid": 247754068443239
 				},
 				{
 					"eventType": "block",
@@ -211,7 +255,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 808831293477525,
+							"sid": 863876247838299,
 							"parameters": {
 								"first-value": "TotalTime",
 								"comparison": 0,
@@ -222,10 +266,10 @@
 					"actions": [
 						{
 							"callFunction": "EndMiniGameText",
-							"sid": 686998579546081
+							"sid": 842322738249158
 						}
 					],
-					"sid": 947439638496414
+					"sid": 651651662444858
 				}
 			]
 		},
@@ -235,14 +279,39 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 806367983281056
+					"sid": 397775580354931
 				}
 			],
 			"actions": [
 				{
+					"id": "set-opacity",
+					"objectClass": "FadeToBlack",
+					"sid": 298337308781880,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 667945002008610,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_in\"",
+						"property": "offsetOpacity",
+						"end-value": "0",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
 					"id": "pin-to-object-properties",
 					"objectClass": "PlayerTextBox",
-					"sid": 899462699369688,
+					"sid": 817668794327031,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "PlayerTextSprite",
@@ -257,7 +326,7 @@
 				{
 					"id": "load-stylesheet",
 					"objectClass": "Browser",
-					"sid": 615249678539309,
+					"sid": 694358196161651,
 					"parameters": {
 						"url": "\"styles.css\""
 					}
@@ -265,7 +334,7 @@
 				{
 					"id": "load",
 					"objectClass": "WordsAndStuff",
-					"sid": 384527347284780,
+					"sid": 532421315948923,
 					"parameters": {
 						"json": "array_words"
 					}
@@ -273,12 +342,12 @@
 				{
 					"id": "set-focused",
 					"objectClass": "PlayerTextBox",
-					"sid": 255617729590107
+					"sid": 886327405136688
 				},
 				{
 					"id": "set-instvar-value",
 					"objectClass": "PlayerTextBox",
-					"sid": 298694666713814,
+					"sid": 108185319073335,
 					"parameters": {
 						"instance-variable": "PlayerInput",
 						"value": "\"\""
@@ -286,45 +355,27 @@
 				},
 				{
 					"callFunction": "ReorderArray",
-					"sid": 454716434079146
+					"sid": 776206816710578
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 799319318131499,
+					"sid": 862798293280979,
 					"parameters": {
 						"variable": "TotalTime",
 						"value": "int(Clock.Text)"
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "PlayerTextBox",
-					"sid": 106416393316474,
+					"id": "set-opacity",
+					"objectClass": "TelaFimMG1",
+					"sid": 805016725538162,
 					"parameters": {
-						"text": "uppercase(PlayerTextBox.Text)"
-					}
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "PlayerTextBox",
-					"sid": 886369810012705,
-					"parameters": {
-						"instance-variable": "PlayerInput",
-						"value": "uppercase(PlayerTextBox.PlayerInput)"
-					}
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "PlayerTextBox",
-					"sid": 276164596638118,
-					"parameters": {
-						"instance-variable": "PlayerInput",
-						"value": "(PlayerTextBox.Text)"
+						"opacity": "0"
 					}
 				}
 			],
-			"sid": 942375920937884,
+			"sid": 919952933838431,
 			"isOrBlock": true
 		},
 		{
@@ -333,14 +384,14 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 902130614278873,
+					"sid": 302485987958041,
 					"parameters": {
 						"key": 13
 					}
 				}
 			],
 			"actions": [],
-			"sid": 857740022849674,
+			"sid": 578028131022936,
 			"children": [
 				{
 					"eventType": "block",
@@ -348,7 +399,7 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 477120314467073,
+							"sid": 510605032748296,
 							"parameters": {
 								"first-value": "uppercase(Enemy.values)",
 								"comparison": 0,
@@ -360,7 +411,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "PlayerTextBox",
-							"sid": 924669899728912,
+							"sid": 520896544175115,
 							"parameters": {
 								"instance-variable": "CurrentWord",
 								"value": "PlayerTextBox.CurrentWord+1"
@@ -369,7 +420,7 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "PlayerTextBox",
-							"sid": 884154270640838,
+							"sid": 239348477854087,
 							"parameters": {
 								"instance-variable": "NumberPoints",
 								"value": "PlayerTextBox.NumberPoints+1"
@@ -377,12 +428,12 @@
 						},
 						{
 							"callFunction": "LoadNextWord",
-							"sid": 436935395437206
+							"sid": 220088278671948
 						},
 						{
 							"id": "set-text",
 							"objectClass": "PlayerTextBox",
-							"sid": 860478219339951,
+							"sid": 754821142668702,
 							"parameters": {
 								"text": "\"\""
 							}
@@ -390,14 +441,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "PlayerTextBox",
-							"sid": 886473795882311,
+							"sid": 713893528867495,
 							"parameters": {
 								"instance-variable": "PlayerInput",
 								"value": "\"\""
 							}
 						}
 					],
-					"sid": 812257586516885
+					"sid": 766811198382119
 				},
 				{
 					"eventType": "block",
@@ -405,14 +456,14 @@
 						{
 							"id": "else",
 							"objectClass": "System",
-							"sid": 613227111916857
+							"sid": 785830738962801
 						}
 					],
 					"actions": [
 						{
 							"id": "set-instvar-value",
 							"objectClass": "PlayerTextBox",
-							"sid": 651151320409701,
+							"sid": 685685586307261,
 							"parameters": {
 								"instance-variable": "NumberMisses",
 								"value": "PlayerTextBox.NumberMisses+1"
@@ -421,7 +472,7 @@
 						{
 							"id": "set-text",
 							"objectClass": "PlayerTextBox",
-							"sid": 582816453325861,
+							"sid": 887561074150659,
 							"parameters": {
 								"text": "\"\""
 							}
@@ -429,17 +480,17 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "PlayerTextBox",
-							"sid": 675335902023830,
+							"sid": 943127171530024,
 							"parameters": {
 								"instance-variable": "PlayerInput",
 								"value": "\"\""
 							}
 						}
 					],
-					"sid": 303258927121545
+					"sid": 281609767253235
 				}
 			]
 		}
 	],
-	"sid": 689993274237722
+	"sid": 778594874905744
 }

@@ -1,7 +1,7 @@
 {
-	"name": "DebugText",
+	"name": "DebugMain",
 	"plugin-id": "Text",
-	"sid": 336284585532458,
+	"sid": 659794295917115,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],

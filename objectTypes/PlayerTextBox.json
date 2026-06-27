@@ -1,7 +1,7 @@
 {
 	"name": "PlayerTextBox",
 	"plugin-id": "TextBox",
-	"sid": 180112124808236,
+	"sid": 870220950758235,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [
@@ -10,42 +10,42 @@
 			"type": "string",
 			"desc": "",
 			"show": true,
-			"sid": 399791659405880
+			"sid": 808086110415662
 		},
 		{
 			"name": "PlayerPos",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 761427002903968
+			"sid": 717735114926376
 		},
 		{
 			"name": "NumberPoints",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 921773005557942
+			"sid": 704731424085752
 		},
 		{
 			"name": "NumberMisses",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 380108293244274
+			"sid": 948268431667805
 		},
 		{
 			"name": "CurrentWord",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 672001552343553
+			"sid": 102841898764147
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 888666237178186
+			"sid": 797254160790747
 		}
 	]
 }

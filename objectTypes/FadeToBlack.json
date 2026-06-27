@@ -1,11 +1,17 @@
 {
-	"name": "Sprite2",
+	"name": "FadeToBlack",
 	"plugin-id": "Sprite",
-	"sid": 172494354393429,
-	"isGlobal": false,
+	"sid": 465460906663963,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 175310917860831
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -20,13 +26,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 1019951,
+						"imageSpriteId": 8960898,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 839260479498538,
+				"sid": 635497967526016,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

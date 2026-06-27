@@ -1,0 +1,241 @@
+{
+	"name": "MainSheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 334962742183780
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "FadeToBlack",
+					"sid": 277071989523058,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 849939326971427,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_in\"",
+						"property": "offsetOpacity",
+						"end-value": "0",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				}
+			],
+			"sid": 357129064904952
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "FadeToBlack",
+					"sid": 356519418809797,
+					"parameters": {
+						"animation": "\"fade_in\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "MainHero",
+					"sid": 400099006921700,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "MainHero",
+					"sid": 542803547428599,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				}
+			],
+			"sid": 323614283471162,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "MainHero",
+					"sid": 838705755724044,
+					"parameters": {
+						"object": "PoetryHouse"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 133750472005645
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "DebugMain",
+					"sid": 977875922770411,
+					"parameters": {
+						"text": "\"Collision With Poetry\""
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 539297140661932,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_out\"",
+						"property": "offsetOpacity",
+						"end-value": "100",
+						"time": "3",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 274008461749149,
+					"parameters": {
+						"layout": "MiniGame1"
+					}
+				}
+			],
+			"sid": 824605696747463
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "MainHero",
+					"sid": 699931954017537,
+					"parameters": {
+						"object": "EvilCastle"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 736665599248072
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "DebugMain",
+					"sid": 694987136149903,
+					"parameters": {
+						"text": "\"Collision With Castle\""
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 702070229788809,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_out\"",
+						"property": "offsetOpacity",
+						"end-value": "100",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 538386983088895,
+					"parameters": {
+						"layout": "FinalBoss"
+					}
+				}
+			],
+			"sid": 302663708939140
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "MainHero",
+					"sid": 933507171007430,
+					"parameters": {
+						"object": "TrainingDummy"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 176412869919513
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "DebugMain",
+					"sid": 632391543843729,
+					"parameters": {
+						"text": "\"Collision With Dummy\""
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 255157647397761,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_out\"",
+						"property": "offsetOpacity",
+						"end-value": "100",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 353809057719870,
+					"parameters": {
+						"layout": "MiniGame2"
+					}
+				}
+			],
+			"sid": 497670742216175
+		}
+	],
+	"sid": 947134209355610
+}

@@ -1,7 +1,7 @@
 {
 	"name": "background",
 	"plugin-id": "Sprite",
-	"sid": 571048773581230,
+	"sid": 141272934936616,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 8173047,
+						"imageSpriteId": 5102672,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 399809722425906,
+				"sid": 965637320163403,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

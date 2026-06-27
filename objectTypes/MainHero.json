@@ -1,11 +1,17 @@
 {
-	"name": "Sprite4",
+	"name": "MainHero",
 	"plugin-id": "Sprite",
-	"sid": 256720294570013,
+	"sid": 209330221267084,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 881198039187772
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -20,13 +26,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4728245,
+						"imageSpriteId": 6122858,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 628006952795999,
+				"sid": 547751946582110,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

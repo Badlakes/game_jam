@@ -1,0 +1,352 @@
+{
+	"name": "MG2Sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "TotalTime2",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 119629843910873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 723514371687368
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "FadeToBlack",
+					"sid": 864455272056389,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 971539182734908,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_in\"",
+						"property": "offsetOpacity",
+						"end-value": "0",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 851830046567177,
+					"parameters": {
+						"variable": "TotalTime",
+						"value": "int(ClockMG2.Text)"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "TelaFimMG2",
+					"sid": 945642121196786,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 440305355725698
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 512091610218430
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 480147563977608,
+					"parameters": {
+						"first-value": "TotalTime2",
+						"comparison": 1,
+						"second-value": "-1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "DebugText",
+					"sid": 774287731366067,
+					"parameters": {
+						"text": " \"Points: \" & PlayerTextBox.NumberPoints & newline & \"Misses: \" & PlayerTextBox.NumberMisses"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "ClockMG2",
+					"sid": 541505250978411,
+					"parameters": {
+						"text": "TotalTime2"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PlayerTextBox",
+					"sid": 445164805165593,
+					"parameters": {
+						"text": "uppercase(PlayerTextBox.Text)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 157926131488435,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "uppercase(PlayerTextBox.PlayerInput)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 103892856606277,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "(PlayerTextBox.Text)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PointCount",
+					"sid": 140059360611544,
+					"parameters": {
+						"text": "\"Points: \" &PointCount.ClickCount"
+					}
+				}
+			],
+			"sid": 663624687821008,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 862198454143613,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 313653524709497,
+							"parameters": {
+								"first-value": "TotalTime",
+								"comparison": 1,
+								"second-value": "-1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 384177215690700,
+							"parameters": {
+								"variable": "TotalTime2",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 563706268992724
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 962552341917900,
+							"parameters": {
+								"first-value": "PlayerTextBox.CurrentWord",
+								"comparison": 5,
+								"second-value": "WordsAndStuff.Width"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "ReorderArray",
+							"sid": 720514441070937
+						}
+					],
+					"sid": 994518789300060
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 333860105225720,
+							"parameters": {
+								"first-value": "TotalTime2",
+								"comparison": 0,
+								"second-value": "-1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "ClockMG2",
+							"sid": 740564645544786,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 193762372339978
+						},
+						{
+							"id": "set-text",
+							"objectClass": "PointCount",
+							"sid": 467491858367125,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "TelaFimMG2",
+							"sid": 460016505901536,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 800414517909310
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 767894866098904,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite3"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 643434667419109,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 468993339948450,
+							"parameters": {
+								"first-value": "Sprite3.isFlipped",
+								"comparison": 0,
+								"second-value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 461736049156646,
+							"parameters": {
+								"instance-variable": "isFlipped",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite3",
+							"sid": 272722896139389,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "PointCount",
+							"sid": 148238944207626,
+							"parameters": {
+								"instance-variable": "ClickCount",
+								"value": "PointCount.ClickCount+1"
+							}
+						}
+					],
+					"sid": 610649617385139
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 195298421451835
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 638164588318524,
+							"parameters": {
+								"instance-variable": "isFlipped",
+								"value": "01"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite3",
+							"sid": 564507934817067,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "PointCount",
+							"sid": 196043667770945,
+							"parameters": {
+								"instance-variable": "ClickCount",
+								"value": "PointCount.ClickCount+1"
+							}
+						}
+					],
+					"sid": 549195981018381
+				}
+			]
+		}
+	],
+	"sid": 996852393135340
+}

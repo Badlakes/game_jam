@@ -1,0 +1,44 @@
+{
+	"name": "FinalBossSheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 435970988130792
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "FadeToBlack",
+					"sid": 133498259362194,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "tween-one-property",
+					"objectClass": "FadeToBlack",
+					"sid": 430624881309176,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fade_in\"",
+						"property": "offsetOpacity",
+						"end-value": "0",
+						"time": "1",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				}
+			],
+			"sid": 453660219004499
+		}
+	],
+	"sid": 913111780715880
+}

@@ -1,16 +1,16 @@
 {
-	"name": "PlayerText",
+	"name": "PointCount",
 	"plugin-id": "Text",
-	"sid": 810217999145941,
+	"sid": 486623920244322,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [
 		{
-			"name": "PlayerInput",
-			"type": "string",
+			"name": "ClickCount",
+			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 175387433252071
+			"sid": 263025345725212
 		}
 	],
 	"behaviorTypes": [],

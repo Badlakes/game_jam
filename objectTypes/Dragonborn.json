@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "Dragonborn",
 	"plugin-id": "Sprite",
-	"sid": 256720294570013,
+	"sid": 330009364231818,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,22 +12,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 750,
+						"height": 1064,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"fileType": "image/png",
-						"imageSpriteId": 4728245,
+						"fileType": "image/webp",
+						"imageSpriteId": 2062853,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 628006952795999,
-				"name": "Animation 1",
+				"sid": 208098892299675,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

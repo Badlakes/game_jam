@@ -114,14 +114,6 @@
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 806367983281056
-				},
-				{
-					"id": "key-is-down",
-					"objectClass": "Keyboard",
-					"sid": 733841116168847,
-					"parameters": {
-						"key": 13
-					}
 				}
 			],
 			"actions": [
@@ -132,6 +124,14 @@
 					"parameters": {
 						"instance-variable": "PlayerInput",
 						"value": "\"\""
+					}
+				},
+				{
+					"id": "load-stylesheet",
+					"objectClass": "Browser",
+					"sid": 104030533434826,
+					"parameters": {
+						"url": "\"files/styles.css\""
 					}
 				}
 			],
@@ -160,6 +160,31 @@
 			],
 			"sid": 292542252734932,
 			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 541090215440566,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 865057120067231,
+					"parameters": {
+						"instance-variable": "PlayerInput",
+						"value": "\"\""
+					}
+				}
+			],
+			"sid": 857740022849674
 		}
 	],
 	"sid": 689993274237722

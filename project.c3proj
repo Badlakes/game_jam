@@ -8,6 +8,27 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -44,7 +65,10 @@
 			"Text",
 			"PlayerText",
 			"Sprite",
-			"PlayerTextBox"
+			"PlayerTextBox",
+			"Button",
+			"Browser",
+			"AJAX"
 		],
 		"subfolders": []
 	},
@@ -150,7 +174,16 @@
 			"subfolders": []
 		},
 		"general": {
-			"items": [],
+			"items": [
+				{
+					"name": "styles.css",
+					"type": "text/css",
+					"sid": 258916628310490,
+					"file-info": {
+						"purpose": "stylesheet"
+					}
+				}
+			],
 			"subfolders": []
 		}
 	},

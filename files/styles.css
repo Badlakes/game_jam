@@ -1,0 +1,17 @@
+.campo_texto_player {
+    background: #1a1a2e;
+    color: white;
+    border: 2px solid #7b68ee;
+    border-radius: 8px;
+    font-size: 45px;
+    outline: none;
+    box-shadow: none;
+    border-color: #fff;
+}
+
+.campo_texto_player:focus {
+    border-color: #fff;
+    outline: none;
+    box-shadow: none;
+    border-color: #fff; /* ou o que quiser */
+}

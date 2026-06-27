@@ -1,11 +1,17 @@
 {
-	"name": "Sprite",
+	"name": "PlayerTextSprite",
 	"plugin-id": "Sprite",
-	"sid": 901690244892258,
+	"sid": 817917212708228,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 193491829720589
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -20,13 +26,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4405662,
+						"imageSpriteId": 8396362,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 285202993416974,
+				"sid": 513270229322812,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

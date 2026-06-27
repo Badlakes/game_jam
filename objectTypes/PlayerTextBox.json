@@ -11,7 +11,41 @@
 			"desc": "",
 			"show": true,
 			"sid": 399791659405880
+		},
+		{
+			"name": "PlayerPos",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 761427002903968
+		},
+		{
+			"name": "NumberPoints",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 921773005557942
+		},
+		{
+			"name": "NumberMisses",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 380108293244274
+		},
+		{
+			"name": "CurrentWord",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 672001552343553
 		}
 	],
-	"behaviorTypes": []
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 888666237178186
+		}
+	]
 }

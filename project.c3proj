@@ -8,8 +8,15 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "AJAX",
-			"name": "AJAX",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -17,13 +24,6 @@
 			"type": "plugin",
 			"id": "Browser",
 			"name": "Browser",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -54,6 +54,20 @@
 			"name": "Text input",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "0gxltu5cvbb",
@@ -62,13 +76,17 @@
 			"Keyboard",
 			"Enemy",
 			"EnemyText",
-			"Text",
-			"PlayerText",
-			"Sprite",
 			"PlayerTextBox",
-			"Button",
 			"Browser",
-			"AJAX"
+			"PlayerTextSprite",
+			"DebugText",
+			"Sprite",
+			"WordsAndStuff",
+			"Exemplo",
+			"Clock",
+			"background",
+			"Sprite2",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -101,7 +119,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "happyWheels.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 804220870624894,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

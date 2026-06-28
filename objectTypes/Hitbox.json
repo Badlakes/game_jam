@@ -1,32 +1,11 @@
 {
-	"name": "MainHero",
+	"name": "Hitbox",
 	"plugin-id": "Sprite",
-	"sid": 209330221267084,
+	"sid": 126499812679721,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [
-		{
-			"name": "charisma",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 305650184712968
-		},
-		{
-			"name": "power",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 419224322946254
-		}
-	],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 881198039187772
-		}
-	],
+	"instanceVariables": [],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -34,20 +13,20 @@
 				"frames": [
 					{
 						"width": 250,
-						"height": 403,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6122858,
+						"imageSpriteId": 8002025,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 547751946582110,
+				"sid": 101667094002376,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

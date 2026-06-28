@@ -35,6 +35,36 @@
 						"ping-pong": "no",
 						"repeat-count": "1"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "DebugMain",
+					"sid": 990824064236280,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Hitbox",
+					"sid": 478497461322161,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 808974315036698,
+					"parameters": {
+						"audio-file": {
+							"path": "MediMenu"
+						},
+						"loop": "looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 357129064904952
@@ -78,17 +108,20 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 791056951640003,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "MainHero",
 					"sid": 838705755724044,
 					"parameters": {
 						"object": "PoetryHouse"
 					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 133750472005645
 				}
 			],
 			"actions": [
@@ -132,17 +165,20 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 632483584182713,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "MainHero",
 					"sid": 699931954017537,
 					"parameters": {
 						"object": "EvilCastle"
 					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 736665599248072
 				}
 			],
 			"actions": [
@@ -186,17 +222,20 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 802529513376541,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "MainHero",
 					"sid": 933507171007430,
 					"parameters": {
 						"object": "TrainingDummy"
 					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 176412869919513
 				}
 			],
 			"actions": [
@@ -235,6 +274,179 @@
 				}
 			],
 			"sid": 497670742216175
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 264236177646578
+				}
+			],
+			"actions": [],
+			"sid": 817045194011566,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 258835555272571,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "MainHero",
+							"sid": 743384030760112,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						}
+					],
+					"sid": 350191206118254
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 246280073185176,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "MainHero",
+							"sid": 234222518025989,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 388873386423203
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 711560315941421,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "MainHero",
+							"sid": 330851123978786,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						}
+					],
+					"sid": 838385740571846
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 403488798738492,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "MainHero",
+							"sid": 774935222267194,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						}
+					],
+					"sid": 562820572955665
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 133366461422092
+				}
+			],
+			"actions": [],
+			"sid": 916660719075610,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "MainHero",
+							"sid": 252433521401169,
+							"parameters": {
+								"object": "Hitbox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 679520206309028,
+							"parameters": {
+								"text": "\"Press 'E' to enter\""
+							}
+						}
+					],
+					"sid": 430987918934844
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 889496773353560
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 105563785002381,
+							"parameters": {
+								"text": "\"\""
+							}
+						}
+					],
+					"sid": 772918805342713
+				}
+			]
 		}
 	],
 	"sid": 947134209355610

@@ -1,30 +1,15 @@
 {
-	"name": "MainHero",
+	"name": "OutOfBounds",
 	"plugin-id": "Sprite",
-	"sid": 209330221267084,
+	"sid": 712104763970054,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [
-		{
-			"name": "charisma",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 305650184712968
-		},
-		{
-			"name": "power",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 419224322946254
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 881198039187772
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 185055225041274
 		}
 	],
 	"effectTypes": [],
@@ -34,20 +19,20 @@
 				"frames": [
 					{
 						"width": 250,
-						"height": 403,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6122858,
+						"imageSpriteId": 5157586,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 547751946582110,
+				"sid": 821457941741301,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

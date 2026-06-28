@@ -1,32 +1,19 @@
 {
-	"name": "MainHero",
+	"name": "GoblinDummy",
 	"plugin-id": "Sprite",
-	"sid": 209330221267084,
+	"sid": 824072616693569,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [
 		{
-			"name": "charisma",
+			"name": "isFlipped",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 305650184712968
-		},
-		{
-			"name": "power",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 419224322946254
+			"sid": 346821772785909
 		}
 	],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 881198039187772
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -34,20 +21,20 @@
 				"frames": [
 					{
 						"width": 250,
-						"height": 403,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6122858,
+						"imageSpriteId": 9534955,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 547751946582110,
+				"sid": 750844479960001,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

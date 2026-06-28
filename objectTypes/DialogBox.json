@@ -1,0 +1,23 @@
+{
+	"name": "DialogBox",
+	"plugin-id": "NinePatch",
+	"sid": 884474638600946,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 242,
+		"height": 242,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 4612415,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

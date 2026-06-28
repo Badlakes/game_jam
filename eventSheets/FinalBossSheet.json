@@ -38,6 +38,82 @@
 				}
 			],
 			"sid": 453660219004499
+		},
+		{
+			"functionName": "Dialog",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [
+				{
+					"name": "E",
+					"type": "string",
+					"initialValue": "",
+					"comment": "",
+					"sid": 216630787184220
+				}
+			],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "DialogBox",
+					"sid": 933451383259654
+				},
+				{
+					"id": "destroy",
+					"objectClass": "DialogImage",
+					"sid": 708878147901431
+				},
+				{
+					"id": "destroy",
+					"objectClass": "DialogText",
+					"sid": 498077369225706
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 681630466718209,
+					"parameters": {
+						"object-to-create": "DialogImage",
+						"layer": "\"UID\"",
+						"x": "120.5",
+						"y": "563",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 706603390593140,
+					"parameters": {
+						"object-to-create": "DialogText",
+						"layer": "\"UID\"",
+						"x": "0224",
+						"y": "468",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 228624908260877,
+					"parameters": {
+						"object-to-create": "DialogBox",
+						"layer": "\"UID\"",
+						"x": "0",
+						"y": "448",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 500155739302699
 		}
 	],
 	"sid": 913111780715880

@@ -221,7 +221,7 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "Sprite3",
+							"objectClass": "GoblinDummy",
 							"sid": 193762372339978
 						},
 						{
@@ -255,7 +255,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Sprite3"
+						"object-clicked": "GoblinDummy"
 					}
 				}
 			],
@@ -270,7 +270,7 @@
 							"objectClass": "System",
 							"sid": 468993339948450,
 							"parameters": {
-								"first-value": "Sprite3.isFlipped",
+								"first-value": "GoblinDummy.isFlipped",
 								"comparison": 0,
 								"second-value": "1"
 							}
@@ -279,7 +279,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Sprite3",
+							"objectClass": "GoblinDummy",
 							"sid": 461736049156646,
 							"parameters": {
 								"instance-variable": "isFlipped",
@@ -288,7 +288,7 @@
 						},
 						{
 							"id": "set-mirrored",
-							"objectClass": "Sprite3",
+							"objectClass": "GoblinDummy",
 							"sid": 272722896139389,
 							"parameters": {
 								"state": "not-mirrored"
@@ -318,7 +318,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Sprite3",
+							"objectClass": "GoblinDummy",
 							"sid": 638164588318524,
 							"parameters": {
 								"instance-variable": "isFlipped",
@@ -327,7 +327,7 @@
 						},
 						{
 							"id": "set-mirrored",
-							"objectClass": "Sprite3",
+							"objectClass": "GoblinDummy",
 							"sid": 564507934817067,
 							"parameters": {
 								"state": "mirrored"

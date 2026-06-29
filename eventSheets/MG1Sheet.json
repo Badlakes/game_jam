@@ -472,7 +472,22 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 626782664628654,
+					"parameters": {
+						"audio-file": {
+							"path": "som minigame poesia"
+						},
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
 			"sid": 578028131022936,
 			"children": [
 				{

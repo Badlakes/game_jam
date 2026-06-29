@@ -141,7 +141,9 @@
 			"MainHero2",
 			"Sprite",
 			"Sprite2",
-			"Dialog"
+			"Dialog",
+			"TextFimMG1",
+			"LogStatus"
 		],
 		"subfolders": []
 	},

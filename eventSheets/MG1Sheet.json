@@ -22,6 +22,46 @@
 			"sid": 600822181460309
 		},
 		{
+			"eventType": "variable",
+			"name": "ScreenWidth",
+			"type": "number",
+			"initialValue": "1216",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 538359316055837
+		},
+		{
+			"eventType": "variable",
+			"name": "ScreenHeight",
+			"type": "number",
+			"initialValue": "684",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 231309641946499
+		},
+		{
+			"eventType": "variable",
+			"name": "PoetryPoints",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 494439513030775
+		},
+		{
+			"eventType": "variable",
+			"name": "StrenghtPoints",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 764647291340933
+		},
+		{
 			"functionName": "LoadNextWord",
 			"functionDescription": "",
 			"functionCategory": "",
@@ -112,6 +152,15 @@
 					}
 				},
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 242868446291831,
+					"parameters": {
+						"variable": "PoetryPoints",
+						"value": "PoetryPoints+PlayerTextBox.NumberPoints"
+					}
+				},
+				{
 					"id": "destroy",
 					"objectClass": "PlayerTextBox",
 					"sid": 238159011486202
@@ -127,11 +176,28 @@
 					"sid": 106549407838182
 				},
 				{
-					"id": "set-opacity",
+					"id": "set-position",
 					"objectClass": "TelaFimMG1",
-					"sid": 155449207144530,
+					"sid": 684672881287512,
 					"parameters": {
-						"opacity": "100"
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TextFimMG1",
+					"sid": 207225603131760,
+					"parameters": {
+						"text": "\"Total Poetry Points: \" & str(PlayerTextBox.NumberPoints)"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 131669563619582,
+					"parameters": {
+						"layout": "Main"
 					}
 				}
 			],
@@ -284,6 +350,15 @@
 			],
 			"actions": [
 				{
+					"id": "set-position",
+					"objectClass": "FadeToBlack",
+					"sid": 233882211090549,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "FadeToBlack",
 					"sid": 298337308781880,
@@ -315,6 +390,21 @@
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "PlayerTextSprite",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextFimMG1",
+					"sid": 524663509499908,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TelaFimMG1",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -364,14 +454,6 @@
 					"parameters": {
 						"variable": "TotalTime",
 						"value": "int(Clock.Text)"
-					}
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "TelaFimMG1",
-					"sid": 805016725538162,
-					"parameters": {
-						"opacity": "0"
 					}
 				}
 			],

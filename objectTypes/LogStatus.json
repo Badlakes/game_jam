@@ -1,0 +1,10 @@
+{
+	"name": "LogStatus",
+	"plugin-id": "Text",
+	"sid": 427598275362560,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

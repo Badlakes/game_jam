@@ -1,0 +1,16 @@
+{
+	"name": "TextFimMG1",
+	"plugin-id": "Text",
+	"sid": 501528037592152,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 385904809796084
+		}
+	],
+	"effectTypes": []
+}

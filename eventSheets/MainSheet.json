@@ -325,6 +325,15 @@
 							"parameters": {
 								"control": "up"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainHero",
+							"sid": 748604283370069,
+							"parameters": {
+								"animation": "\"WalkBack\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 350191206118254
@@ -342,6 +351,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "MainHero",
+							"sid": 273552421899780,
+							"parameters": {
+								"animation": "\"WalkSide\"",
+								"from": "beginning"
+							}
+						},
 						{
 							"id": "simulate-control",
 							"objectClass": "MainHero",
@@ -367,6 +385,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "MainHero",
+							"sid": 664149228865345,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
 						{
 							"id": "simulate-control",
 							"objectClass": "MainHero",
@@ -399,6 +426,15 @@
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainHero",
+							"sid": 238078120507835,
+							"parameters": {
+								"animation": "\"WalkSide\"",
+								"from": "beginning"
 							}
 						}
 					],

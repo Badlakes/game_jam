@@ -7,28 +7,28 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "background",
+					"type": "BackgroundBoss",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 22,
-					"sid": 278448805089207,
+					"sid": 528684453985232,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
-					"locked": false,
+					"locked": true,
 					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 3063.9370078740158,
-						"height": 1150.6542056074768,
-						"originX": 0.00021626297577854672,
-						"originY": -0.016584333098094567,
+						"x": 463,
+						"y": 159,
+						"width": 1535,
+						"height": 1093,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -56,12 +56,60 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 910,
-						"y": 233,
+						"x": 952,
+						"y": 293,
 						"width": 298.5146666666667,
 						"height": 294.0131578947369,
 						"originX": 0.5,
 						"originY": 0.5008103727714749,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "MainHero2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"sid": 140515260450773,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 246,
+						"y": 249,
+						"width": 129.876,
+						"height": 232.128,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -230,54 +278,6 @@
 					}
 				},
 				{
-					"type": "MainHero2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"sid": 839625674213362,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 73,
-						"y": 305,
-						"width": 129.876,
-						"height": 232.128,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -374,8 +374,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -100,
-						"y": -378,
+						"x": -353,
+						"y": -397,
 						"width": 1539,
 						"height": 716,
 						"originX": 0.5,

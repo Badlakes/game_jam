@@ -113,9 +113,9 @@
 			"DebugText",
 			"EnemyText",
 			"Clock",
-			"background",
+			"background_MG2",
 			"PoetryHouse",
-			"TrainingDummy",
+			"TrainingEntrance",
 			"EvilCastle",
 			"MainHero",
 			"FadeToBlack",
@@ -143,7 +143,10 @@
 			"Sprite2",
 			"Dialog",
 			"TextFimMG1",
-			"LogStatus"
+			"LogStatus",
+			"BackgroundMG1",
+			"BackgroundMain",
+			"BackgroundBoss"
 		],
 		"subfolders": []
 	},
@@ -199,6 +202,14 @@
 					"name": "som minigame poesia.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 978481175248371,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "som minigame poesia.wav",
+					"type": "audio/wav",
+					"sid": 377850114279667,
 					"file-info": {
 						"purpose": "none"
 					}

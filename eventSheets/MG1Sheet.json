@@ -53,6 +53,26 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "MainFovNumber",
+			"type": "number",
+			"initialValue": "1200",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 841409230501116
+		},
+		{
+			"eventType": "variable",
+			"name": "MainCharDistance",
+			"type": "number",
+			"initialValue": "0.3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 772144958131260
+		},
+		{
+			"eventType": "variable",
 			"name": "StrenghtPoints",
 			"type": "number",
 			"initialValue": "0",

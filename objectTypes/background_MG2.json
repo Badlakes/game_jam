@@ -1,0 +1,52 @@
+{
+	"name": "background_MG2",
+	"plugin-id": "Sprite",
+	"sid": 141272934936616,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1280,
+						"height": 720,
+						"originX": 0.00021626297577854672,
+						"originY": -0.016584333098094567,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5102672,
+						"collisionPoly": {
+							"points": [
+								0.00021626297577854672,
+								0,
+								1,
+								0,
+								1,
+								0.9996471418489767,
+								0.00021626297577854672,
+								0.9996471418489767
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 965637320163403,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

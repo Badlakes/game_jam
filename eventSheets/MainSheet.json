@@ -54,14 +54,6 @@
 					}
 				},
 				{
-					"id": "set-opacity",
-					"objectClass": "Hitbox",
-					"sid": 478497461322161,
-					"parameters": {
-						"opacity": "0"
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 808974315036698,
@@ -81,6 +73,46 @@
 					"sid": 832151346488876,
 					"parameters": {
 						"text": "\"Total Strenght: \" & str(StrenghtPoints)&newline&\"Total Poetry: \" & str(PoetryPoints)"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Hitbox",
+					"sid": 449891830933794,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "OutOfBounds",
+					"sid": 353867000376181,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "TrainingEntrance",
+					"sid": 654799984652250,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "EvilCastle",
+					"sid": 924932136428702,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "PoetryHouse",
+					"sid": 369982500571400,
+					"parameters": {
+						"opacity": "0"
 					}
 				}
 			],
@@ -251,7 +283,7 @@
 					"objectClass": "MainHero",
 					"sid": 933507171007430,
 					"parameters": {
-						"object": "TrainingDummy"
+						"object": "TrainingEntrance"
 					}
 				}
 			],
@@ -327,6 +359,14 @@
 							}
 						},
 						{
+							"id": "set-mirrored",
+							"objectClass": "MainHero",
+							"sid": 948606142078626,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "MainHero",
 							"sid": 748604283370069,
@@ -337,40 +377,6 @@
 						}
 					],
 					"sid": 350191206118254
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 246280073185176,
-							"parameters": {
-								"key": 65
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "MainHero",
-							"sid": 273552421899780,
-							"parameters": {
-								"animation": "\"WalkSide\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "simulate-control",
-							"objectClass": "MainHero",
-							"sid": 234222518025989,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "left"
-							}
-						}
-					],
-					"sid": 388873386423203
 				},
 				{
 					"eventType": "block",
@@ -395,6 +401,14 @@
 							}
 						},
 						{
+							"id": "set-mirrored",
+							"objectClass": "MainHero",
+							"sid": 205453804288561,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
 							"id": "simulate-control",
 							"objectClass": "MainHero",
 							"sid": 330851123978786,
@@ -412,17 +426,35 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 403488798738492,
+							"sid": 749767129208755,
 							"parameters": {
 								"key": 68
 							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 610458159144383,
+							"parameters": {
+								"key": 87
+							},
+							"isInverted": true
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 342532535022137,
+							"parameters": {
+								"key": 83
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
 						{
 							"id": "simulate-control",
 							"objectClass": "MainHero",
-							"sid": 774935222267194,
+							"sid": 387564279467922,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "right"
@@ -431,14 +463,82 @@
 						{
 							"id": "set-animation",
 							"objectClass": "MainHero",
-							"sid": 238078120507835,
+							"sid": 814784424359833,
 							"parameters": {
 								"animation": "\"WalkSide\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainHero",
+							"sid": 335773649587698,
+							"parameters": {
+								"state": "not-mirrored"
+							}
 						}
 					],
-					"sid": 562820572955665
+					"sid": 243292402483441
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 241204314952984,
+							"parameters": {
+								"key": 65
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 546136309897254,
+							"parameters": {
+								"key": 87
+							},
+							"isInverted": true
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 578931526419484,
+							"parameters": {
+								"key": 83
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "MainHero",
+							"sid": 587834481621564,
+							"parameters": {
+								"animation": "\"WalkSide\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainHero",
+							"sid": 560902232317604,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "MainHero",
+							"sid": 520583841567191,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 485790729914986
 				}
 			]
 		},
@@ -477,29 +577,38 @@
 						}
 					],
 					"sid": 430987918934844
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 889496773353560
-						}
-					],
-					"actions": [
-						{
-							"id": "set-text",
-							"objectClass": "DebugMain",
-							"sid": 105563785002381,
-							"parameters": {
-								"text": "\"\""
-							}
-						}
-					],
-					"sid": 772918805342713
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 102255765157881
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 892481623815570,
+					"parameters": {
+						"variable": "MainCharDistance",
+						"value": "MainHero.Y-200"
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "MainHero",
+					"sid": 442117157184345,
+					"parameters": {
+						"scale": "MainCharDistance/MainFovNumber"
+					}
+				}
+			],
+			"sid": 368088271623235
 		}
 	],
 	"sid": 947134209355610

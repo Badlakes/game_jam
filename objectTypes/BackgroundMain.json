@@ -1,7 +1,7 @@
 {
-	"name": "TrainingDummy",
+	"name": "BackgroundMain",
 	"plugin-id": "Sprite",
-	"sid": 706362910028890,
+	"sid": 822481876819193,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,33 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1280,
+						"height": 720,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6247135,
-						"collisionPoly": {
-							"points": [
-								0.304,
-								0.4840000000000002,
-								0.6519999999999997,
-								0.46799999999999997,
-								0.5599999999999996,
-								0.8279999999999998,
-								0.40800000000000014,
-								0.8279999999999998
-							]
-						},
+						"imageSpriteId": 6934666,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 282950998255027,
+				"sid": 932736656633254,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -264,7 +264,7 @@
 				{
 					"type": "Clock",
 					"properties": {
-						"text": "3",
+						"text": "15",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 50,

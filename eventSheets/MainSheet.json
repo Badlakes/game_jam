@@ -577,6 +577,27 @@
 						}
 					],
 					"sid": 430987918934844
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 534681101199937
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 320315771900035,
+							"parameters": {
+								"text": "\"\""
+							}
+						}
+					],
+					"sid": 132514788950524
 				}
 			]
 		},

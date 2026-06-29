@@ -294,7 +294,22 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 257225471283019,
+					"parameters": {
+						"audio-file": {
+							"path": "swordslash "
+						},
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
 			"sid": 643434667419109,
 			"children": [
 				{

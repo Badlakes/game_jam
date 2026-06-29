@@ -178,7 +178,24 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "swordslash .wav",
+					"type": "audio/wav",
+					"sid": 250216797978439,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "swordslash .webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 510616784017234,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

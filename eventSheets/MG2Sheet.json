@@ -22,6 +22,24 @@
 			],
 			"actions": [
 				{
+					"id": "set-position",
+					"objectClass": "FadeToBlack",
+					"sid": 911547563315021,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "FadeToBlack",
+					"sid": 550683099246301,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "FadeToBlack",
 					"sid": 864455272056389,
@@ -212,6 +230,15 @@
 					],
 					"actions": [
 						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 948415688246113,
+							"parameters": {
+								"variable": "StrenghtPoints",
+								"value": "StrenghtPoints+PointCount.ClickCount"
+							}
+						},
+						{
 							"id": "set-text",
 							"objectClass": "ClockMG2",
 							"sid": 740564645544786,
@@ -238,6 +265,14 @@
 							"sid": 460016505901536,
 							"parameters": {
 								"opacity": "100"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 931249908345458,
+							"parameters": {
+								"layout": "Main"
 							}
 						}
 					],
@@ -302,20 +337,6 @@
 								"instance-variable": "ClickCount",
 								"value": "PointCount.ClickCount+1"
 							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 630908838077985,
-							"parameters": {
-								"audio-file": {
-									"path": "sword slash "
-								},
-								"loop": "not-looping",
-								"volume": "0",
-								"stereo-pan": "0",
-								"tag-optional": "\"\""
-							}
 						}
 					],
 					"sid": 610649617385139
@@ -354,20 +375,6 @@
 							"parameters": {
 								"instance-variable": "ClickCount",
 								"value": "PointCount.ClickCount+1"
-							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 504191222517523,
-							"parameters": {
-								"audio-file": {
-									"path": "sword slash "
-								},
-								"loop": "not-looping",
-								"volume": "0",
-								"stereo-pan": "0",
-								"tag-optional": "\"\""
 							}
 						}
 					],

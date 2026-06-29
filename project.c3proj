@@ -141,7 +141,9 @@
 			"MainHero2",
 			"Sprite",
 			"Sprite2",
-			"Dialog"
+			"Dialog",
+			"TextFimMG1",
+			"LogStatus"
 		],
 		"subfolders": []
 	},
@@ -185,22 +187,6 @@
 					"name": "MediMenu.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 954693240746681,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "select minigame poesia.wav",
-					"type": "audio/wav",
-					"sid": 210127400024449,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "sword slash .wav",
-					"type": "audio/wav",
-					"sid": 687529710477221,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -296,168 +282,7 @@
 					}
 				}
 			],
-			"subfolders": [
-				{
-					"items": [],
-					"subfolders": [
-						{
-							"items": [
-								{
-									"name": "andando-costas-02.png",
-									"type": "image/png",
-									"sid": 222712262132959,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-costas-03.png",
-									"type": "image/png",
-									"sid": 242339671086034,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-costas-01-03.png",
-									"type": "image/png",
-									"sid": 159881056542310,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-costas.gif",
-									"type": "image/gif",
-									"sid": 721219245449156,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-costas-04.png",
-									"type": "image/png",
-									"sid": 270798926866295,
-									"file-info": {
-										"purpose": "none"
-									}
-								}
-							],
-							"subfolders": [],
-							"name": "costas"
-						},
-						{
-							"items": [
-								{
-									"name": "andando-frente-04-06.png",
-									"type": "image/png",
-									"sid": 130591953190504,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-frente-02.png",
-									"type": "image/png",
-									"sid": 737908806755301,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-frente-01-03.png",
-									"type": "image/png",
-									"sid": 311077719731513,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-frente.gif",
-									"type": "image/gif",
-									"sid": 893853943531019,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-frente-05.png",
-									"type": "image/png",
-									"sid": 531157660283507,
-									"file-info": {
-										"purpose": "none"
-									}
-								}
-							],
-							"subfolders": [],
-							"name": "frente"
-						},
-						{
-							"items": [
-								{
-									"name": "andando-lado-01-05.png",
-									"type": "image/png",
-									"sid": 604491766513142,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado-02-04.png",
-									"type": "image/png",
-									"sid": 647918221201002,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado-03.png",
-									"type": "image/png",
-									"sid": 935773776373274,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado-04.png",
-									"type": "image/png",
-									"sid": 460216691589144,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado-06.png",
-									"type": "image/png",
-									"sid": 638246581956029,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado-07.png",
-									"type": "image/png",
-									"sid": 274287596588588,
-									"file-info": {
-										"purpose": "none"
-									}
-								},
-								{
-									"name": "andando-lado.gif",
-									"type": "image/gif",
-									"sid": 502971159277754,
-									"file-info": {
-										"purpose": "none"
-									}
-								}
-							],
-							"subfolders": [],
-							"name": "lado"
-						}
-					],
-					"name": "Protagonista"
-				}
-			]
+			"subfolders": []
 		}
 	},
 	"timelines": {

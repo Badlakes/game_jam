@@ -12,6 +12,15 @@
 			],
 			"actions": [
 				{
+					"id": "set-position",
+					"objectClass": "FadeToBlack",
+					"sid": 486545585914044,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "FadeToBlack",
 					"sid": 133498259362194,
@@ -114,6 +123,30 @@
 				}
 			],
 			"sid": 500155739302699
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 814824807113187,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 244074890196666,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 714660749674484
 		}
 	],
 	"sid": 913111780715880

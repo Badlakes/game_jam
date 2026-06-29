@@ -141,7 +141,9 @@
 			"MainHero2",
 			"Sprite",
 			"Sprite2",
-			"Dialog"
+			"Dialog",
+			"TextFimMG1",
+			"LogStatus"
 		],
 		"subfolders": []
 	},
@@ -277,6 +279,14 @@
 					"sid": 753944063778313,
 					"file-info": {
 						"purpose": "stylesheet"
+					}
+				},
+				{
+					"name": "sword_slash.mp3",
+					"type": "audio/mpeg",
+					"sid": 737673392654820,
+					"file-info": {
+						"purpose": "none"
 					}
 				}
 			],

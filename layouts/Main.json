@@ -527,9 +527,9 @@
 					"locked": false,
 					"world": {
 						"x": 612,
-						"y": -47.5,
+						"y": 8,
 						"width": 1515,
-						"height": 478,
+						"height": 589,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

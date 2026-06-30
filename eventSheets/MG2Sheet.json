@@ -80,6 +80,14 @@
 					"parameters": {
 						"opacity": "0"
 					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "GoblinDummy",
+					"sid": 412668765272170,
+					"parameters": {
+						"frame-number": "0"
+					}
 				}
 			],
 			"sid": 440305355725698
@@ -308,94 +316,45 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
-				}
-			],
-			"sid": 643434667419109,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 468993339948450,
-							"parameters": {
-								"first-value": "GoblinDummy.isFlipped",
-								"comparison": 0,
-								"second-value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-instvar-value",
-							"objectClass": "GoblinDummy",
-							"sid": 461736049156646,
-							"parameters": {
-								"instance-variable": "isFlipped",
-								"value": "0"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "GoblinDummy",
-							"sid": 272722896139389,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "PointCount",
-							"sid": 148238944207626,
-							"parameters": {
-								"instance-variable": "ClickCount",
-								"value": "PointCount.ClickCount+1"
-							}
-						}
-					],
-					"sid": 610649617385139
 				},
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 195298421451835
-						}
-					],
-					"actions": [
-						{
-							"id": "set-instvar-value",
-							"objectClass": "GoblinDummy",
-							"sid": 638164588318524,
-							"parameters": {
-								"instance-variable": "isFlipped",
-								"value": "01"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "GoblinDummy",
-							"sid": 564507934817067,
-							"parameters": {
-								"state": "mirrored"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "PointCount",
-							"sid": 196043667770945,
-							"parameters": {
-								"instance-variable": "ClickCount",
-								"value": "PointCount.ClickCount+1"
-							}
-						}
-					],
-					"sid": 549195981018381
+					"id": "set-animation",
+					"objectClass": "GoblinDummy",
+					"sid": 448272804062131,
+					"parameters": {
+						"animation": "\"Hit\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PointCount",
+					"sid": 655756117053878,
+					"parameters": {
+						"instance-variable": "ClickCount",
+						"value": "PointCount.ClickCount+1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 775193398089188,
+					"parameters": {
+						"seconds": "0.1",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "GoblinDummy",
+					"sid": 741056014738155,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
 				}
-			]
+			],
+			"sid": 643434667419109
 		}
 	],
 	"sid": 996852393135340

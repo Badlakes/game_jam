@@ -43,7 +43,7 @@
 					"type": "GoblinDummy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -51,17 +51,15 @@
 					"uid": 18,
 					"sid": 919923502208844,
 					"tags": "",
-					"instanceVariables": {
-						"isFlipped": 0
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 606,
-						"y": 286,
-						"width": 286,
-						"height": 250,
+						"x": 605,
+						"y": 346,
+						"width": 372.4486881959528,
+						"height": 363.4378645861382,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

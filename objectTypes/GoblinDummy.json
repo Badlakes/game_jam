@@ -4,15 +4,7 @@
 	"sid": 824072616693569,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [
-		{
-			"name": "isFlipped",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 346821772785909
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -20,27 +12,92 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1024,
+						"height": 1024,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 9534955,
+						"imageSpriteId": 6293884,
+						"collisionPoly": {
+							"points": [
+								0.3544921875,
+								0.0068359375,
+								0.896484375,
+								0.1064453125,
+								0.9990234375,
+								0.3974609375,
+								0.9716796875,
+								0.4501953125,
+								0.4033203125,
+								0.974609375,
+								0.0703125,
+								0.5244140625,
+								0,
+								0.158203125,
+								0.0107421875,
+								0.1015625
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1,
-						"tag": ""
+						"tag": "idle"
 					}
 				],
-				"sid": 750844479960001,
-				"name": "Animation 1",
+				"sid": 940000895457895,
+				"name": "Idle",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 0
+			},
+			{
+				"frames": [
+					{
+						"width": 1024,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2427532,
+						"collisionPoly": {
+							"points": [
+								0.3544921875,
+								0.0068359375,
+								0.896484375,
+								0.1044921875,
+								0.9990234375,
+								0.3974609375,
+								0.9716796875,
+								0.4501953125,
+								0.404296875,
+								0.9755859375,
+								0.0703125,
+								0.5244140625,
+								0,
+								0.158203125,
+								0.0107421875,
+								0.1015625
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "hit"
+					}
+				],
+				"sid": 208516949669630,
+				"name": "Hit",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
 			}
 		],
 		"subfolders": []

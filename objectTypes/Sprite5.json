@@ -1,7 +1,7 @@
 {
-	"name": "GoblinDummy",
+	"name": "Sprite5",
 	"plugin-id": "Sprite",
-	"sid": 824072616693569,
+	"sid": 148354536588652,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,47 +12,41 @@
 			{
 				"frames": [
 					{
-						"width": 1024,
-						"height": 1024,
+						"width": 2048,
+						"height": 2048,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6293884,
+						"imageSpriteId": 6744530,
 						"collisionPoly": {
 							"points": [
-								0.3544921875,
-								0.0068359375,
-								0.896484375,
-								0.1064453125,
-								0.9990234375,
-								0.3974609375,
-								0.9716796875,
-								0.4501953125,
-								0.4033203125,
-								0.974609375,
-								0.0703125,
-								0.5244140625,
-								0,
-								0.158203125,
-								0.0107421875,
-								0.1015625
+								0.7431640625,
+								0.21435546875,
+								0.4267578125,
+								0.80029296875,
+								0.27490234375,
+								0.80029296875,
+								0.26416015625,
+								0.587890625,
+								0.4404296875,
+								0.337890625
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1,
-						"tag": "idle"
+						"tag": ""
 					}
 				],
-				"sid": 940000895457895,
-				"name": "Idle",
+				"sid": 476089959520068,
+				"name": "Sword1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 0
+				"speed": 5
 			},
 			{
 				"frames": [
@@ -65,23 +59,25 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 9438264,
+						"imageSpriteId": 4262735,
 						"collisionPoly": {
 							"points": [
-								0.4462890625,
-								0.29296875,
-								0.525390625,
-								0.314453125,
-								0.7861328125,
-								0.41845703125,
-								0.7861328125,
-								0.57275390625,
-								0.48388671875,
-								0.73974609375,
-								0.318359375,
-								0.583984375,
-								0.23681640625,
-								0.38427734375
+								0.63671875,
+								0.13818359375,
+								0.83154296875,
+								0.32080078125,
+								0.8857421875,
+								0.80712890625,
+								0.873046875,
+								0.8642578125,
+								0.6416015625,
+								0.8642578125,
+								0.53857421875,
+								0.8359375,
+								0.2734375,
+								0.6767578125,
+								0.119140625,
+								0.3857421875
 							]
 						},
 						"useCollisionPoly": true,
@@ -89,13 +85,13 @@
 						"tag": ""
 					}
 				],
-				"sid": 208516949669630,
-				"name": "Hit",
+				"sid": 483206602922394,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 0
+				"speed": 5
 			}
 		],
 		"subfolders": []

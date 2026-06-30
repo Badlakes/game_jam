@@ -175,6 +175,14 @@
 			],
 			"actions": [
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 758833109413415,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
 					"id": "set-text",
 					"objectClass": "DebugMain",
 					"sid": 977875922770411,
@@ -246,6 +254,14 @@
 			],
 			"actions": [
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 666446389815719,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 438143049352193,
@@ -316,6 +332,14 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 294368502016905,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
 				{
 					"id": "play",
 					"objectClass": "Audio",

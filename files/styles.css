@@ -1,17 +1,19 @@
 .campo_texto_player {
-    background: #1a1a2e;
-    color: white;
-    border: 2px solid #7b68ee;
+    background: transparent;
+    color: #222; /* texto escuro */
+    border: 2px solid #fff;
     border-radius: 8px;
     font-size: 45px;
     outline: none;
     box-shadow: none;
-    border-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .campo_texto_player:focus {
+    background: transparent;
+    color: #222;
     border-color: #fff;
     outline: none;
     box-shadow: none;
-    border-color: #fff; /* ou o que quiser */
 }

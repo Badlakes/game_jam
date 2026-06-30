@@ -7,6 +7,72 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "BackgroundMG1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"sid": 949607617650360,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 608,
+						"y": 339,
+						"width": 1282,
+						"height": 722,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Sprite6",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 56,
+					"sid": 897447112714950,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 571,
+						"y": 499,
+						"width": 1847,
+						"height": 902,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
 					"type": "PlayerTextBox",
 					"properties": {
 						"text": "",
@@ -56,39 +122,6 @@
 					}
 				},
 				{
-					"type": "BackgroundMG1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"sid": 949607617650360,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"showing": true,
-					"locked": true,
-					"world": {
-						"x": 608,
-						"y": 339,
-						"width": 1282,
-						"height": 722,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
 					"type": "PlayerTextSprite",
 					"properties": {
 						"initially-visible": true,
@@ -109,7 +142,7 @@
 						}
 					},
 					"showing": true,
-					"locked": true,
+					"locked": false,
 					"world": {
 						"x": 512,
 						"y": 146,

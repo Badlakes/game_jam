@@ -1,133 +1,72 @@
-
-// Import any other script files here, e.g.:
-// import * as myModule from "./mymodule.js";
-
-runOnStartup(async runtime =>
-{
-	// Code to run on the loading screen.
-	// Note layouts, objects etc. are not yet available.
-	
-	runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime));
+runOnStartup(async runtime => {
+    globalThis.story = new StoryManager(runtime);
+    globalThis.dialogue = new DialogueManager();
+    
+    runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime));
 });
 
-async function OnBeforeProjectStart(runtime)
-{
-	// Code to run just before 'On start of layout' on
-	// the first layout. Loading has finished and initial
-	// instances are created and available to use here.
-	
-	runtime.addEventListener("tick", () => Tick(runtime));
+async function OnBeforeProjectStart(runtime) {
+    runtime.addEventListener("tick", () => Tick(runtime));
 }
 
-function Tick(runtime)
-{
-	// Code to run every tick
+function Tick(runtime) {
+    const dialogText = runtime.objects.DialogText.getFirstInstance();
+    if (dialogText) {
+        dialogText.text = dialogue.update();
+    }
 }
-
-
 
 class StoryManager {
-
-    constructor() {
-        this.path = "";
-        this.node = "intro";
-        this.ending = -1;
-    }
-
-    setPath(path) {
-        this.path = path;
-    }
-
-    getPath() {
-        return this.path;
-    }
-
-    getNode() {
-        return this.node;
-    }
-
-    setNode(node) {
-        this.node = node;
-    }
-
-    setEnding(id) {
-        this.ending = id;
-    }
-
-    getEnding() {
-        return this.ending;
-    }
-
-}
-
-
-globalThis.story = new StoryManager();
-
-
-runOnStartup(async runtime =>
-{
-    globalThis.typewriter = new Typewriter(runtime);
-});
-
-class Typewriter {
     constructor(runtime) {
         this.runtime = runtime;
-        this.text = "";
-        this.index = 0;
-        this.speed = 30;
+        this.path = "";
+        this.nextNode = "intro";
+        this.ending = -1;
     }
-    start(text) {
-        this.text = text;
-        this.index = 0;
+    runCurrentStory() {
+    const flow = this.runtime.objects.Flow.getFirstInstance();
+    flow.startFlowchartByName("StoryNode", this.nextNode, "", true);
+    
+        // Pequeno delay pra garantir que o nó já carregou
+        setTimeout(() => {
+            const text = flow.getOutputValue("dialogue");
+            if (text) dialogue.start(text);
+        }, 0);
     }
-    tick() {
-        if (this.index < this.text.length) this.index++;
-        return this.text.substring(0, this.index);
-    }
+    goto(node) { this.nextNode = node; }
+    setPath(path) { this.path = path; }
+    getPath() { return this.path; }
 }
-
-
 
 class DialogueManager {
     constructor() {
         this.fullText = "";
         this.currentText = "";
         this.index = 0;
-        this.speed = 1; // letras por update
+        this.speed = 1;
         this.finished = true;
     }
-
     start(text) {
         this.fullText = text;
         this.currentText = "";
         this.index = 0;
         this.finished = false;
     }
-
     update() {
-        if (this.finished)
-            return this.currentText;
-
+        if (this.finished) return this.currentText;
         this.index += this.speed;
-
         if (this.index >= this.fullText.length) {
             this.index = this.fullText.length;
             this.finished = true;
         }
-
         this.currentText = this.fullText.substring(0, this.index);
         return this.currentText;
     }
-
     skip() {
         this.index = this.fullText.length;
         this.currentText = this.fullText;
         this.finished = true;
     }
-
-    isFinished() {
-        return this.finished;
-    }
+    isFinished() { return this.finished; }
 }
 
-globalThis.dialogue = new DialogueManager();

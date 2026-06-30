@@ -21,7 +21,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
-					"locked": true,
+					"locked": false,
 					"world": {
 						"x": 637,
 						"y": 333,

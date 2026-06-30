@@ -529,6 +529,14 @@
 					"value": "0",
 					"enable": true,
 					"default": false
+				},
+				{
+					"sid": 479658018528034,
+					"cnSID": null,
+					"name": "set_path",
+					"value": "war",
+					"enable": true,
+					"default": false
 				}
 			],
 			"x": 5237.5,
@@ -761,6 +769,14 @@
 					"cnSID": null,
 					"name": "sprite_hero",
 					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 804735646230945,
+					"cnSID": null,
+					"name": "set_path",
+					"value": "date",
 					"enable": true,
 					"default": false
 				}

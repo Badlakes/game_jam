@@ -46,15 +46,11 @@
 					}
 				},
 				{
-					"id": "start-flowchart-by-name",
-					"objectClass": "Flow",
-					"sid": 662960544866498,
-					"parameters": {
-						"flowchart-name": "StoryNode",
-						"start-node-tag": "\"\"",
-						"flowchart-tag": "\"\"",
-						"set-as-current": true
-					}
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"story.runCurrentStory()"
+					]
 				},
 				{
 					"id": "play",
@@ -155,17 +151,25 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 814824807113187,
+					"sid": 253421365364999,
 					"parameters": {
-						"key": 69
+						"key": 27
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 413442158997222,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 244074890196666,
+					"sid": 309292448323677,
 					"parameters": {
 						"layout": "Main"
 					}
@@ -182,15 +186,7 @@
 					"sid": 276268991996162
 				}
 			],
-			"actions": [
-				{
-					"type": "script",
-					"language": "javascript",
-					"script": [
-						"DialogText.text = Typewriter.tick()"
-					]
-				}
-			],
+			"actions": [],
 			"sid": 549846976574719
 		},
 		{
@@ -207,17 +203,16 @@
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "DialogText",
-					"sid": 139928188797316,
-					"parameters": {
-						"text": "Flow.OutputValue(\"text\")"
-					}
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"dialogue.start(Flow.OutputValue(\"dialogue\"));"
+					]
 				},
 				{
 					"id": "set-animation-frame",
 					"objectClass": "DialogImage",
-					"sid": 110671327248266,
+					"sid": 911703943070423,
 					"parameters": {
 						"frame-number": "int(Flow.OutputValue(\"expression\"))"
 					}
@@ -225,13 +220,48 @@
 				{
 					"id": "set-animation-frame",
 					"objectClass": "Dragonborn",
-					"sid": 360653336717992,
+					"sid": 982429575893881,
 					"parameters": {
 						"frame-number": "int(Flow.OutputValue(\"expression\"))"
 					}
 				}
 			],
 			"sid": 347079141796206
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 156284804501584,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"  if (!dialogue.isFinished()) {",
+						"      dialogue.skip();",
+						"  } else {",
+						"      // avança o nó — isso depende de como seu Flow expõe GotoNextNode",
+						"  }"
+					]
+				},
+				{
+					"id": "goto-next-flowchart-node",
+					"objectClass": "Flow",
+					"sid": 389020503690279,
+					"parameters": {
+						"index-or-name": "\"next\""
+					}
+				}
+			],
+			"sid": 518344412611437
 		}
 	],
 	"sid": 913111780715880

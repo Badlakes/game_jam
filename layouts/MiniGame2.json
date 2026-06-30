@@ -396,10 +396,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1044,
-						"y": 125,
-						"width": 100,
-						"height": 112,
+						"x": 1032,
+						"y": 126,
+						"width": 84.40506530302007,
+						"height": 149.50260273319657,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

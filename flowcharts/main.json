@@ -432,14 +432,6 @@
 					"default": false
 				},
 				{
-					"sid": 460510007941747,
-					"cnSID": null,
-					"name": "actor0_anim",
-					"value": "MainHero",
-					"enable": true,
-					"default": false
-				},
-				{
 					"sid": 450323627083187,
 					"cnSID": null,
 					"name": "n_options",
@@ -460,6 +452,22 @@
 					"cnSID": 406231852720448,
 					"name": "option1",
 					"value": "And charm you once and for all!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 642395863449216,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 366508301156098,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
 					"enable": true,
 					"default": false
 				}

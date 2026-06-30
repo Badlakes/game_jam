@@ -158,13 +158,13 @@
 					"behaviors": {
 						"8Direction": {
 							"properties": {
-								"max-speed": 500,
-								"acceleration": 600,
-								"deceleration": 500,
+								"max-speed": 300,
+								"acceleration": 10000,
+								"deceleration": 10000,
 								"directions": "dir-8",
 								"set-angle": "no",
 								"allow-sliding": true,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						}

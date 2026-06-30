@@ -15,11 +15,31 @@
 			"eventType": "variable",
 			"name": "array_words",
 			"type": "string",
-			"initialValue": "{\"c2array\":true,     \"size\":[15,1,1],     \"data\":[[[\"Rizz\"]],             [[\"Love\"]],             [[\"Marriage\"]],             [[\"Hand Holding\"]],             [[\"Wife\"]],             [[\"Poetry\"]],             [[\"Wind\"]],             [[\"Flower\"]],             [[\"Roses\"]],             [[\"Castle\"]],             [[\"Peace\"]],             [[\"Eyes\"]],             [[\"Hands\"]],             [[\"Sigma\"]],             [[\"Powerful\"]]]}",
+			"initialValue": "{\"c2array\":true,      \"size\":[8,2,1],      \"data\":[[[\"mind\"]           ,[\"You keep being on my mind\"]],                      [[\"right\"]          ,[\"Even though it’s not right\"]],                      [[\"meant\"]          ,[\"We weren’t meant to be\"]],                      [[\"mine\"]           ,[\"Still I want you to be mine\"]],                     [[\"smile\"]          ,[\"I like the shape of your smile\"]],                      [[\"sparkle\"]        ,[\"The timid sparkle on your eyes\"]],                      [[\"understand\"]     ,[\"No one would never understand\"]],                      [[\"wonder\"]         ,[\"The way I see wonder in you\"]]] }",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 600822181460309
+		},
+		{
+			"eventType": "variable",
+			"name": "array_words2",
+			"type": "string",
+			"initialValue": "{   \"c2array\":true,          \"size\":[10,1,1],          \"data\":[[[\"End of Passion\" ], [\"End of Passion\"]],             [[\"thought\"        ], [\"You’re different than I thought you’d be\"]],             [[\"being\"          ], [\"I hoped that ended up being for good\"]],             [[\"highly\"         ], [\"For I already thought so highly of you\"]],             [[\"fantasy\"        ], [\"And I didn't want to lose the fantasy\"]],             [[\"opposite\"       ], [\"But it turned out to be the opposite\"]],             [[\"flaws\"          ], [\"Now I see your flaws and weaknesses \"]],             [[\"heart\"          ], [\"And you became real in my heart\"]],             [[\"passion\"        ], [\"The blind passion became something else\"]],             [[\"impossible\"     ], [\"Something stronger and impossible to ignore.\"]]     ] }",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 720622751495515
+		},
+		{
+			"eventType": "variable",
+			"name": "array_words3",
+			"type": "string",
+			"initialValue": "{   \"c2array\":true,          \"size\":[13,1,1],        \"data\":[[[\"Kindness\"]   ,[\"Kindness\"]],             [[\"started\"]    ,[\"I don’t know when it started\"]],             [[\"know\"]       ,[\"I don't know what that is\"]],             [[\"sure\"]       ,[\"I’m not even sure if I like it\"]],             [[\"need\"]       ,[\"I just know I need more\"]],             [[\"kindness\"]   ,[\"More of your words, your kindness\"]],             [[\"eyes\"]       ,[\"More of myself in your eyes\"]],             [[\"happened\"]   ,[\"That never happened before\"]],             [[\"addiction\"]  ,[\"This addiction to somebody else\"]],             [[\"observing\"]  ,[\"I keep observing from afar to find an answer\"]],             [[\"captivate\"]  ,[\"As to why you captivate me like you do\"]],             [[\"mimicking\"]  ,[\"And start mimicking over and over\"]],             [[\"myself\"]     ,[\"Until I can be kind to myself too\"]]     ] }",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 947924478713069
 		},
 		{
 			"eventType": "variable",
@@ -444,9 +464,9 @@
 				{
 					"id": "load",
 					"objectClass": "WordsAndStuff",
-					"sid": 532421315948923,
+					"sid": 679068402670543,
 					"parameters": {
-						"json": "array_words"
+						"json": "array_words2"
 					}
 				},
 				{

@@ -44,6 +44,17 @@
 						"ping-pong": "no",
 						"repeat-count": "1"
 					}
+				},
+				{
+					"id": "start-flowchart-by-name",
+					"objectClass": "Flow",
+					"sid": 662960544866498,
+					"parameters": {
+						"flowchart-name": "StoryNode",
+						"start-node-tag": "\"\"",
+						"flowchart-tag": "\"\"",
+						"set-as-current": true
+					}
 				}
 			],
 			"sid": 453660219004499
@@ -147,6 +158,66 @@
 				}
 			],
 			"sid": 714660749674484
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 276268991996162
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"DialogText.text = Typewriter.tick()"
+					]
+				}
+			],
+			"sid": 549846976574719
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-node-change-in-flowchart",
+					"objectClass": "Flow",
+					"sid": 181141597930662,
+					"parameters": {
+						"flowchart-tag": "\"\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "DialogText",
+					"sid": 139928188797316,
+					"parameters": {
+						"text": "Flow.OutputValue(\"text\")"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "DialogImage",
+					"sid": 110671327248266,
+					"parameters": {
+						"frame-number": "int(Flow.OutputValue(\"expression\"))"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Dragonborn",
+					"sid": 360653336717992,
+					"parameters": {
+						"frame-number": "int(Flow.OutputValue(\"expression\"))"
+					}
+				}
+			],
+			"sid": 347079141796206
 		}
 	],
 	"sid": 913111780715880

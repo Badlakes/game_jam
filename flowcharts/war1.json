@@ -1,0 +1,818 @@
+{
+	"sid": 871090180953865,
+	"nodes": [
+		{
+			"sid": 822762073268881,
+			"pnSIDs": [],
+			"poSIDs": [],
+			"nodeSIDs": [
+				411412048599208
+			],
+			"outputs": [
+				{
+					"sid": 579187692799242,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "Once upon a time, in a land far far away…  There was a tiny village on top of a mountain,  its citizens all loved and cherished their homeland and lived in a perfect state of harmony.  Until, the big bad evil Demon Boss decided to appear! ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 754538426370523,
+					"cnSID": 411412048599208,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 9423,
+			"y": 9492,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": true,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 411412048599208,
+			"pnSIDs": [
+				822762073268881
+			],
+			"poSIDs": [
+				754538426370523
+			],
+			"nodeSIDs": [
+				513323624789653
+			],
+			"outputs": [
+				{
+					"sid": 927251987092736,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]You:[col0] Are you kidding? Rufus is a big guy. He won’t take kindly to any confrontation.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 820948834847852,
+					"cnSID": 513323624789653,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 9956,
+			"y": 9493,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 513323624789653,
+			"pnSIDs": [
+				411412048599208
+			],
+			"poSIDs": [
+				820948834847852
+			],
+			"nodeSIDs": [
+				647153657792465,
+				853776414956758
+			],
+			"outputs": [
+				{
+					"sid": 559608960444130,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Cecile:[col0] Do you have a better idea, Cooper?",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 801426169621950,
+					"cnSID": null,
+					"name": "actor0_anim",
+					"value": "cecile_ugh",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 238790052677628,
+					"cnSID": 853776414956758,
+					"name": "compare0",
+					"value": "has_treats",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 604130286631876,
+					"cnSID": 647153657792465,
+					"name": "compare1",
+					"value": "has_treats",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 10491,
+			"y": 9493,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 647153657792465,
+			"pnSIDs": [
+				513323624789653
+			],
+			"poSIDs": [
+				604130286631876
+			],
+			"nodeSIDs": [
+				478622438633923,
+				903585054450879
+			],
+			"outputs": [
+				{
+					"sid": 771090013433930,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[i]That's a tricky situation. Maybe I should...[/i]\n\n",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 776273999428928,
+					"cnSID": null,
+					"name": "n_options",
+					"value": "2",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 333188064864070,
+					"cnSID": 478622438633923,
+					"name": "option0",
+					"value": "...agree to talk to Rufus and see what’s going on.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 199519141179284,
+					"cnSID": 903585054450879,
+					"name": "option1",
+					"value": "...suggest that I offer him my treats before bringing it up.",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 11093,
+			"y": 9829,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 478622438633923,
+			"pnSIDs": [
+				853776414956758,
+				647153657792465
+			],
+			"poSIDs": [
+				310390130774822,
+				333188064864070
+			],
+			"nodeSIDs": [
+				632978913571368
+			],
+			"outputs": [
+				{
+					"sid": 348523210521436,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]You:[col0] Alright, let’s go talk to him. But let’s take it easy, okay? Mia can jump onto the nearest roof if things go south, but Cecile and I don’t have that option!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 705558855703932,
+					"cnSID": null,
+					"name": "actor0_anim",
+					"value": "cecile_normal",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 673176406871465,
+					"cnSID": 632978913571368,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 11685,
+			"y": 9493,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 632978913571368,
+			"pnSIDs": [
+				478622438633923
+			],
+			"poSIDs": [
+				673176406871465
+			],
+			"nodeSIDs": [
+				915952660139170
+			],
+			"outputs": [
+				{
+					"sid": 953996872197009,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Mia:[col0] Actually, I’ll head out now. I’m not really in the mood to deal with Rufus. Good luck with him and finding your toys!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 138204552979412,
+					"cnSID": null,
+					"name": "actor1_anim",
+					"value": "mia_happy",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 703327308869580,
+					"cnSID": null,
+					"name": "actor1_exit",
+					"value": "right",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 158418305275124,
+					"cnSID": null,
+					"name": "actor0_move",
+					"value": "center",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 494113245983466,
+					"cnSID": 915952660139170,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12251,
+			"y": 9495,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 915952660139170,
+			"pnSIDs": [
+				632978913571368,
+				792793649834149
+			],
+			"poSIDs": [
+				494113245983466,
+				373848197596522
+			],
+			"nodeSIDs": [
+				655524694062106
+			],
+			"outputs": [
+				{
+					"sid": 213307945439379,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]You:[col0] Cats can be so strange sometimes...",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 286866668960446,
+					"cnSID": 655524694062106,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 733253073787103,
+					"cnSID": null,
+					"name": "Option 3",
+					"value": "Value 3",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 13975,
+			"y": 9492,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 655524694062106,
+			"pnSIDs": [
+				915952660139170
+			],
+			"poSIDs": [
+				286866668960446
+			],
+			"nodeSIDs": [
+				673679299631040
+			],
+			"outputs": [
+				{
+					"sid": 499951706705686,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Cecile:[col0] I know, right? But it was worth a shot talking to her. Anyway, let’s get back to it and talk to Rufus. Maybe he can help us track down those toys.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 798553168559327,
+					"cnSID": null,
+					"name": "transition",
+					"value": "fade_out",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 867523496230454,
+					"cnSID": 673679299631040,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 14603,
+			"y": 9494,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 673679299631040,
+			"pnSIDs": [
+				655524694062106
+			],
+			"poSIDs": [
+				867523496230454
+			],
+			"nodeSIDs": [],
+			"outputs": [],
+			"x": 15767,
+			"y": 9590,
+			"w": 420,
+			"h": 132,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart reference node",
+			"ty": "reference",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null,
+			"rft": "",
+			"rfSID": 526697552863617,
+			"rsnSID": null
+		},
+		{
+			"sid": 903585054450879,
+			"pnSIDs": [
+				647153657792465
+			],
+			"poSIDs": [
+				199519141179284
+			],
+			"nodeSIDs": [
+				915626728707922
+			],
+			"outputs": [
+				{
+					"sid": 353042730133132,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Mia:[col0] Hold on! Did I hear treats? Why didn’t you mention that earlier? I can dig up more information if you offer me some treats in exchange.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 648925646727846,
+					"cnSID": null,
+					"name": "actor1_anim",
+					"value": "mia_bigEyes",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 282180896694950,
+					"cnSID": 915626728707922,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 11680,
+			"y": 10053,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 915626728707922,
+			"pnSIDs": [
+				903585054450879
+			],
+			"poSIDs": [
+				282180896694950
+			],
+			"nodeSIDs": [
+				595141956116063,
+				163669626777347
+			],
+			"outputs": [
+				{
+					"sid": 729574075229456,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[i]I can either give the treats to Mia so she can investigate the situation for us or hand them over to Rufus before confronting him about the paw prints. I’ll...[/i]\n",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 389480668967006,
+					"cnSID": null,
+					"name": "actor0_anim",
+					"value": "cecile_normal",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 681073730275098,
+					"cnSID": null,
+					"name": "n_options",
+					"value": "2",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 687310811651768,
+					"cnSID": 595141956116063,
+					"name": "option0",
+					"value": "...save them to give to Rufus later.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 100843490649290,
+					"cnSID": 163669626777347,
+					"name": "option1",
+					"value": "...give the treats to Mia now.",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12262,
+			"y": 10049,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 595141956116063,
+			"pnSIDs": [
+				915626728707922
+			],
+			"poSIDs": [
+				687310811651768
+			],
+			"nodeSIDs": [
+				792793649834149
+			],
+			"outputs": [
+				{
+					"sid": 938651350339452,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]You:[col0] Thanks for offering to dig deeper, Mia, but I’m going to hold onto these for Rufus.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 680365700335496,
+					"cnSID": 792793649834149,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12819,
+			"y": 9889,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 792793649834149,
+			"pnSIDs": [
+				595141956116063
+			],
+			"poSIDs": [
+				680365700335496
+			],
+			"nodeSIDs": [
+				915952660139170
+			],
+			"outputs": [
+				{
+					"sid": 782668254193232,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Mia:[col0] Got it! I’ll head out now. Good luck with Rufus and finding your toys.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 263438796117935,
+					"cnSID": null,
+					"name": "actor1_anim",
+					"value": "mia_happy",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 406077772101134,
+					"cnSID": null,
+					"name": "actor1_exit",
+					"value": "right",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 961579163751159,
+					"cnSID": null,
+					"name": "actor0_move",
+					"value": "center",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 373848197596522,
+					"cnSID": 915952660139170,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 13399,
+			"y": 9885,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 163669626777347,
+			"pnSIDs": [
+				915626728707922
+			],
+			"poSIDs": [
+				100843490649290
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 651056419819403,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[col1]Mia:[col0] Great! I'll be back in a few hours.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 622808283574995,
+					"cnSID": null,
+					"name": "transition",
+					"value": "fade_out_fast",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 115536696692846,
+					"cnSID": null,
+					"name": "actor1_anim",
+					"value": "mia_happy",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 821489055488048,
+					"cnSID": null,
+					"name": "actor1_exit",
+					"value": "right",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 353979566109055,
+					"cnSID": null,
+					"name": "actor0_move",
+					"value": "center",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 614458461885371,
+					"cnSID": null,
+					"name": "set",
+					"value": "has_treats|0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 990382823564182,
+					"cnSID": null,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12815,
+			"y": 10387,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 853776414956758,
+			"pnSIDs": [
+				513323624789653
+			],
+			"poSIDs": [
+				238790052677628
+			],
+			"nodeSIDs": [
+				478622438633923
+			],
+			"outputs": [
+				{
+					"sid": 611796812225596,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "[i]This is a tough spot. I really don’t want to end up as dog food! I wish I hadn’t given Cecile my treats, as I could’ve used them to smooth things over with Rufus before bringing it up.[/i]",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 310390130774822,
+					"cnSID": 478622438633923,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 11085,
+			"y": 9161,
+			"w": 446,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		}
+	],
+	"preset-nodes": {
+		"items": [],
+		"subfolders": []
+	},
+	"name": "war1",
+	"w": 20000,
+	"h": 20000
+}

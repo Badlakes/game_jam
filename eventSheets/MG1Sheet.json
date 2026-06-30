@@ -43,6 +43,46 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "StoryPath",
+			"type": "string",
+			"initialValue": "\"\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 108524054994830
+		},
+		{
+			"eventType": "variable",
+			"name": "StoryNode",
+			"type": "string",
+			"initialValue": "\"main\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 960696407587952
+		},
+		{
+			"eventType": "variable",
+			"name": "ReturnLayout",
+			"type": "string",
+			"initialValue": "\"Main\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 316399638235055
+		},
+		{
+			"eventType": "variable",
+			"name": "Ending",
+			"type": "number",
+			"initialValue": "-1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 782335262325500
+		},
+		{
+			"eventType": "variable",
 			"name": "ScreenWidth",
 			"type": "number",
 			"initialValue": "1216",

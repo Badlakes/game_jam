@@ -29,6 +29,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Flowchart",
+			"name": "Flowchart controller",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -149,7 +156,8 @@
 			"BackgroundBoss",
 			"HeroPoetry",
 			"Sprite3",
-			"Sprite4"
+			"Sprite4",
+			"Flow"
 		],
 		"subfolders": []
 	},
@@ -180,7 +188,16 @@
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 672842489961503,
+					"script-info": {
+						"purpose": "main"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"sound": {
@@ -361,7 +378,13 @@
 	},
 	"flowcharts": {
 		"items": [
-			"Flowchart 1"
+			"main",
+			"date1",
+			"date2",
+			"date3",
+			"war1",
+			"war2",
+			"war3"
 		],
 		"subfolders": []
 	},
@@ -426,5 +449,5 @@
 	},
 	"viewportWidth": 1216,
 	"viewportHeight": 684,
-	"firstLayout": null
+	"firstLayout": "FinalBoss"
 }

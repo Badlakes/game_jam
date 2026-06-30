@@ -1,0 +1,1252 @@
+{
+	"sid": 526697552863617,
+	"nodes": [
+		{
+			"sid": 144300380714313,
+			"pnSIDs": [],
+			"poSIDs": [],
+			"nodeSIDs": [
+				954405673163364
+			],
+			"outputs": [
+				{
+					"sid": 435244319516459,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "Once upon a time, in a land far far away…  There was a tiny village on top of a mountain,  its citizens all loved and cherished their homeland and lived in a perfect state of harmony.  Until, the big bad evil Demon Boss decided to appear! ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 680650571179211,
+					"cnSID": 954405673163364,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 778320755753840,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 281101505804922,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5930,
+			"y": 6247,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": true,
+			"e": true,
+			"pi": 0,
+			"c": "Start",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 954405673163364,
+			"pnSIDs": [
+				144300380714313
+			],
+			"poSIDs": [
+				680650571179211
+			],
+			"nodeSIDs": [
+				216733794463011
+			],
+			"outputs": [
+				{
+					"sid": 974387423860479,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "He built his evil castle right next to the village,  and swore he would destroy their happy, non-evil, and peaceful life.  ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 147039987822949,
+					"cnSID": 216733794463011,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 991934938854787,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 967648341195811,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5928,
+			"y": 6479,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 216733794463011,
+			"pnSIDs": [
+				954405673163364
+			],
+			"poSIDs": [
+				147039987822949
+			],
+			"nodeSIDs": [
+				856720594396233
+			],
+			"outputs": [
+				{
+					"sid": 380465315545549,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "But then, a flicker of hope! ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 605174190452497,
+					"cnSID": 856720594396233,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 609443694473992,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 447905279460543,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5935,
+			"y": 6711,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 856720594396233,
+			"pnSIDs": [
+				216733794463011
+			],
+			"poSIDs": [
+				605174190452497
+			],
+			"nodeSIDs": [
+				322772191230220
+			],
+			"outputs": [
+				{
+					"sid": 735964065844828,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "A mighty hero appeared,  with unmatched talent and determination  she decided to finally put an end to the reign of terror the big bad evil Demon Boss had created.  However…",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 835683298414482,
+					"cnSID": 322772191230220,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 796755164953647,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 953105672997070,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5928,
+			"y": 6949,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 322772191230220,
+			"pnSIDs": [
+				856720594396233
+			],
+			"poSIDs": [
+				835683298414482
+			],
+			"nodeSIDs": [
+				944148480436017
+			],
+			"outputs": [
+				{
+					"sid": 241640095349726,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "She failed…   terribly so…  it honestly wasn’t even much of a fight, like this poor girl can't never-",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 659866224005742,
+					"cnSID": 944148480436017,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 961675074943060,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 321324201424745,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5927,
+			"y": 7181,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 944148480436017,
+			"pnSIDs": [
+				322772191230220
+			],
+			"poSIDs": [
+				659866224005742
+			],
+			"nodeSIDs": [
+				441017649252627
+			],
+			"outputs": [
+				{
+					"sid": 245355325714227,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "Conquer and Win",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 213175439605810,
+					"cnSID": 441017649252627,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 562003985957089,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 106691759694784,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5922,
+			"y": 7413,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 441017649252627,
+			"pnSIDs": [
+				944148480436017
+			],
+			"poSIDs": [
+				213175439605810
+			],
+			"nodeSIDs": [
+				664760284523533
+			],
+			"outputs": [
+				{
+					"sid": 982988475722809,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS:  Fascinating... You still stand as if you have something to say.  Do you, hero? ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 383180864260021,
+					"cnSID": 664760284523533,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 521954537223955,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 371182860043749,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5920,
+			"y": 7678,
+			"w": 1872,
+			"h": 298,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 664760284523533,
+			"pnSIDs": [
+				441017649252627
+			],
+			"poSIDs": [
+				383180864260021
+			],
+			"nodeSIDs": [
+				544883380073833,
+				406231852720448
+			],
+			"outputs": [
+				{
+					"sid": 507503642647472,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "HERO: Be prepared, foul Demon, for I'm going to come back...",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 460510007941747,
+					"cnSID": null,
+					"name": "actor0_anim",
+					"value": "MainHero",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 450323627083187,
+					"cnSID": null,
+					"name": "n_options",
+					"value": "2",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 594828079333364,
+					"cnSID": 544883380073833,
+					"name": "option0",
+					"value": "And kick your *** once and for all!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 929343172640719,
+					"cnSID": 406231852720448,
+					"name": "option1",
+					"value": "And charm you once and for all!",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5927.593,
+			"y": 8008.5,
+			"w": 1877,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 544883380073833,
+			"pnSIDs": [
+				664760284523533
+			],
+			"poSIDs": [
+				594828079333364
+			],
+			"nodeSIDs": [
+				871741461918413
+			],
+			"outputs": [
+				{
+					"sid": 612653100092479,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS:  Oh… first of all, what a lack of class, you didn’t have to say it like that!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 144497795622206,
+					"cnSID": 871741461918413,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 717420937811908,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 166086360305540,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5237.5,
+			"y": 8359.5,
+			"w": 943,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 871741461918413,
+			"pnSIDs": [
+				544883380073833
+			],
+			"poSIDs": [
+				144497795622206
+			],
+			"nodeSIDs": [
+				181889674976054
+			],
+			"outputs": [
+				{
+					"sid": 584268133464217,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: But seeing the state you’re in now... ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 697757026000232,
+					"cnSID": 181889674976054,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 423396014179867,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 336718699714092,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 4779,
+			"y": 8642,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 181889674976054,
+			"pnSIDs": [
+				871741461918413
+			],
+			"poSIDs": [
+				697757026000232
+			],
+			"nodeSIDs": [
+				736980955384449
+			],
+			"outputs": [
+				{
+					"sid": 354765624514471,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: you better try harder than that next time, hero. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 949522722047719,
+					"cnSID": 736980955384449,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 645513770158873,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 441960148890681,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 4770,
+			"y": 8879,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 736980955384449,
+			"pnSIDs": [
+				181889674976054
+			],
+			"poSIDs": [
+				949522722047719
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 749102794314148,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: I’ll be waiting, not expectantly, but waiting nonetheless. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 964054556315145,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 897469964135676,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 753026955074379,
+					"cnSID": null,
+					"name": "goto",
+					"value": "return_to_main_city",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 4772,
+			"y": 9111,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 406231852720448,
+			"pnSIDs": [
+				664760284523533
+			],
+			"poSIDs": [
+				929343172640719
+			],
+			"nodeSIDs": [
+				842550655743938
+			],
+			"outputs": [
+				{
+					"sid": 670793601200820,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: ... I'm terribly sorry I may have misheard you Could you repeat what you just said?",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 461144643382928,
+					"cnSID": 842550655743938,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 580662616574991,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 837502180325349,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6447.5,
+			"y": 8361.5,
+			"w": 839,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 842550655743938,
+			"pnSIDs": [
+				406231852720448
+			],
+			"poSIDs": [
+				461144643382928
+			],
+			"nodeSIDs": [
+				407756862980519
+			],
+			"outputs": [
+				{
+					"sid": 900472972609459,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "HERO:  I'm going to charm you once and for-",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 607192634659345,
+					"cnSID": 407756862980519,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 556235367441307,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 358422562775573,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6956,
+			"y": 8644,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 407756862980519,
+			"pnSIDs": [
+				842550655743938
+			],
+			"poSIDs": [
+				607192634659345
+			],
+			"nodeSIDs": [
+				513672497667238
+			],
+			"outputs": [
+				{
+					"sid": 366817860513561,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS:  ...GOING TO WHAT?",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 690818621113758,
+					"cnSID": 513672497667238,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 746753252826005,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 431567829724669,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6956,
+			"y": 8876,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 513672497667238,
+			"pnSIDs": [
+				407756862980519
+			],
+			"poSIDs": [
+				690818621113758
+			],
+			"nodeSIDs": [
+				762211091684084
+			],
+			"outputs": [
+				{
+					"sid": 426176995803035,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "HERO:  Charm you once and-",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 664826827518746,
+					"cnSID": 762211091684084,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 747462368838727,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 755944101393552,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6959,
+			"y": 9108,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 762211091684084,
+			"pnSIDs": [
+				513672497667238
+			],
+			"poSIDs": [
+				664826827518746
+			],
+			"nodeSIDs": [
+				943236061342331
+			],
+			"outputs": [
+				{
+					"sid": 602068494358192,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS:  What in this god forsaken world could you mean by charm?!?!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 442871534926439,
+					"cnSID": 943236061342331,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 674992458452246,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 311343850315595,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6949,
+			"y": 9340,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 943236061342331,
+			"pnSIDs": [
+				762211091684084
+			],
+			"poSIDs": [
+				442871534926439
+			],
+			"nodeSIDs": [
+				973771978898540
+			],
+			"outputs": [
+				{
+					"sid": 365644096875992,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "HERO:  Charm as in seduce you.  Conquer your affections.  Make your heart flutter-",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 156324865758738,
+					"cnSID": 973771978898540,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 477809725389663,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 663081910308012,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6943,
+			"y": 9572,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 973771978898540,
+			"pnSIDs": [
+				943236061342331
+			],
+			"poSIDs": [
+				156324865758738
+			],
+			"nodeSIDs": [
+				559900233986987
+			],
+			"outputs": [
+				{
+					"sid": 785233714215808,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS:  OKAY I GET IT. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 741288086943637,
+					"cnSID": 559900233986987,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 917928039717209,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 191244557069263,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6944,
+			"y": 9837,
+			"w": 1872,
+			"h": 298,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 559900233986987,
+			"pnSIDs": [
+				973771978898540
+			],
+			"poSIDs": [
+				741288086943637
+			],
+			"nodeSIDs": [
+				933032406752217
+			],
+			"outputs": [
+				{
+					"sid": 934738748407865,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: Just... ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 546149551891254,
+					"cnSID": 933032406752217,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 481281839633559,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 884328354789756,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6943,
+			"y": 10107,
+			"w": 1872,
+			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 933032406752217,
+			"pnSIDs": [
+				559900233986987
+			],
+			"poSIDs": [
+				546149551891254
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 684185949779366,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "BOSS: Just... Just get this preposterous idea out of your head and get away from here at this very moment!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 977916219713051,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 591336020205849,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 575373962457313,
+					"cnSID": null,
+					"name": "goto",
+					"value": "return_to_main_city",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 6938,
+			"y": 10355.5,
+			"w": 1872,
+			"h": 265,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		}
+	],
+	"preset-nodes": {
+		"items": [],
+		"subfolders": []
+	},
+	"name": "main",
+	"w": 20000,
+	"h": 20000
+}

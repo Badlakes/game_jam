@@ -56,13 +56,13 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 808974315036698,
+					"sid": 482847596507756,
 					"parameters": {
 						"audio-file": {
-							"path": "MediMenu"
+							"path": "vila"
 						},
 						"loop": "looping",
-						"volume": "-15",
+						"volume": "-10",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -206,6 +206,20 @@
 					"parameters": {
 						"layout": "MiniGame1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 862036163692166,
+					"parameters": {
+						"audio-file": {
+							"path": "Select"
+						},
+						"loop": "not-looping",
+						"volume": "-7",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 824605696747463
@@ -231,6 +245,20 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 438143049352193,
+					"parameters": {
+						"audio-file": {
+							"path": "Select"
+						},
+						"loop": "not-looping",
+						"volume": "-7",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "set-text",
 					"objectClass": "DebugMain",
@@ -288,6 +316,20 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 932499337126030,
+					"parameters": {
+						"audio-file": {
+							"path": "Select"
+						},
+						"loop": "not-looping",
+						"volume": "-7",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "set-text",
 					"objectClass": "DebugMain",

@@ -176,7 +176,8 @@
 			"Main",
 			"MiniGame1",
 			"FinalBoss",
-			"MiniGame2"
+			"MiniGame2",
+			"end"
 		],
 		"subfolders": []
 	},

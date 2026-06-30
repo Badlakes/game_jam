@@ -146,7 +146,9 @@
 			"LogStatus",
 			"BackgroundMG1",
 			"BackgroundMain",
-			"BackgroundBoss"
+			"BackgroundBoss",
+			"HeroPoetry",
+			"Sprite3"
 		],
 		"subfolders": []
 	},

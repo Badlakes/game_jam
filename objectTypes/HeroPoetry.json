@@ -1,7 +1,7 @@
 {
-	"name": "BackgroundMG1",
+	"name": "HeroPoetry",
 	"plugin-id": "Sprite",
-	"sid": 135096932401285,
+	"sid": 138602454272018,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,25 +12,35 @@
 			{
 				"frames": [
 					{
-						"width": 1282,
-						"height": 722,
+						"width": 1024,
+						"height": 1024,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 2228010,
+						"imageSpriteId": 9187109,
 						"collisionPoly": {
 							"points": [
-								0.00025693730729701953,
-								0.0004123711340206186,
-								0.999743062692703,
-								0.0004123711340206186,
-								0.999743062692703,
-								0.9995876288659794,
-								0.00025693730729701953,
-								0.9995876288659794
+								0.6025390625,
+								0.1015625,
+								0.6611328125,
+								0.1064453125,
+								0.7548828125,
+								0.15625,
+								0.8505859375,
+								0.314453125,
+								0.859375,
+								0.3818359375,
+								0.66015625,
+								0.8603515625,
+								0.357421875,
+								0.8759765625,
+								0.1689453125,
+								0.203125,
+								0.306640625,
+								0.1259765625
 							]
 						},
 						"useCollisionPoly": true,
@@ -38,7 +48,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 336508578710021,
+				"sid": 216734269500880,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

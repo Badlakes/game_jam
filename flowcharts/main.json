@@ -525,7 +525,7 @@
 					"sid": 521954537223955,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -533,7 +533,7 @@
 					"sid": 371182860043749,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -601,7 +601,7 @@
 					"sid": 642395863449216,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -609,7 +609,7 @@
 					"sid": 366508301156098,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -660,7 +660,7 @@
 					"sid": 717420937811908,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -668,7 +668,7 @@
 					"sid": 166086360305540,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -727,7 +727,7 @@
 					"sid": 423396014179867,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -735,7 +735,7 @@
 					"sid": 336718699714092,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -786,7 +786,7 @@
 					"sid": 645513770158873,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -794,7 +794,7 @@
 					"sid": 441960148890681,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -845,7 +845,7 @@
 					"sid": 964054556315145,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -853,7 +853,7 @@
 					"sid": 897469964135676,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -923,7 +923,7 @@
 					"sid": 670793601200820,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: ... I'm terribly sorry I may have misheard you Could you repeat what you just said?",
+					"value": "BOSS: ... I'm terribly sorry I may have misheard you. Could you repeat what you just said?",
 					"enable": true,
 					"default": false
 				},
@@ -939,7 +939,7 @@
 					"sid": 580662616574991,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -947,7 +947,7 @@
 					"sid": 837502180325349,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				},
@@ -1006,7 +1006,7 @@
 					"sid": 556235367441307,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -1014,7 +1014,7 @@
 					"sid": 358422562775573,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				}
@@ -1065,7 +1065,7 @@
 					"sid": 746753252826005,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1073,7 +1073,7 @@
 					"sid": 431567829724669,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1124,7 +1124,7 @@
 					"sid": 747462368838727,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1132,7 +1132,7 @@
 					"sid": 755944101393552,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				}
@@ -1183,7 +1183,7 @@
 					"sid": 674992458452246,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1191,7 +1191,7 @@
 					"sid": 311343850315595,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1242,7 +1242,7 @@
 					"sid": 477809725389663,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1250,7 +1250,7 @@
 					"sid": 663081910308012,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -1301,7 +1301,7 @@
 					"sid": 917928039717209,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -1309,7 +1309,7 @@
 					"sid": 191244557069263,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -1360,7 +1360,7 @@
 					"sid": 481281839633559,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -1368,7 +1368,7 @@
 					"sid": 884328354789756,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -1419,7 +1419,7 @@
 					"sid": 977916219713051,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -1427,7 +1427,7 @@
 					"sid": 591336020205849,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "6",
 					"enable": true,
 					"default": false
 				}

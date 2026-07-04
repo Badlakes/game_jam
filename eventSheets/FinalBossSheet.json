@@ -339,13 +339,13 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 624369066012233,
+					"sid": 172384491083559,
 					"parameters": {
 						"audio-file": {
 							"path": "Boss"
 						},
 						"loop": "looping",
-						"volume": "0",
+						"volume": "-10",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

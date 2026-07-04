@@ -56,13 +56,13 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 482847596507756,
+					"sid": 323849432244325,
 					"parameters": {
 						"audio-file": {
 							"path": "vila"
 						},
 						"loop": "looping",
-						"volume": "-10",
+						"volume": "-15",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

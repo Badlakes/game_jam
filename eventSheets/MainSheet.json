@@ -726,6 +726,36 @@
 					"sid": 132514788950524
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 864761862832004
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 443600188805777,
+					"parameters": {
+						"variable": "MainCharDistance",
+						"value": "MainHero.Y-200"
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "MainHero",
+					"sid": 478209653202386,
+					"parameters": {
+						"scale": "MainCharDistance/MainFovNumber"
+					}
+				}
+			],
+			"sid": 809687261297405
 		}
 	],
 	"sid": 947134209355610

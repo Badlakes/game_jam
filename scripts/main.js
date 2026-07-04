@@ -16,11 +16,6 @@ function Tick(runtime) {
         dialogText.text = dialogue.update();
     }
     runtime.globalVars.DialogueFinished = dialogue.isFinished() ? 1 : 0;
-
-    const hero = runtime.objects.MainHero.getFirstInstance();
-    if (hero) {
-        hero.height = hero.width = (hero.y - 200) / runtime.globalVars.MainFovNumber;
-    }
 }
 
 class StoryManager {

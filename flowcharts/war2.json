@@ -1990,6 +1990,14 @@
 					"default": false
 				},
 				{
+					"sid": 730087700601412,
+					"cnSID": null,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
 					"sid": 545735096151511,
 					"cnSID": 487725161078412,
 					"name": "sprite_boss",
@@ -2049,6 +2057,14 @@
 					"default": false
 				},
 				{
+					"sid": 499981467760407,
+					"cnSID": null,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
 					"sid": 235937204235727,
 					"cnSID": 239826859483389,
 					"name": "sprite_boss",
@@ -2061,14 +2077,6 @@
 					"cnSID": null,
 					"name": "sprite_hero",
 					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 699298294885411,
-					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
 					"enable": true,
 					"default": false
 				}
@@ -2095,13 +2103,23 @@
 			"poSIDs": [
 				235937204235727
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				247125852135233
+			],
 			"outputs": [
 				{
 					"sid": 783102756632346,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: But it’ll take a little more of your push-ups for you to be able to defeat me, hero…",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 835855294619697,
+					"cnSID": 247125852135233,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -2122,16 +2140,49 @@
 					"default": false
 				},
 				{
-					"sid": 368926619767870,
+					"sid": 274237926451908,
 					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
+					"name": "set_path",
+					"value": "war3",
 					"enable": true,
 					"default": false
 				}
 			],
 			"x": 8705.5,
 			"y": 17818.5,
+			"w": 839,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 247125852135233,
+			"pnSIDs": [
+				239826859483389
+			],
+			"poSIDs": [
+				835855294619697
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 475285701001490,
+					"cnSID": null,
+					"name": "goto",
+					"value": "Main",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 9639.5,
+			"y": 18051.5,
 			"w": 839,
 			"h": 333,
 			"t": "",

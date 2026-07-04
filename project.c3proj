@@ -160,7 +160,10 @@
 			"Flow",
 			"Sprite5",
 			"Sprite6",
-			"Sprite7"
+			"Sprite7",
+			"Option0",
+			"Option1",
+			"HitBoxCastelo"
 		],
 		"subfolders": []
 	},
@@ -176,8 +179,7 @@
 			"Main",
 			"MiniGame1",
 			"FinalBoss",
-			"MiniGame2",
-			"end"
+			"MiniGame2"
 		],
 		"subfolders": []
 	},

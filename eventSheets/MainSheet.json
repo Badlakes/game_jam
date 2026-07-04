@@ -85,6 +85,14 @@
 				},
 				{
 					"id": "set-opacity",
+					"objectClass": "HitBoxCastelo",
+					"sid": 219343866814833,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
 					"objectClass": "OutOfBounds",
 					"sid": 353867000376181,
 					"parameters": {
@@ -718,36 +726,6 @@
 					"sid": 132514788950524
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 102255765157881
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 892481623815570,
-					"parameters": {
-						"variable": "MainCharDistance",
-						"value": "MainHero.Y-200"
-					}
-				},
-				{
-					"id": "set-scale",
-					"objectClass": "MainHero",
-					"sid": 442117157184345,
-					"parameters": {
-						"scale": "MainCharDistance/MainFovNumber"
-					}
-				}
-			],
-			"sid": 368088271623235
 		}
 	],
 	"sid": 947134209355610

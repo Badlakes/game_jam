@@ -1,3 +1,4 @@
+
 runOnStartup(async runtime => {
     globalThis.story = new StoryManager(runtime);
     globalThis.dialogue = new DialogueManager();
@@ -14,24 +15,23 @@ function Tick(runtime) {
     if (dialogText) {
         dialogText.text = dialogue.update();
     }
+    runtime.globalVars.DialogueFinished = dialogue.isFinished() ? 1 : 0;
+
+    const hero = runtime.objects.MainHero.getFirstInstance();
+    if (hero) {
+        hero.height = hero.width = (hero.y - 200) / runtime.globalVars.MainFovNumber;
+    }
 }
 
 class StoryManager {
     constructor(runtime) {
         this.runtime = runtime;
         this.path = "";
-        this.nextNode = "intro";
+        this.nextNode = "Start";
         this.ending = -1;
     }
     runCurrentStory() {
     const flow = this.runtime.objects.Flow.getFirstInstance();
-    flow.startFlowchartByName("StoryNode", this.nextNode, "", true);
-    
-        // Pequeno delay pra garantir que o nó já carregou
-        setTimeout(() => {
-            const text = flow.getOutputValue("dialogue");
-            if (text) dialogue.start(text);
-        }, 0);
     }
     goto(node) { this.nextNode = node; }
     setPath(path) { this.path = path; }

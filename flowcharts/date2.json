@@ -3136,7 +3136,9 @@
 			"poSIDs": [
 				497063765462940
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				556505534550908
+			],
 			"outputs": [
 				{
 					"sid": 164576446761107,
@@ -3148,7 +3150,7 @@
 				},
 				{
 					"sid": 954817319099746,
-					"cnSID": null,
+					"cnSID": 556505534550908,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -3171,10 +3173,10 @@
 					"default": false
 				},
 				{
-					"sid": 449144770977362,
+					"sid": 732350731060823,
 					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
+					"name": "set_path",
+					"value": "date3",
 					"enable": true,
 					"default": false
 				}
@@ -3182,6 +3184,39 @@
 			"x": 11872.5,
 			"y": 18207.5,
 			"w": 943,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 556505534550908,
+			"pnSIDs": [
+				632726694073765
+			],
+			"poSIDs": [
+				954817319099746
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 431566464388542,
+					"cnSID": null,
+					"name": "goto",
+					"value": "Main",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12824.5,
+			"y": 18217.5,
+			"w": 839,
 			"h": 333,
 			"t": "",
 			"s": false,

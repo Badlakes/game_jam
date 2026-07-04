@@ -13,6 +13,46 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "ScreenWidth",
+			"type": "number",
+			"initialValue": "1216",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 185919216684761
+		},
+		{
+			"eventType": "variable",
+			"name": "ScreenHeight",
+			"type": "number",
+			"initialValue": "684",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 489153300640939
+		},
+		{
+			"eventType": "variable",
+			"name": "PoetryPoints",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 906605532045244
+		},
+		{
+			"eventType": "variable",
+			"name": "StrenghtPoints",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 544259377848407
+		},
+		{
+			"eventType": "variable",
 			"name": "array_words",
 			"type": "string",
 			"initialValue": "{\"c2array\":true,      \"size\":[8,2,1],      \"data\":[[[\"mind\"]           ,[\"You keep being on my mind\"]],                      [[\"right\"]          ,[\"Even though it’s not right\"]],                      [[\"meant\"]          ,[\"We weren’t meant to be\"]],                      [[\"mine\"]           ,[\"Still I want you to be mine\"]],                     [[\"smile\"]          ,[\"I like the shape of your smile\"]],                      [[\"sparkle\"]        ,[\"The timid sparkle on your eyes\"]],                      [[\"understand\"]     ,[\"No one would never understand\"]],                      [[\"wonder\"]         ,[\"The way I see wonder in you\"]]] }",
@@ -43,76 +83,6 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "StoryPath",
-			"type": "string",
-			"initialValue": "\"\"",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 108524054994830
-		},
-		{
-			"eventType": "variable",
-			"name": "StoryNode",
-			"type": "string",
-			"initialValue": "\"main\"",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 960696407587952
-		},
-		{
-			"eventType": "variable",
-			"name": "ReturnLayout",
-			"type": "string",
-			"initialValue": "\"Main\"",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 316399638235055
-		},
-		{
-			"eventType": "variable",
-			"name": "Ending",
-			"type": "number",
-			"initialValue": "-1",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 782335262325500
-		},
-		{
-			"eventType": "variable",
-			"name": "ScreenWidth",
-			"type": "number",
-			"initialValue": "1216",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 538359316055837
-		},
-		{
-			"eventType": "variable",
-			"name": "ScreenHeight",
-			"type": "number",
-			"initialValue": "684",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 231309641946499
-		},
-		{
-			"eventType": "variable",
-			"name": "PoetryPoints",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 494439513030775
-		},
-		{
-			"eventType": "variable",
 			"name": "MainFovNumber",
 			"type": "number",
 			"initialValue": "1200",
@@ -130,16 +100,6 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 772144958131260
-		},
-		{
-			"eventType": "variable",
-			"name": "StrenghtPoints",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 764647291340933
 		},
 		{
 			"functionName": "LoadNextWord",

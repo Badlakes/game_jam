@@ -3687,13 +3687,23 @@
 				650492128696147,
 				736580388802385
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				811191119955167
+			],
 			"outputs": [
 				{
 					"sid": 638483144873265,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "The End.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 727834206014165,
+					"cnSID": 811191119955167,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -3714,16 +3724,49 @@
 					"default": false
 				},
 				{
-					"sid": 438855367373377,
+					"sid": 167056311170336,
 					"cnSID": null,
-					"name": "goto",
-					"value": "end",
+					"name": "stop_music",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 9482.5,
-			"y": 14178.5,
+			"x": 9380.5,
+			"y": 14316.5,
+			"w": 943,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 811191119955167,
+			"pnSIDs": [
+				577287296008795
+			],
+			"poSIDs": [
+				727834206014165
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 261800238627340,
+					"cnSID": null,
+					"name": "sprite_background",
+					"value": "2",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 10445.5,
+			"y": 14313.5,
 			"w": 943,
 			"h": 333,
 			"t": "",

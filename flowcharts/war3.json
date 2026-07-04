@@ -101,9 +101,9 @@
 					"default": false
 				}
 			],
-			"x": 10277,
+			"x": 10213.552649739586,
 			"y": 4971,
-			"w": 1872,
+			"w": 1745,
 			"h": 232,
 			"t": "",
 			"s": false,
@@ -2024,13 +2024,23 @@
 				483586926377714,
 				374087231626506
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				608004186784378
+			],
 			"outputs": [
 				{
 					"sid": 743459002921232,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "The End.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 577037262831822,
+					"cnSID": 608004186784378,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -2057,10 +2067,51 @@
 					"value": "end",
 					"enable": true,
 					"default": false
+				},
+				{
+					"sid": 600419374368203,
+					"cnSID": null,
+					"name": "stop_music",
+					"value": "1",
+					"enable": true,
+					"default": false
 				}
 			],
-			"x": 12426.5,
-			"y": 15380.5,
+			"x": 12489.5,
+			"y": 15771.5,
+			"w": 943,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 608004186784378,
+			"pnSIDs": [
+				468900514230970
+			],
+			"poSIDs": [
+				577037262831822
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 589894470916983,
+					"cnSID": null,
+					"name": "sprite_background",
+					"value": "2",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 13773.5,
+			"y": 16302.5,
 			"w": 943,
 			"h": 333,
 			"t": "",
@@ -2376,7 +2427,9 @@
 			"poSIDs": [
 				534001846628610
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				591414569747109
+			],
 			"outputs": [
 				{
 					"sid": 657548059552116,
@@ -2388,7 +2441,7 @@
 				},
 				{
 					"sid": 752854424533035,
-					"cnSID": null,
+					"cnSID": 591414569747109,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -2413,6 +2466,65 @@
 			],
 			"x": 13744.5,
 			"y": 15049.5,
+			"w": 943,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 591414569747109,
+			"pnSIDs": [
+				378958104874402
+			],
+			"poSIDs": [
+				752854424533035
+			],
+			"nodeSIDs": [
+				468900514230970
+			],
+			"outputs": [
+				{
+					"sid": 746593649165133,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "And that’s how things were meant to be. He’ll always be her villain, and she, always, his hero.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 374087231626506,
+					"cnSID": 468900514230970,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 487283736375320,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 567540590212039,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 13622.5,
+			"y": 15521.5,
 			"w": 943,
 			"h": 333,
 			"t": "",
@@ -3235,61 +3347,6 @@
 			],
 			"x": 12292.5,
 			"y": 12018.5,
-			"w": 943,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 591414569747109,
-			"pnSIDs": [],
-			"poSIDs": [],
-			"nodeSIDs": [
-				468900514230970
-			],
-			"outputs": [
-				{
-					"sid": 746593649165133,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "And that’s how things were meant to be. He’ll always be her villain, and she, always, his hero.",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 374087231626506,
-					"cnSID": 468900514230970,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 487283736375320,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 567540590212039,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 13878.5,
-			"y": 15447.5,
 			"w": 943,
 			"h": 333,
 			"t": "",

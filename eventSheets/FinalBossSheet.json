@@ -2,6 +2,297 @@
 	"name": "FinalBossSheet",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "RunFlow",
+			"type": "string",
+			"initialValue": "main",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 861056089884486
+		},
+		{
+			"eventType": "variable",
+			"name": "DialogueFinished",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 328670874556141
+		},
+		{
+			"eventType": "variable",
+			"name": "DialogueText",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 459617472546380
+		},
+		{
+			"eventType": "variable",
+			"name": "Option0",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 575351885739700
+		},
+		{
+			"eventType": "variable",
+			"name": "Option1",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 561847312642615
+		},
+		{
+			"eventType": "variable",
+			"name": "Selection",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 562886018808993
+		},
+		{
+			"functionName": "ApplyNode",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 199883320161378,
+					"parameters": {
+						"variable": "DialogueText",
+						"value": "Flow.OutputValue(\"dialogue\")"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 466512285809496,
+					"parameters": {
+						"variable": "Option0",
+						"value": "Flow.OutputValue(\"option0\")"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 940599597864761,
+					"parameters": {
+						"variable": "Option1",
+						"value": "Flow.OutputValue(\"option1\")"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option0",
+					"sid": 294105792232225,
+					"parameters": {
+						"text": "Option0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option1",
+					"sid": 701996302907371,
+					"parameters": {
+						"text": "Option1"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 947394592628246,
+					"parameters": {
+						"variable": "Selection",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "DialogImage",
+					"sid": 467998407646982,
+					"parameters": {
+						"animation": "str(Flow.OutputValue(\"sprite_hero\"))",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Dragonborn",
+					"sid": 128397086623643,
+					"parameters": {
+						"animation": "str(Flow.OutputValue(\"sprite_boss\"))",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "BackgroundBoss",
+					"sid": 866247729605333,
+					"parameters": {
+						"animation": "str(Flow.OutputValue(\"sprite_background\"))",
+						"from": "beginning"
+					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"dialogue.start(runtime.globalVars.DialogueText);"
+					]
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Option0",
+					"sid": 553641655323810,
+					"parameters": {
+						"opacity": "Selection = 0 ? 100 : 50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Option1",
+					"sid": 101663473154101,
+					"parameters": {
+						"opacity": "Selection = 1 ? 100 : 50"
+					}
+				}
+			],
+			"sid": 882052243076575,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 846642207303357,
+							"parameters": {
+								"output-index-or-name": "\"n_options\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Option0",
+							"sid": 627210935054733,
+							"parameters": {
+								"text": "Selection = 0  ? \"->\"& Option0 : Option0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Option1",
+							"sid": 570831255567660,
+							"parameters": {
+								"text": "Selection = 1  ? \"->\"& Option1 : Option1"
+							}
+						}
+					],
+					"sid": 958375763597748
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 816349289865702,
+							"parameters": {
+								"output-index-or-name": "\"goto\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 235649756587187,
+							"parameters": {
+								"tag": "\"\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 878205708124925,
+							"parameters": {
+								"layout": "Main"
+							}
+						}
+					],
+					"sid": 782393248969609
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 905400804125829,
+							"parameters": {
+								"output-index-or-name": "\"stop_music\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 136011643624285,
+							"parameters": {
+								"tag": "\"\""
+							}
+						}
+					],
+					"sid": 504283656755190
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 349330416417825,
+							"parameters": {
+								"output-index-or-name": "\"set_path\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 700917812539590,
+							"parameters": {
+								"variable": "RunFlow",
+								"value": "Flow.OutputValue(\"set_path\")"
+							}
+						}
+					],
+					"sid": 394004266691679
+				}
+			]
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -46,13 +337,6 @@
 					}
 				},
 				{
-					"type": "script",
-					"language": "javascript",
-					"script": [
-						"story.runCurrentStory()"
-					]
-				},
-				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 624369066012233,
@@ -65,85 +349,48 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "start-flowchart-by-name",
+					"objectClass": "Flow",
+					"sid": 961049448776030,
+					"parameters": {
+						"flowchart-name": "RunFlow",
+						"start-node-tag": "\"\"",
+						"flowchart-tag": "\"\"",
+						"set-as-current": true
+					}
+				},
+				{
+					"callFunction": "ApplyNode",
+					"sid": 644458806490192
+				},
+				{
+					"id": "set-text",
+					"objectClass": "DialogText",
+					"sid": 861416171082067,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option0",
+					"sid": 703480910593117,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option1",
+					"sid": 137295946829861,
+					"parameters": {
+						"text": "\"\""
+					}
 				}
 			],
 			"sid": 453660219004499
-		},
-		{
-			"functionName": "Dialog",
-			"functionDescription": "",
-			"functionCategory": "",
-			"functionReturnType": "none",
-			"functionCopyPicked": false,
-			"functionIsAsync": false,
-			"functionParameters": [
-				{
-					"name": "E",
-					"type": "string",
-					"initialValue": "",
-					"comment": "",
-					"sid": 216630787184220
-				}
-			],
-			"eventType": "function-block",
-			"conditions": [],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "DialogBox",
-					"sid": 933451383259654
-				},
-				{
-					"id": "destroy",
-					"objectClass": "DialogImage",
-					"sid": 708878147901431
-				},
-				{
-					"id": "destroy",
-					"objectClass": "DialogText",
-					"sid": 498077369225706
-				},
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 681630466718209,
-					"parameters": {
-						"object-to-create": "DialogImage",
-						"layer": "\"UID\"",
-						"x": "120.5",
-						"y": "563",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				},
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 706603390593140,
-					"parameters": {
-						"object-to-create": "DialogText",
-						"layer": "\"UID\"",
-						"x": "0224",
-						"y": "468",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				},
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 228624908260877,
-					"parameters": {
-						"object-to-create": "DialogBox",
-						"layer": "\"UID\"",
-						"x": "0",
-						"y": "448",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				}
-			],
-			"sid": 500155739302699
 		},
 		{
 			"eventType": "block",
@@ -181,52 +428,76 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 276268991996162
-				}
-			],
-			"actions": [],
-			"sid": 549846976574719
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-any-node-change-in-flowchart",
-					"objectClass": "Flow",
-					"sid": 181141597930662,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 753838658438245,
 					"parameters": {
-						"flowchart-tag": "\"\""
+						"key": 87
+					}
+				},
+				{
+					"id": "has-output",
+					"objectClass": "Flow",
+					"sid": 467033997218696,
+					"parameters": {
+						"output-index-or-name": "\"n_options\""
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 817516058441951,
+					"parameters": {
+						"variable": "Selection",
+						"comparison": 4,
+						"value": "0"
 					}
 				}
 			],
 			"actions": [
 				{
-					"type": "script",
-					"language": "javascript",
-					"script": [
-						"dialogue.start(Flow.OutputValue(\"dialogue\"));"
-					]
-				},
-				{
-					"id": "set-animation-frame",
-					"objectClass": "DialogImage",
-					"sid": 911703943070423,
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 469467156044074,
 					"parameters": {
-						"frame-number": "int(Flow.OutputValue(\"expression\"))"
+						"variable": "Selection",
+						"value": "Selection - 1"
 					}
 				},
 				{
-					"id": "set-animation-frame",
-					"objectClass": "Dragonborn",
-					"sid": 982429575893881,
+					"id": "set-opacity",
+					"objectClass": "Option0",
+					"sid": 998816712007791,
 					"parameters": {
-						"frame-number": "int(Flow.OutputValue(\"expression\"))"
+						"opacity": "Selection = 0 ? 100 : 50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Option1",
+					"sid": 720616474576062,
+					"parameters": {
+						"opacity": "Selection = 1 ? 100 : 50"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option0",
+					"sid": 524355140308561,
+					"parameters": {
+						"text": "Selection = 0  ? \"->\"& Option0 : Option0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option1",
+					"sid": 810672219066565,
+					"parameters": {
+						"text": "Selection = 1  ? \"->\"& Option1 : Option1"
 					}
 				}
 			],
-			"sid": 347079141796206
+			"sid": 869613292773304
 		},
 		{
 			"eventType": "block",
@@ -234,34 +505,174 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 156284804501584,
+					"sid": 629952332521827,
 					"parameters": {
-						"key": 69
+						"key": 83
+					}
+				},
+				{
+					"id": "has-output",
+					"objectClass": "Flow",
+					"sid": 409553943305880,
+					"parameters": {
+						"output-index-or-name": "\"n_options\""
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 293140843662813,
+					"parameters": {
+						"variable": "Selection",
+						"comparison": 2,
+						"value": "int(Flow.OutputValue(\"n_options\")) - 1"
 					}
 				}
 			],
 			"actions": [
 				{
-					"type": "script",
-					"language": "javascript",
-					"script": [
-						"  if (!dialogue.isFinished()) {",
-						"      dialogue.skip();",
-						"  } else {",
-						"      // avança o nó — isso depende de como seu Flow expõe GotoNextNode",
-						"  }"
-					]
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 631791380184540,
+					"parameters": {
+						"variable": "Selection",
+						"value": "Selection + 1"
+					}
 				},
 				{
-					"id": "goto-next-flowchart-node",
-					"objectClass": "Flow",
-					"sid": 389020503690279,
+					"id": "set-opacity",
+					"objectClass": "Option0",
+					"sid": 357957564746032,
 					"parameters": {
-						"index-or-name": "\"next\""
+						"opacity": "Selection = 0 ? 100 : 50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Option1",
+					"sid": 974617676577163,
+					"parameters": {
+						"opacity": "Selection = 1 ? 100 : 50"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option0",
+					"sid": 351626517307409,
+					"parameters": {
+						"text": "Selection = 0  ? \"->\"& Option0 : Option0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option1",
+					"sid": 816558491373062,
+					"parameters": {
+						"text": "Selection = 1  ? \"->\"& Option1 : Option1"
 					}
 				}
 			],
-			"sid": 518344412611437
+			"sid": 956427143245073
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 126182423633662,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [],
+			"sid": 804365358825756,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 598944617540269,
+							"parameters": {
+								"variable": "DialogueFinished",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"language": "javascript",
+							"script": [
+								"dialogue.skip();"
+							]
+						}
+					],
+					"sid": 129832163068746
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 588577546043027
+						},
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 453742968961658,
+							"parameters": {
+								"output-index-or-name": "\"n_options\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "goto-next-flowchart-node",
+							"objectClass": "Flow",
+							"sid": 376228251630392,
+							"parameters": {
+								"index-or-name": "\"option\" & Selection"
+							}
+						},
+						{
+							"callFunction": "ApplyNode",
+							"sid": 175957293999780
+						}
+					],
+					"sid": 732398285196704
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 432581440370454
+						}
+					],
+					"actions": [
+						{
+							"id": "goto-next-flowchart-node",
+							"objectClass": "Flow",
+							"sid": 923983771041686,
+							"parameters": {
+								"index-or-name": "\"next\""
+							}
+						},
+						{
+							"callFunction": "ApplyNode",
+							"sid": 726251755367871
+						}
+					],
+					"sid": 670377805756435
+				}
+			]
 		}
 	],
 	"sid": 913111780715880

@@ -5,13 +5,23 @@
 			"sid": 453815401160835,
 			"pnSIDs": [],
 			"poSIDs": [],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				493491017707171
+			],
 			"outputs": [
 				{
 					"sid": 274662634962063,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: …You! ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 701955217145766,
+					"cnSID": 493491017707171,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -48,8 +58,12 @@
 		},
 		{
 			"sid": 493491017707171,
-			"pnSIDs": [],
-			"poSIDs": [],
+			"pnSIDs": [
+				453815401160835
+			],
+			"poSIDs": [
+				701955217145766
+			],
 			"nodeSIDs": [
 				369009522887090
 			],
@@ -1133,11 +1147,11 @@
 			"sid": 667037319736913,
 			"pnSIDs": [
 				821024142840727,
-				386540610956451
+				269726434728470
 			],
 			"poSIDs": [
 				623779204938513,
-				390717245623927
+				622604689518692
 			],
 			"nodeSIDs": [
 				698856816075688
@@ -1316,13 +1330,23 @@
 			"poSIDs": [
 				566775519886710
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				537981107691608
+			],
 			"outputs": [
 				{
 					"sid": 197482689711965,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: Starting wars solely because of racial differences, or something.",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 252184588687314,
+					"cnSID": 537981107691608,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -1343,16 +1367,49 @@
 					"default": false
 				},
 				{
-					"sid": 446902411711425,
+					"sid": 260522013788186,
 					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
+					"name": "set_path",
+					"value": "date2",
 					"enable": true,
 					"default": false
 				}
 			],
 			"x": 9595.5,
 			"y": 16358.5,
+			"w": 839,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 537981107691608,
+			"pnSIDs": [
+				333090490487050
+			],
+			"poSIDs": [
+				252184588687314
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 618785493400283,
+					"cnSID": null,
+					"name": "goto",
+					"value": "Main",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 10507.5,
+			"y": 16377.5,
 			"w": 839,
 			"h": 333,
 			"t": "",
@@ -2259,7 +2316,7 @@
 				388171208490435
 			],
 			"nodeSIDs": [
-				667037319736913
+				269726434728470
 			],
 			"outputs": [
 				{
@@ -2272,7 +2329,7 @@
 				},
 				{
 					"sid": 390717245623927,
-					"cnSID": 667037319736913,
+					"cnSID": 269726434728470,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -2311,9 +2368,15 @@
 		},
 		{
 			"sid": 269726434728470,
-			"pnSIDs": [],
-			"poSIDs": [],
-			"nodeSIDs": [],
+			"pnSIDs": [
+				386540610956451
+			],
+			"poSIDs": [
+				390717245623927
+			],
+			"nodeSIDs": [
+				667037319736913
+			],
 			"outputs": [
 				{
 					"sid": 981490436289807,
@@ -2325,7 +2388,7 @@
 				},
 				{
 					"sid": 622604689518692,
-					"cnSID": null,
+					"cnSID": 667037319736913,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,

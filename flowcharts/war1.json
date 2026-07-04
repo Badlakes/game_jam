@@ -5,13 +5,23 @@
 			"sid": 365362491655811,
 			"pnSIDs": [],
 			"poSIDs": [],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				497978898210262
+			],
 			"outputs": [
 				{
 					"sid": 861338906357189,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: You did come back afterall. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 388211939767955,
+					"cnSID": 497978898210262,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -48,8 +58,12 @@
 		},
 		{
 			"sid": 497978898210262,
-			"pnSIDs": [],
-			"poSIDs": [],
+			"pnSIDs": [
+				365362491655811
+			],
+			"poSIDs": [
+				388211939767955
+			],
 			"nodeSIDs": [
 				286148004537507
 			],
@@ -903,13 +917,23 @@
 			"poSIDs": [
 				297560000438769
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				174632023253490
+			],
 			"outputs": [
 				{
 					"sid": 894341006784930,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: Good luck, champ. You’ll need it. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 702243095528256,
+					"cnSID": 174632023253490,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -930,16 +954,49 @@
 					"default": false
 				},
 				{
-					"sid": 645526111174851,
+					"sid": 604831728439295,
 					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
+					"name": "set_path",
+					"value": "war2",
 					"enable": true,
 					"default": false
 				}
 			],
 			"x": 11416.5,
 			"y": 9048.5,
+			"w": 839,
+			"h": 333,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 174632023253490,
+			"pnSIDs": [
+				418707785575418
+			],
+			"poSIDs": [
+				702243095528256
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 372903166833666,
+					"cnSID": null,
+					"name": "goto",
+					"value": "Main",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 12308.5,
+			"y": 9054.5,
 			"w": 839,
 			"h": 333,
 			"t": "",

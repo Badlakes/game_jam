@@ -6,20 +6,20 @@
 			"pnSIDs": [],
 			"poSIDs": [],
 			"nodeSIDs": [
-				954405673163364
+				653092430064147
 			],
 			"outputs": [
 				{
 					"sid": 435244319516459,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "Once upon a time, in a land far far away…  There was a tiny village on top of a mountain,  its citizens all loved and cherished their homeland and lived in a perfect state of harmony.  Until, the big bad evil Demon Boss decided to appear! ",
+					"value": "Once upon a time, in a land far far away… ",
 					"enable": true,
 					"default": false
 				},
 				{
 					"sid": 680650571179211,
-					"cnSID": 954405673163364,
+					"cnSID": 653092430064147,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -40,12 +40,20 @@
 					"value": "0",
 					"enable": true,
 					"default": false
+				},
+				{
+					"sid": 407869068238596,
+					"cnSID": null,
+					"name": "sprite_background",
+					"value": "1",
+					"enable": true,
+					"default": false
 				}
 			],
-			"x": 5930,
-			"y": 6247,
+			"x": 5908,
+			"y": 5547,
 			"w": 1872,
-			"h": 232,
+			"h": 265,
 			"t": "",
 			"s": true,
 			"e": true,
@@ -57,12 +65,146 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 954405673163364,
+			"sid": 653092430064147,
 			"pnSIDs": [
 				144300380714313
 			],
 			"poSIDs": [
 				680650571179211
+			],
+			"nodeSIDs": [
+				104535713806150
+			],
+			"outputs": [
+				{
+					"sid": 377146854505238,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": " There was a tiny village on top of a mountain,  its citizens all loved and cherished their homeland and lived in a perfect state of harmony.  ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 793584754545420,
+					"cnSID": 104535713806150,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 897654354989482,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 687603209984789,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 769254628311699,
+					"cnSID": null,
+					"name": "sprite_background",
+					"value": "1",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5914,
+			"y": 5844.5,
+			"w": 1872,
+			"h": 265,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 104535713806150,
+			"pnSIDs": [
+				653092430064147
+			],
+			"poSIDs": [
+				793584754545420
+			],
+			"nodeSIDs": [
+				954405673163364
+			],
+			"outputs": [
+				{
+					"sid": 957526966733207,
+					"cnSID": null,
+					"name": "dialogue",
+					"value": "Until, the big bad evil Demon Boss decided to appear! ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 457907847644074,
+					"cnSID": 954405673163364,
+					"name": "next",
+					"value": "next_dialogue",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 716080173653146,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "1",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 178830289740632,
+					"cnSID": null,
+					"name": "sprite_hero",
+					"value": "0",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 458309422350499,
+					"cnSID": null,
+					"name": "sprite_background",
+					"value": "0",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5913,
+			"y": 6149,
+			"w": 1872,
+			"h": 265,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 954405673163364,
+			"pnSIDs": [
+				104535713806150
+			],
+			"poSIDs": [
+				457907847644074
 			],
 			"nodeSIDs": [
 				216733794463011
@@ -88,7 +230,7 @@
 					"sid": 991934938854787,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -101,8 +243,8 @@
 					"default": false
 				}
 			],
-			"x": 5928,
-			"y": 6479,
+			"x": 5917,
+			"y": 6446,
 			"w": 1872,
 			"h": 232,
 			"t": "",
@@ -147,7 +289,7 @@
 					"sid": 609443694473992,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -155,7 +297,7 @@
 					"sid": 447905279460543,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -206,7 +348,7 @@
 					"sid": 796755164953647,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -214,7 +356,7 @@
 					"sid": 953105672997070,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -265,7 +407,7 @@
 					"sid": 961675074943060,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -273,7 +415,7 @@
 					"sid": 321324201424745,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -324,7 +466,7 @@
 					"sid": 562003985957089,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -332,7 +474,7 @@
 					"sid": 106691759694784,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -534,7 +676,7 @@
 					"sid": 479658018528034,
 					"cnSID": null,
 					"name": "set_path",
-					"value": "war",
+					"value": "war1",
 					"enable": true,
 					"default": false
 				}
@@ -679,13 +821,23 @@
 			"poSIDs": [
 				949522722047719
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				726209440112074
+			],
 			"outputs": [
 				{
 					"sid": 749102794314148,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: I’ll be waiting, not expectantly, but waiting nonetheless. ",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 246609228756559,
+					"cnSID": 726209440112074,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -704,20 +856,47 @@
 					"value": "0",
 					"enable": true,
 					"default": false
-				},
-				{
-					"sid": 753026955074379,
-					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
-					"enable": true,
-					"default": false
 				}
 			],
 			"x": 4772,
 			"y": 9111,
 			"w": 1872,
 			"h": 232,
+			"t": "",
+			"s": false,
+			"e": true,
+			"pi": 0,
+			"c": "Flowchart node",
+			"ty": "dictionary",
+			"pr": false,
+			"prfsid": null,
+			"prfnsid": null
+		},
+		{
+			"sid": 726209440112074,
+			"pnSIDs": [
+				933032406752217,
+				736980955384449
+			],
+			"poSIDs": [
+				540391581784443,
+				246609228756559
+			],
+			"nodeSIDs": [],
+			"outputs": [
+				{
+					"sid": 177035286144447,
+					"cnSID": null,
+					"name": "goto",
+					"value": "Main",
+					"enable": true,
+					"default": false
+				}
+			],
+			"x": 5759,
+			"y": 10752.5,
+			"w": 1872,
+			"h": 265,
 			"t": "",
 			"s": false,
 			"e": true,
@@ -776,7 +955,7 @@
 					"sid": 804735646230945,
 					"cnSID": null,
 					"name": "set_path",
-					"value": "date",
+					"value": "date1",
 					"enable": true,
 					"default": false
 				}
@@ -1216,13 +1395,23 @@
 			"poSIDs": [
 				546149551891254
 			],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				726209440112074
+			],
 			"outputs": [
 				{
 					"sid": 684185949779366,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: Just... Just get this preposterous idea out of your head and get away from here at this very moment!",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 540391581784443,
+					"cnSID": 726209440112074,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -1239,14 +1428,6 @@
 					"cnSID": null,
 					"name": "sprite_hero",
 					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 575373962457313,
-					"cnSID": null,
-					"name": "goto",
-					"value": "return_to_main_city",
 					"enable": true,
 					"default": false
 				}

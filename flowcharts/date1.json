@@ -29,7 +29,7 @@
 					"sid": 445150007336052,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -37,7 +37,7 @@
 					"sid": 990746363863026,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -88,7 +88,7 @@
 					"sid": 411853577321626,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -96,7 +96,7 @@
 					"sid": 693850783355421,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -147,7 +147,7 @@
 					"sid": 788108969594140,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -155,7 +155,7 @@
 					"sid": 752112347861117,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -206,7 +206,7 @@
 					"sid": 164678419938739,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -214,7 +214,7 @@
 					"sid": 119023569320349,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -265,7 +265,7 @@
 					"sid": 496989009500865,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -273,7 +273,7 @@
 					"sid": 826440776722238,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -349,7 +349,7 @@
 					"sid": 871632856834415,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -357,7 +357,7 @@
 					"sid": 175502725225256,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -408,7 +408,7 @@
 					"sid": 584942776470443,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -416,7 +416,7 @@
 					"sid": 684259482595143,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -467,7 +467,7 @@
 					"sid": 241653040332206,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -475,7 +475,7 @@
 					"sid": 384604000949337,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -526,7 +526,7 @@
 					"sid": 978575828933717,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -534,7 +534,7 @@
 					"sid": 788337337992894,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -585,7 +585,7 @@
 					"sid": 419934629504211,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -593,7 +593,7 @@
 					"sid": 439332493723462,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -644,7 +644,7 @@
 					"sid": 900424183300957,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -652,7 +652,7 @@
 					"sid": 720283774347625,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -703,7 +703,7 @@
 					"sid": 419146021359846,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -711,7 +711,7 @@
 					"sid": 333930512425017,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "6",
 					"enable": true,
 					"default": false
 				}
@@ -762,7 +762,7 @@
 					"sid": 453840908061815,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -770,7 +770,7 @@
 					"sid": 754434273055384,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -821,7 +821,7 @@
 					"sid": 781938822349425,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -829,7 +829,7 @@
 					"sid": 145147768960111,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -880,7 +880,7 @@
 					"sid": 586850327386884,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -888,7 +888,7 @@
 					"sid": 974489652917153,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				}
@@ -939,7 +939,7 @@
 					"sid": 139861839963231,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -947,7 +947,7 @@
 					"sid": 718616772881943,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				}
@@ -998,7 +998,7 @@
 					"sid": 728434693716758,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1006,7 +1006,7 @@
 					"sid": 784680762687948,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1034,7 +1034,7 @@
 				124396018981529
 			],
 			"nodeSIDs": [
-				821024142840727
+				331299582449628
 			],
 			"outputs": [
 				{
@@ -1047,7 +1047,7 @@
 				},
 				{
 					"sid": 916844472637568,
-					"cnSID": 821024142840727,
+					"cnSID": 331299582449628,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -1057,7 +1057,7 @@
 					"sid": 167284251235232,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -1065,7 +1065,7 @@
 					"sid": 870366433985933,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1085,7 +1085,7 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 821024142840727,
+			"sid": 331299582449628,
 			"pnSIDs": [
 				323491429787594
 			],
@@ -1097,15 +1097,15 @@
 			],
 			"outputs": [
 				{
-					"sid": 748559224251028,
+					"sid": 296393629858954,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: That was merely a sample of the list of things I hate.",
+					"value": "HERO: But you just said-",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 623779204938513,
+					"sid": 951671884224765,
 					"cnSID": 667037319736913,
 					"name": "next",
 					"value": "next_dialogue",
@@ -1113,24 +1113,24 @@
 					"default": false
 				},
 				{
-					"sid": 504586851435463,
+					"sid": 453713194445821,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 219282404398219,
+					"sid": 440156303506335,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 8676.5,
-			"y": 14670.5,
+			"x": 8533.5,
+			"y": 14718.5,
 			"w": 943,
 			"h": 333,
 			"t": "",
@@ -1146,12 +1146,12 @@
 		{
 			"sid": 667037319736913,
 			"pnSIDs": [
-				821024142840727,
-				269726434728470
+				269726434728470,
+				331299582449628
 			],
 			"poSIDs": [
-				623779204938513,
-				622604689518692
+				622604689518692,
+				951671884224765
 			],
 			"nodeSIDs": [
 				698856816075688
@@ -1177,7 +1177,7 @@
 					"sid": 464922469607597,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -1185,7 +1185,7 @@
 					"sid": 923839541225757,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -1220,7 +1220,7 @@
 					"sid": 311838625696291,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: You wasted my time enough for today",
+					"value": "BOSS: You wasted my time enough for today go out to your little village to do whatever you humans like to do",
 					"enable": true,
 					"default": false
 				},
@@ -1236,7 +1236,7 @@
 					"sid": 346773545489089,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1244,7 +1244,7 @@
 					"sid": 196499874233492,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1279,7 +1279,7 @@
 					"sid": 244831849340583,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: Picking up flowers, tea parties… ",
+					"value": "BOSS: Such as… Picking up flowers, tea parties… ",
 					"enable": true,
 					"default": false
 				},
@@ -1295,7 +1295,7 @@
 					"sid": 286278477957117,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1303,7 +1303,7 @@
 					"sid": 229498306115676,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1354,7 +1354,7 @@
 					"sid": 778318365577774,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
@@ -1362,7 +1362,7 @@
 					"sid": 234324628930282,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -1438,7 +1438,7 @@
 					"sid": 714107384975435,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: For a, so called ‘date’, to happen",
+					"value": "BOSS: For a, so called ‘date’, to happen.",
 					"enable": true,
 					"default": false
 				},
@@ -1454,7 +1454,7 @@
 					"sid": 102826194182997,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1462,7 +1462,7 @@
 					"sid": 921387325458722,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -1513,7 +1513,7 @@
 					"sid": 950179288938220,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1521,7 +1521,7 @@
 					"sid": 929836250895304,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1572,7 +1572,7 @@
 					"sid": 480932785043800,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -1580,7 +1580,7 @@
 					"sid": 375702766619785,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1631,7 +1631,7 @@
 					"sid": 464251956000011,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -1639,7 +1639,7 @@
 					"sid": 976789353677900,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -1690,7 +1690,7 @@
 					"sid": 329681650376670,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -1698,7 +1698,7 @@
 					"sid": 252472757160078,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "5",
 					"enable": true,
 					"default": false
 				}
@@ -1733,7 +1733,7 @@
 					"sid": 616874916514584,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: And they have to accept. ",
+					"value": "BOSS: You have to let them know beforehand. And they have to accept. ",
 					"enable": true,
 					"default": false
 				},
@@ -1749,7 +1749,7 @@
 					"sid": 628812736506236,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1757,7 +1757,7 @@
 					"sid": 628418963015318,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1792,7 +1792,7 @@
 					"sid": 762921859843803,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: It’s not that difficult to understand",
+					"value": "BOSS: It’s not that difficult to understand.",
 					"enable": true,
 					"default": false
 				},
@@ -1808,7 +1808,7 @@
 					"sid": 212988718245128,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1816,7 +1816,7 @@
 					"sid": 644079922972234,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1867,7 +1867,7 @@
 					"sid": 929778364567700,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1875,7 +1875,7 @@
 					"sid": 322045382124684,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1910,7 +1910,7 @@
 					"sid": 671849745568601,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "HERO: You must be a dating expert",
+					"value": "HERO: You must be a dating expert.",
 					"enable": true,
 					"default": false
 				},
@@ -1926,7 +1926,7 @@
 					"sid": 877823932988933,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1934,7 +1934,7 @@
 					"sid": 654426249554492,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -1985,7 +1985,7 @@
 					"sid": 971938654963360,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				},
@@ -1993,7 +1993,7 @@
 					"sid": 739800266884776,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -2044,7 +2044,7 @@
 					"sid": 139733268863231,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -2052,7 +2052,7 @@
 					"sid": 662540899126681,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -2103,7 +2103,7 @@
 					"sid": 219147170375283,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -2111,7 +2111,7 @@
 					"sid": 256505320002516,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -2146,7 +2146,7 @@
 					"sid": 399417706615854,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: I went on many hundreds of dates myself",
+					"value": "BOSS: I went on many hundreds of dates myself.",
 					"enable": true,
 					"default": false
 				},
@@ -2162,7 +2162,7 @@
 					"sid": 688761944472237,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -2170,7 +2170,7 @@
 					"sid": 294596738779777,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -2221,7 +2221,7 @@
 					"sid": 885948504429441,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -2229,7 +2229,7 @@
 					"sid": 293808572270873,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -2280,7 +2280,7 @@
 					"sid": 957460296015160,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -2288,7 +2288,7 @@
 					"sid": 999909199925739,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2339,7 +2339,7 @@
 					"sid": 141476386572494,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -2347,7 +2347,7 @@
 					"sid": 760822346801609,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2398,7 +2398,7 @@
 					"sid": 938506037071259,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -2406,7 +2406,7 @@
 					"sid": 269596531600013,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}

@@ -740,7 +740,7 @@
 					"default": false
 				}
 			],
-			"x": 4779,
+			"x": 4789,
 			"y": 8642,
 			"w": 1872,
 			"h": 232,
@@ -770,7 +770,7 @@
 					"sid": 354765624514471,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: you better try harder than that next time, hero. ",
+					"value": "BOSS: You better try harder than that next time, hero. ",
 					"enable": true,
 					"default": false
 				},

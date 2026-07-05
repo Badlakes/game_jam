@@ -5,13 +5,23 @@
 			"sid": 293606460605424,
 			"pnSIDs": [],
 			"poSIDs": [],
-			"nodeSIDs": [],
+			"nodeSIDs": [
+				229551504092410
+			],
 			"outputs": [
 				{
 					"sid": 756723474981398,
 					"cnSID": null,
 					"name": "dialogue",
 					"value": "BOSS: Hero, are you aware that it is very impolite to be late?",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 788999876705710,
+					"cnSID": 229551504092410,
+					"name": "next",
+					"value": "next_dialogue",
 					"enable": true,
 					"default": false
 				},
@@ -48,8 +58,12 @@
 		},
 		{
 			"sid": 229551504092410,
-			"pnSIDs": [],
-			"poSIDs": [],
+			"pnSIDs": [
+				293606460605424
+			],
+			"poSIDs": [
+				788999876705710
+			],
 			"nodeSIDs": [
 				187809603295699
 			],

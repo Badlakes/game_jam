@@ -5,7 +5,7 @@
 			"eventType": "variable",
 			"name": "TotalTime2",
 			"type": "number",
-			"initialValue": "10",
+			"initialValue": "15",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -67,9 +67,9 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 851830046567177,
+					"sid": 699219123947439,
 					"parameters": {
-						"variable": "TotalTime",
+						"variable": "TotalTime2",
 						"value": "int(ClockMG2.Text)"
 					}
 				},

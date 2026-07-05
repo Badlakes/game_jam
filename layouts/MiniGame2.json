@@ -210,7 +210,7 @@
 				{
 					"type": "ClockMG2",
 					"properties": {
-						"text": "10",
+						"text": "15",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 50,
@@ -242,8 +242,8 @@
 					"world": {
 						"x": 98,
 						"y": 62,
-						"width": 173,
-						"height": 129,
+						"width": 129,
+						"height": 75,
 						"originX": 0,
 						"originY": 0,
 						"color": [

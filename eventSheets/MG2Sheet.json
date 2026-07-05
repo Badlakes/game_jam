@@ -214,12 +214,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"callFunction": "ReorderArray",
-							"sid": 720514441070937
-						}
-					],
+					"actions": [],
 					"sid": 994518789300060
 				},
 				{

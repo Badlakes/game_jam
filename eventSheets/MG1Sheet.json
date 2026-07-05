@@ -102,148 +102,6 @@
 			"sid": 772144958131260
 		},
 		{
-			"functionName": "LoadNextWord",
-			"functionDescription": "",
-			"functionCategory": "",
-			"functionReturnType": "none",
-			"functionCopyPicked": false,
-			"functionIsAsync": false,
-			"functionParameters": [],
-			"eventType": "function-block",
-			"conditions": [],
-			"actions": [
-				{
-					"id": "set-instvar-value",
-					"objectClass": "Enemy",
-					"sid": 190096071679285,
-					"parameters": {
-						"instance-variable": "values",
-						"value": "uppercase(WordsAndStuff.At(PlayerTextBox.CurrentWord,0,0))"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "EnemyText",
-					"sid": 276040256523357,
-					"parameters": {
-						"text": "uppercase(Enemy.values)"
-					}
-				}
-			],
-			"sid": 932432033800908
-		},
-		{
-			"functionName": "ReorderArray",
-			"functionDescription": "",
-			"functionCategory": "",
-			"functionReturnType": "none",
-			"functionCopyPicked": false,
-			"functionIsAsync": false,
-			"functionParameters": [],
-			"eventType": "function-block",
-			"conditions": [],
-			"actions": [
-				{
-					"id": "shuffle",
-					"objectClass": "WordsAndStuff",
-					"sid": 390086369202727,
-					"parameters": {
-						"axis": "x"
-					}
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "PlayerTextBox",
-					"sid": 691271631903550,
-					"parameters": {
-						"instance-variable": "CurrentWord",
-						"value": "0"
-					}
-				},
-				{
-					"callFunction": "LoadNextWord",
-					"sid": 943698268873572
-				}
-			],
-			"sid": 801909777046786
-		},
-		{
-			"functionName": "EndMiniGameText",
-			"functionDescription": "",
-			"functionCategory": "",
-			"functionReturnType": "none",
-			"functionCopyPicked": false,
-			"functionIsAsync": false,
-			"functionParameters": [],
-			"eventType": "function-block",
-			"conditions": [],
-			"actions": [
-				{
-					"id": "set-unfocused",
-					"objectClass": "PlayerTextBox",
-					"sid": 712341007188147
-				},
-				{
-					"id": "set-text",
-					"objectClass": "Clock",
-					"sid": 289904529662329,
-					"parameters": {
-						"text": "\"\""
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 242868446291831,
-					"parameters": {
-						"variable": "PoetryPoints",
-						"value": "PoetryPoints+PlayerTextBox.NumberPoints"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "PlayerTextBox",
-					"sid": 238159011486202
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Enemy",
-					"sid": 720502404207757
-				},
-				{
-					"id": "destroy",
-					"objectClass": "EnemyText",
-					"sid": 106549407838182
-				},
-				{
-					"id": "set-position",
-					"objectClass": "TelaFimMG1",
-					"sid": 684672881287512,
-					"parameters": {
-						"x": "ScreenWidth/2",
-						"y": "ScreenHeight/2"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "TextFimMG1",
-					"sid": 207225603131760,
-					"parameters": {
-						"text": "\"Total Poetry Points: \" & str(PlayerTextBox.NumberPoints)"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 131669563619582,
-					"parameters": {
-						"layout": "Main"
-					}
-				}
-			],
-			"sid": 707801559742019
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -349,8 +207,38 @@
 					],
 					"actions": [
 						{
-							"callFunction": "ReorderArray",
-							"sid": 336886600452882
+							"id": "shuffle",
+							"objectClass": "WordsAndStuff",
+							"sid": 316069958011702,
+							"parameters": {
+								"axis": "x"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "PlayerTextBox",
+							"sid": 818407157143763,
+							"parameters": {
+								"instance-variable": "CurrentWord",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 208782297316578,
+							"parameters": {
+								"instance-variable": "values",
+								"value": "uppercase(WordsAndStuff.At(PlayerTextBox.CurrentWord,0,0))"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "EnemyText",
+							"sid": 857857050228183,
+							"parameters": {
+								"text": "uppercase(Enemy.values)"
+							}
 						}
 					],
 					"sid": 247754068443239
@@ -371,8 +259,66 @@
 					],
 					"actions": [
 						{
-							"callFunction": "EndMiniGameText",
-							"sid": 842322738249158
+							"id": "set-unfocused",
+							"objectClass": "PlayerTextBox",
+							"sid": 690524682008208
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Clock",
+							"sid": 685168394928184,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 330164391825026,
+							"parameters": {
+								"variable": "PoetryPoints",
+								"value": "PoetryPoints+PlayerTextBox.NumberPoints"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "PlayerTextBox",
+							"sid": 579258739562507
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 490329764908928
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyText",
+							"sid": 580125229007655
+						},
+						{
+							"id": "set-position",
+							"objectClass": "TelaFimMG1",
+							"sid": 832014898340902,
+							"parameters": {
+								"x": "ScreenWidth/2",
+								"y": "ScreenHeight/2"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextFimMG1",
+							"sid": 852799960458968,
+							"parameters": {
+								"text": "\"Total Poetry Points: \" & str(PlayerTextBox.NumberPoints)"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 348059694807610,
+							"parameters": {
+								"layout": "Main"
+							}
 						}
 					],
 					"sid": 651651662444858
@@ -484,8 +430,38 @@
 					}
 				},
 				{
-					"callFunction": "ReorderArray",
-					"sid": 776206816710578
+					"id": "shuffle",
+					"objectClass": "WordsAndStuff",
+					"sid": 166067293128309,
+					"parameters": {
+						"axis": "x"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "PlayerTextBox",
+					"sid": 324912974817998,
+					"parameters": {
+						"instance-variable": "CurrentWord",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Enemy",
+					"sid": 140151110556725,
+					"parameters": {
+						"instance-variable": "values",
+						"value": "uppercase(WordsAndStuff.At(PlayerTextBox.CurrentWord,0,0))"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "EnemyText",
+					"sid": 406390073474019,
+					"parameters": {
+						"text": "uppercase(Enemy.values)"
+					}
 				},
 				{
 					"id": "set-eventvar-value",
@@ -564,8 +540,21 @@
 							}
 						},
 						{
-							"callFunction": "LoadNextWord",
-							"sid": 220088278671948
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 536795293365385,
+							"parameters": {
+								"instance-variable": "values",
+								"value": "uppercase(WordsAndStuff.At(PlayerTextBox.CurrentWord,0,0))"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "EnemyText",
+							"sid": 511428061945234,
+							"parameters": {
+								"text": "uppercase(Enemy.values)"
+							}
 						},
 						{
 							"id": "set-text",

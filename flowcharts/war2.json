@@ -1638,6 +1638,14 @@
 			],
 			"outputs": [
 				{
+					"sid": 933171346419946,
+					"cnSID": null,
+					"name": "fight",
+					"value": "15",
+					"enable": true,
+					"default": false
+				},
+				{
 					"sid": 789590652512606,
 					"cnSID": null,
 					"name": "dialogue",

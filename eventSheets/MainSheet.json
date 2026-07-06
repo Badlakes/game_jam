@@ -70,9 +70,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "LogStatus",
-					"sid": 832151346488876,
+					"sid": 470724763978948,
 					"parameters": {
-						"text": "\"Total Strenght: \" & str(StrenghtPoints)&newline&\"Total Poetry: \" & str(PoetryPoints)"
+						"text": "lowercase(trim(RunFlow)) =\"date1\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date2\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date3\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"war1\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war2\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war3\"  ? \"Total Strenght: \" &str(StrenghtPoints): \"0\"\n"
 					}
 				},
 				{
@@ -130,41 +130,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-animation-playing",
-					"objectClass": "FadeToBlack",
-					"sid": 356519418809797,
-					"parameters": {
-						"animation": "\"fade_in\""
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-ignoring-input",
-					"objectClass": "MainHero",
-					"sid": 400099006921700,
-					"behaviorType": "8Direction",
-					"parameters": {
-						"input": "start-ignoring"
-					}
-				},
-				{
-					"id": "set-ignoring-input",
-					"objectClass": "MainHero",
-					"sid": 542803547428599,
-					"behaviorType": "8Direction",
-					"parameters": {
-						"input": "stop-ignoring"
-					}
-				}
-			],
-			"sid": 323614283471162,
-			"isOrBlock": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 791056951640003,
@@ -188,14 +153,6 @@
 					"sid": 758833109413415,
 					"parameters": {
 						"tag": "\"\""
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "DebugMain",
-					"sid": 977875922770411,
-					"parameters": {
-						"text": "\"Collision With Poetry\""
 					}
 				},
 				{
@@ -258,6 +215,16 @@
 					"parameters": {
 						"object": "EvilCastle"
 					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 228833422040217,
+					"parameters": {
+						"first-value": "lowercase(trim(RunFlow)) =\"date1\" ? PoetryPoints :\r\nlowercase(trim(RunFlow)) =\"date2\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"date3\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"war1\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war2\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war3\"  ? StrenghtPoints : 0\n",
+						"comparison": 5,
+						"second-value": "lowercase(trim(RunFlow)) =\"date1\" ?  10 : \r\nlowercase(trim(RunFlow)) =\"date2\" ?  20 : \r\nlowercase(trim(RunFlow)) =\"date3\" ?  30 : \r\nlowercase(trim(RunFlow)) =\"war1\"  ?   40 : \r\nlowercase(trim(RunFlow)) =\"war2\"  ?   80 : \r\nlowercase(trim(RunFlow)) =\"war3\"  ? 120 : 0"
+					}
 				}
 			],
 			"actions": [
@@ -281,14 +248,6 @@
 						"volume": "-7",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "DebugMain",
-					"sid": 694987136149903,
-					"parameters": {
-						"text": "\"Collision With Castle\""
 					}
 				},
 				{
@@ -360,14 +319,6 @@
 						"volume": "-7",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "DebugMain",
-					"sid": 632391543843729,
-					"parameters": {
-						"text": "\"Collision With Dummy\""
 					}
 				},
 				{
@@ -677,7 +628,25 @@
 					"sid": 133366461422092
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 270600906460748,
+					"parameters": {
+						"variable": "MainCharDistance",
+						"value": "MainHero.Y-200"
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "MainHero",
+					"sid": 465499084555517,
+					"parameters": {
+						"scale": "MainCharDistance/MainFovNumber"
+					}
+				}
+			],
 			"sid": 916660719075610,
 			"children": [
 				{
@@ -710,52 +679,100 @@
 						{
 							"id": "else",
 							"objectClass": "System",
-							"sid": 534681101199937
+							"sid": 446335089825946
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "MainHero",
+							"sid": 806298433672579,
+							"parameters": {
+								"object": "HitBoxCastelo"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 895430157947173,
+							"parameters": {
+								"first-value": "lowercase(trim(RunFlow)) =\"date1\" ? PoetryPoints :\r\nlowercase(trim(RunFlow)) =\"date2\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"date3\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"war1\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war2\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war3\"  ? StrenghtPoints : 0\n",
+								"comparison": 2,
+								"second-value": "lowercase(trim(RunFlow)) =\"date1\" ?  10 : \nlowercase(trim(RunFlow)) =\"date2\" ?  20 : \nlowercase(trim(RunFlow)) =\"date3\" ?  30 : \nlowercase(trim(RunFlow)) =\"war1\"  ?   40 : \nlowercase(trim(RunFlow)) =\"war2\"  ?   80 : \nlowercase(trim(RunFlow)) =\"war3\"  ? 120 : 0\n"
+							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-text",
 							"objectClass": "DebugMain",
-							"sid": 320315771900035,
+							"sid": 407722289881994,
+							"parameters": {
+								"text": "\"Needs \" &\nstr(\n    lowercase(trim(RunFlow)) =\"date1\" ? 10-PoetryPoints :\n    lowercase(trim(RunFlow)) =\"date2\" ? 20-PoetryPoints :\n    lowercase(trim(RunFlow)) =\"date3\" ? 30-PoetryPoints :\n    lowercase(trim(RunFlow)) =\"war1\"  ? 40-StrenghtPoints :\n    lowercase(trim(RunFlow)) =\"war2\"  ? 80-StrenghtPoints :\n    lowercase(trim(RunFlow)) =\"war3\"  ? 120-StrenghtPoints : 0\n)\n&newline& \"more to enter\""
+							}
+						}
+					],
+					"sid": 526137272748200
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 534681101199937
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "MainHero",
+							"sid": 982697699989104,
+							"parameters": {
+								"object": "HitBoxCastelo"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 825460510169351,
+							"parameters": {
+								"first-value": "lowercase(trim(RunFlow)) =\"date1\" ? PoetryPoints :\r\nlowercase(trim(RunFlow)) =\"date2\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"date3\" ? PoetryPoints  :\r\nlowercase(trim(RunFlow)) =\"war1\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war2\"  ? StrenghtPoints :\r\nlowercase(trim(RunFlow)) =\"war3\"  ? StrenghtPoints : 0\n",
+								"comparison": 5,
+								"second-value": "lowercase(trim(RunFlow)) =\"date1\" ?  10 : \r\nlowercase(trim(RunFlow)) =\"date2\" ?  20 : \r\nlowercase(trim(RunFlow)) =\"date3\" ?  30 : \r\nlowercase(trim(RunFlow)) =\"war1\"  ?   40 : \r\nlowercase(trim(RunFlow)) =\"war2\"  ?   80 : \r\nlowercase(trim(RunFlow)) =\"war3\"  ? 120 : 0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 381317309461780,
+							"parameters": {
+								"text": "\"Press 'E' to enter\""
+							}
+						}
+					],
+					"sid": 132514788950524
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 645334014756245
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 861474137246601,
 							"parameters": {
 								"text": "\"\""
 							}
 						}
 					],
-					"sid": 132514788950524
+					"sid": 477039885346337
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 864761862832004
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 443600188805777,
-					"parameters": {
-						"variable": "MainCharDistance",
-						"value": "MainHero.Y-200"
-					}
-				},
-				{
-					"id": "set-scale",
-					"objectClass": "MainHero",
-					"sid": 478209653202386,
-					"parameters": {
-						"scale": "MainCharDistance/MainFovNumber"
-					}
-				}
-			],
-			"sid": 809687261297405
 		}
 	],
 	"sid": 947134209355610

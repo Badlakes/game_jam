@@ -1,7 +1,7 @@
 {
-	"name": "TelaFimMG1",
+	"name": "healthBar1",
 	"plugin-id": "Sprite",
-	"sid": 189751870419541,
+	"sid": 222280186962494,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,21 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 1382,
-						"height": 910,
-						"originX": 0.5014471780028944,
-						"originY": 0.5263736263736264,
+						"width": 500,
+						"height": 58,
+						"originX": 0.6574074074074074,
+						"originY": 0.45689655172413796,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 8430594,
+						"imageSpriteId": 5260545,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 340935152006716,
+				"sid": 525307561378375,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

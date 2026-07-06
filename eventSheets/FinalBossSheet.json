@@ -9,7 +9,7 @@
 			"eventType": "variable",
 			"name": "RunFlow",
 			"type": "string",
-			"initialValue": "date2",
+			"initialValue": "war1",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -57,6 +57,16 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "fight_start",
+			"type": "number",
+			"initialValue": "-1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 730569992276090
+		},
+		{
+			"eventType": "variable",
 			"name": "Selection",
 			"type": "number",
 			"initialValue": "0",
@@ -64,6 +74,26 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 562886018808993
+		},
+		{
+			"eventType": "variable",
+			"name": "BossCurHealth",
+			"type": "number",
+			"initialValue": "8000",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 286976960913408
+		},
+		{
+			"eventType": "variable",
+			"name": "BossMaxHealth",
+			"type": "number",
+			"initialValue": "8000",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 385272858252509
 		},
 		{
 			"functionName": "ApplyNode",
@@ -293,6 +323,49 @@
 						}
 					],
 					"sid": 394004266691679
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-output",
+							"objectClass": "Flow",
+							"sid": 916478295871471,
+							"parameters": {
+								"output-index-or-name": "\"fight\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 878873550769072,
+							"parameters": {
+								"variable": "BossMaxHealth",
+								"value": "BossMaxHealth*StrenghtPoints"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 314873734784577,
+							"parameters": {
+								"variable": "BossCurHealth",
+								"value": "BossMaxHealth"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 897128308847425,
+							"parameters": {
+								"variable": "fight_start",
+								"value": "int(Flow.OutputValue(\"fight\"))"
+							}
+						}
+					],
+					"sid": 925638819130706
 				}
 			]
 		},
@@ -341,6 +414,14 @@
 					}
 				},
 				{
+					"id": "set-text",
+					"objectClass": "vidaDebug",
+					"sid": 245181998459618,
+					"parameters": {
+						"text": "BossCurHealth"
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 172384491083559,
@@ -366,10 +447,6 @@
 					}
 				},
 				{
-					"callFunction": "ApplyNode",
-					"sid": 644458806490192
-				},
-				{
 					"id": "set-text",
 					"objectClass": "DialogText",
 					"sid": 861416171082067,
@@ -392,6 +469,10 @@
 					"parameters": {
 						"text": "\"\""
 					}
+				},
+				{
+					"callFunction": "ApplyNode",
+					"sid": 644458806490192
 				}
 			],
 			"sid": 453660219004499
@@ -588,6 +669,16 @@
 					"parameters": {
 						"key": 69
 					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 379783548819496,
+					"parameters": {
+						"first-value": "fight_start",
+						"comparison": 0,
+						"second-value": "-1"
+					}
 				}
 			],
 			"actions": [],
@@ -677,6 +768,388 @@
 					"sid": 670377805756435
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 458364916744781
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 485341269613187,
+					"parameters": {
+						"first-value": "fight_start",
+						"comparison": 1,
+						"second-value": "-1"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 375608860029519,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 948601781089822,
+					"parameters": {
+						"variable": "fight_start",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 422681804766856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 197346545255765,
+					"parameters": {
+						"first-value": "fight_start",
+						"comparison": 4,
+						"second-value": "-1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "SpriteBgClockMg2",
+					"sid": 883798658610376,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Hand",
+					"sid": 500387289675105,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "ClockMG2",
+					"sid": 878071091718923,
+					"parameters": {
+						"text": "fight_start"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "healthBar1",
+					"sid": 844322800830978,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "HealthBar2",
+					"sid": 122226607755032,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option0",
+					"sid": 388214498939091,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Option1",
+					"sid": 218296247836243,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "DialogText",
+					"sid": 917532105218582,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "DialogImage",
+					"sid": 414415462324664,
+					"parameters": {
+						"animation": "\"0\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Dragonborn",
+					"sid": 874242251475848,
+					"parameters": {
+						"animation": "\"1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "DialogBox",
+					"sid": 437890730992667,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "LetraE",
+					"sid": 568895765003121,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 214142312551074
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 423936976384512,
+					"parameters": {
+						"first-value": "fight_start",
+						"comparison": 0,
+						"second-value": "-1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "SpriteBgClockMg2",
+					"sid": 490080339645666,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Hand",
+					"sid": 895555188472512,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "ClockMG2",
+					"sid": 411217613691615,
+					"parameters": {
+						"text": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "healthBar1",
+					"sid": 456946384274487,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "HealthBar2",
+					"sid": 931892419255003,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Hand",
+					"sid": 136296748278777,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "SpriteBgClockMg2",
+					"sid": 924966350412421,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "ClockMG2",
+					"sid": 308004207996959,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "healthBar1",
+					"sid": 999705071158520,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "HealthBar2",
+					"sid": 816448085725781,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "DialogBox",
+					"sid": 504106564481720,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "LetraE",
+					"sid": 475714669377312,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 868287963506131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 371105192534188,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Dragonborn"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 556537960213279,
+					"parameters": {
+						"first-value": "fight_start",
+						"comparison": 4,
+						"second-value": "-1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 988953467935206,
+					"parameters": {
+						"audio-file": {
+							"path": "swordslash "
+						},
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Dragonborn",
+					"sid": 887532343684571,
+					"parameters": {
+						"animation": "\"2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Hand",
+					"sid": 300468920670409,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 683798119403194,
+					"parameters": {
+						"seconds": "0.1",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Dragonborn",
+					"sid": 223188289056593,
+					"parameters": {
+						"animation": "\"1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Hand",
+					"sid": 541323864144140,
+					"parameters": {
+						"animation": "\"Sword1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 492529208289224,
+					"parameters": {
+						"variable": "BossCurHealth",
+						"value": "BossCurHealth-(StrenghtPoints)"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "HealthBar2",
+					"sid": 300118409506040,
+					"parameters": {
+						"width": "HealthBar2.Width-(StrenghtPoints/5)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "vidaDebug",
+					"sid": 333393374594077,
+					"parameters": {
+						"text": "BossCurHealth"
+					}
+				}
+			],
+			"sid": 861131875018304
 		}
 	],
 	"sid": 913111780715880

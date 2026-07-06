@@ -65,6 +65,14 @@
 					}
 				},
 				{
+					"id": "load-stylesheet",
+					"objectClass": "Browser",
+					"sid": 292815292290031,
+					"parameters": {
+						"url": "\"styles.css\""
+					}
+				},
+				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
 					"sid": 699219123947439,
@@ -112,14 +120,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "set-text",
-					"objectClass": "DebugText",
-					"sid": 774287731366067,
-					"parameters": {
-						"text": " \"Points: \" & PlayerTextBox.NumberPoints & newline & \"Misses: \" & PlayerTextBox.NumberMisses"
-					}
-				},
 				{
 					"id": "set-text",
 					"objectClass": "ClockMG2",
@@ -179,9 +179,9 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 313653524709497,
+							"sid": 529336582229840,
 							"parameters": {
-								"first-value": "TotalTime",
+								"first-value": "TotalTime2",
 								"comparison": 1,
 								"second-value": "-1"
 							}
@@ -199,23 +199,6 @@
 						}
 					],
 					"sid": 563706268992724
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 962552341917900,
-							"parameters": {
-								"first-value": "PlayerTextBox.CurrentWord",
-								"comparison": 5,
-								"second-value": "WordsAndStuff.Width"
-							}
-						}
-					],
-					"actions": [],
-					"sid": 994518789300060
 				},
 				{
 					"eventType": "block",
@@ -322,6 +305,15 @@
 					}
 				},
 				{
+					"id": "set-animation",
+					"objectClass": "Hand",
+					"sid": 387565861012448,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				},
+				{
 					"id": "set-instvar-value",
 					"objectClass": "PointCount",
 					"sid": 655756117053878,
@@ -345,6 +337,15 @@
 					"sid": 741056014738155,
 					"parameters": {
 						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Hand",
+					"sid": 226803448119521,
+					"parameters": {
+						"animation": "\"Sword1\"",
 						"from": "beginning"
 					}
 				}

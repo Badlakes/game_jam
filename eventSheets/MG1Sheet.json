@@ -35,7 +35,7 @@
 			"eventType": "variable",
 			"name": "PoetryPoints",
 			"type": "number",
-			"initialValue": "0",
+			"initialValue": "1",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -45,11 +45,21 @@
 			"eventType": "variable",
 			"name": "StrenghtPoints",
 			"type": "number",
-			"initialValue": "0",
+			"initialValue": "1",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 544259377848407
+		},
+		{
+			"eventType": "variable",
+			"name": "Start",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 886434696841253
 		},
 		{
 			"eventType": "variable",
@@ -175,6 +185,16 @@
 								"first-value": "TotalTime",
 								"comparison": 1,
 								"second-value": "-1"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 819373005162435,
+							"parameters": {
+								"first-value": "Start",
+								"comparison": 0,
+								"second-value": "1"
 							}
 						}
 					],
@@ -370,6 +390,14 @@
 					}
 				},
 				{
+					"id": "load-stylesheet",
+					"objectClass": "Browser",
+					"sid": 434810156612323,
+					"parameters": {
+						"url": "\"styles.css\""
+					}
+				},
+				{
 					"id": "pin-to-object-properties",
 					"objectClass": "PlayerTextBox",
 					"sid": 817668794327031,
@@ -397,14 +425,6 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
-					}
-				},
-				{
-					"id": "load-stylesheet",
-					"objectClass": "Browser",
-					"sid": 694358196161651,
-					"parameters": {
-						"url": "\"styles.css\""
 					}
 				},
 				{

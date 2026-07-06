@@ -40,39 +40,6 @@
 					}
 				},
 				{
-					"type": "Sprite6",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 56,
-					"sid": 897447112714950,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": -232,
-						"y": 839,
-						"width": 473,
-						"height": 254,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
 					"type": "PlayerTextBox",
 					"properties": {
 						"text": "",
@@ -279,7 +246,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "SpriteBgClockMg2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -462,12 +429,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 559,
-						"y": -285,
-						"width": 929.8112183237816,
-						"height": 520.0653959617933,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 566.1852387843705,
+						"y": -378,
+						"width": 824.9964148938652,
+						"height": 626.0380413009277,
+						"originX": 0.5014471780028944,
+						"originY": 0.5263736263736264,
 						"color": [
 							1,
 							1,
@@ -481,10 +448,10 @@
 				{
 					"type": "TextFimMG1",
 					"properties": {
-						"text": "Text",
+						"text": "Type the Words in [color=#ff0000]red[/color] of the poem before the time runs out!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 60,
+						"font": "fantasy",
+						"size": 35,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -517,9 +484,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 121,
-						"y": -523,
-						"width": 844,
+						"x": 315,
+						"y": -570,
+						"width": 510,
 						"height": 464,
 						"originX": 0,
 						"originY": 0,
@@ -570,6 +537,41 @@
 						],
 						"z": 0,
 						"angle": 0
+					}
+				},
+				{
+					"type": "ButtonMg1",
+					"properties": {
+						"type": "button",
+						"text": "Confirm",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": "menu_button "
+					},
+					"uid": 61,
+					"sid": 589729442428837,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 491,
+						"y": -232,
+						"width": 336,
+						"height": 66,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

@@ -21,7 +21,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
-					"locked": true,
+					"locked": false,
 					"world": {
 						"x": 607,
 						"y": 339,
@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "SpriteBgClockMg2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -106,7 +106,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "SpriteBgClockMg2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -139,7 +139,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "Hand",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Sword1",
@@ -155,12 +155,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 765,
-						"y": 472,
-						"width": 713.8618410425347,
-						"height": 713.8618410425347,
+						"x": 775,
+						"y": 597,
+						"width": 353.44526700055184,
+						"height": 429.78107910422136,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.5004055150040552,
 						"color": [
 							1,
 							1,
@@ -308,6 +308,39 @@
 					}
 				},
 				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 54,
+					"sid": 957939477371543,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1032,
+						"y": 126,
+						"width": 84.40506530302007,
+						"height": 149.50260273319657,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
 					"type": "TelaFimMG2",
 					"properties": {
 						"initially-visible": true,
@@ -324,12 +357,61 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 451,
-						"y": -295,
-						"width": 880.7740999653645,
-						"height": 359.7740999653644,
+						"x": 590,
+						"y": -475,
+						"width": 883.9192246085349,
+						"height": 648.5777238739265,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Click on the Training Dummy as fast as you can!",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 28,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 62,
+					"sid": 810077450760445,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 343,
+						"y": -659,
+						"width": 528,
+						"height": 275,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -363,8 +445,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -699,
-						"y": -358,
+						"x": -748,
+						"y": -431,
 						"width": 1390,
 						"height": 716,
 						"originX": 0.5,
@@ -380,36 +462,38 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Button",
 					"properties": {
+						"type": "button",
+						"text": "Confirm",
+						"tooltip": "",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": "menu_button "
 					},
-					"uid": 54,
-					"sid": 957939477371543,
+					"uid": 56,
+					"sid": 674325049400119,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1032,
-						"y": 126,
-						"width": 84.40506530302007,
-						"height": 149.50260273319657,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 505,
+						"y": -332,
+						"width": 378,
+						"height": 107,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						],
-						"z": 0,
-						"angle": 0
+						]
 					}
 				}
 			],

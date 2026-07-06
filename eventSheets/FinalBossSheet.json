@@ -259,9 +259,9 @@
 						{
 							"id": "stop",
 							"objectClass": "Audio",
-							"sid": 235649756587187,
+							"sid": 758851451871013,
 							"parameters": {
-								"tag": "\"\""
+								"tag": "\"Boss\""
 							}
 						},
 						{
@@ -291,9 +291,9 @@
 						{
 							"id": "stop",
 							"objectClass": "Audio",
-							"sid": 136011643624285,
+							"sid": 543957561286630,
 							"parameters": {
-								"tag": "\"\""
+								"tag": "\"Boss\""
 							}
 						}
 					],
@@ -424,7 +424,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 172384491083559,
+					"sid": 835362611168212,
 					"parameters": {
 						"audio-file": {
 							"path": "Boss"
@@ -432,7 +432,7 @@
 						"loop": "looping",
 						"volume": "-10",
 						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"Boss\""
 					}
 				},
 				{
@@ -493,9 +493,9 @@
 				{
 					"id": "stop",
 					"objectClass": "Audio",
-					"sid": 413442158997222,
+					"sid": 610206851308926,
 					"parameters": {
-						"tag": "\"\""
+						"tag": "\"Boss\""
 					}
 				},
 				{
@@ -1135,9 +1135,9 @@
 				{
 					"id": "set-width",
 					"objectClass": "HealthBar2",
-					"sid": 300118409506040,
+					"sid": 815449348008959,
 					"parameters": {
-						"width": "HealthBar2.Width-(StrenghtPoints/5)"
+						"width": "HealthBar2.Width-1"
 					}
 				},
 				{

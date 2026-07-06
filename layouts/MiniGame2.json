@@ -351,14 +351,14 @@
 					},
 					"uid": 29,
 					"sid": 981033843831519,
-					"tags": "",
+					"tags": "container_tela",
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 590,
-						"y": -475,
+						"x": 609,
+						"y": -442,
 						"width": 883.9192246085349,
 						"height": 648.5777238739265,
 						"originX": 0.5,
@@ -374,9 +374,9 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "TextFimMG2",
 					"properties": {
-						"text": "Click on the Training Dummy as fast as you can!",
+						"text": "Click on the [u]Training Dummy[/u] as fast as you can!",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 28,
@@ -400,14 +400,20 @@
 					},
 					"uid": 62,
 					"sid": 810077450760445,
-					"tags": "",
+					"tags": "container_tela",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 343,
-						"y": -659,
+						"x": 362,
+						"y": -626,
 						"width": 528,
 						"height": 275,
 						"originX": 0,
@@ -462,28 +468,34 @@
 					}
 				},
 				{
-					"type": "Button",
+					"type": "ButtonFimMG2",
 					"properties": {
 						"type": "button",
 						"text": "Confirm",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": "",
 						"class": "menu_button "
 					},
 					"uid": 56,
 					"sid": 674325049400119,
-					"tags": "",
+					"tags": "container_tela",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 505,
-						"y": -332,
+						"x": 524,
+						"y": -299,
 						"width": 378,
 						"height": 107,
 						"originX": 0,

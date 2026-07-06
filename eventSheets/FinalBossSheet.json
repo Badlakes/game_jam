@@ -9,7 +9,7 @@
 			"eventType": "variable",
 			"name": "RunFlow",
 			"type": "string",
-			"initialValue": "war1",
+			"initialValue": "main",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

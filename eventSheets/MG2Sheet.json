@@ -3,6 +3,16 @@
 	"events": [
 		{
 			"eventType": "variable",
+			"name": "GameState",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 501305872994732
+		},
+		{
+			"eventType": "variable",
 			"name": "TotalTime2",
 			"type": "number",
 			"initialValue": "15",
@@ -82,19 +92,91 @@
 					}
 				},
 				{
-					"id": "set-opacity",
-					"objectClass": "TelaFimMG2",
-					"sid": 945642121196786,
-					"parameters": {
-						"opacity": "0"
-					}
-				},
-				{
 					"id": "set-animation-frame",
 					"objectClass": "GoblinDummy",
 					"sid": 412668765272170,
 					"parameters": {
 						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 112303932195472,
+					"parameters": {
+						"variable": "GameState",
+						"value": "0"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TextFimMG2",
+					"sid": 251350033749961,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TelaFimMG2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "absolute",
+						"height-type": "absolute",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "ButtonFimMG2",
+					"sid": 410536070419644,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TelaFimMG2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "absolute",
+						"height-type": "absolute",
+						"z": false
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TelaFimMG2",
+					"sid": 619506201109733,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight/2"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "PointCount",
+					"sid": 550132899683037,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "ClockMG2",
+					"sid": 991272956493978,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "SpriteBgClockMg2",
+					"sid": 128799662969067,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite4",
+					"sid": 661807651395226,
+					"parameters": {
+						"opacity": "0"
 					}
 				}
 			],
@@ -103,6 +185,130 @@
 		{
 			"eventType": "block",
 			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ButtonFimMG2",
+					"sid": 227999671043712
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 106153696555911,
+					"parameters": {
+						"first-value": "GameState",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 721764544530608,
+					"parameters": {
+						"seconds": "0.1",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 340619058748992,
+					"parameters": {
+						"variable": "GameState",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "ClockMG2",
+					"sid": 955445404769198,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "SpriteBgClockMg2",
+					"sid": 208325873049141,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite4",
+					"sid": 733687034405759,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TelaFimMG2",
+					"sid": 957892841757272,
+					"parameters": {
+						"x": "ScreenWidth/2",
+						"y": "ScreenHeight*2"
+					}
+				}
+			],
+			"sid": 957388365928042
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ButtonFimMG2",
+					"sid": 895465230569742
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 371528293608697,
+					"parameters": {
+						"first-value": "GameState",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 751362803488906,
+					"parameters": {
+						"variable": "GameState",
+						"value": "0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 931249908345458,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 278730202633014
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 344647424461102,
+					"parameters": {
+						"first-value": "GameState",
+						"comparison": 0,
+						"second-value": "1"
+					}
+				},
 				{
 					"id": "every-tick",
 					"objectClass": "System",
@@ -216,12 +422,61 @@
 					],
 					"actions": [
 						{
+							"id": "set-text",
+							"objectClass": "PointCount",
+							"sid": 794593604663641,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "ClockMG2",
+							"sid": 745968581916380,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SpriteBgClockMg2",
+							"sid": 316743948418647,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 925893145778537,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
 							"sid": 948415688246113,
 							"parameters": {
 								"variable": "StrenghtPoints",
 								"value": "StrenghtPoints+PointCount.ClickCount"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextFimMG2",
+							"sid": 195153715602110,
+							"parameters": {
+								"text": "\"You got \" &PointCount.ClickCount &  \" strenght points!\"&newline&newline&\n\"Total strenght: \"& StrenghtPoints"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "TelaFimMG2",
+							"sid": 711264286035384,
+							"parameters": {
+								"x": "ScreenWidth/2",
+								"y": "ScreenHeight/2"
 							}
 						},
 						{
@@ -236,30 +491,6 @@
 							"id": "destroy",
 							"objectClass": "GoblinDummy",
 							"sid": 193762372339978
-						},
-						{
-							"id": "set-text",
-							"objectClass": "PointCount",
-							"sid": 467491858367125,
-							"parameters": {
-								"text": "\"\""
-							}
-						},
-						{
-							"id": "set-opacity",
-							"objectClass": "TelaFimMG2",
-							"sid": 460016505901536,
-							"parameters": {
-								"opacity": "100"
-							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 931249908345458,
-							"parameters": {
-								"layout": "Main"
-							}
 						}
 					],
 					"sid": 800414517909310
@@ -277,6 +508,16 @@
 						"mouse-button": "left",
 						"click-type": "clicked",
 						"object-clicked": "GoblinDummy"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 860847203242022,
+					"parameters": {
+						"first-value": "GameState",
+						"comparison": 0,
+						"second-value": "1"
 					}
 				}
 			],

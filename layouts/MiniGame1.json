@@ -74,8 +74,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 324.95587158203125,
-						"y": 102.75013675422792,
+						"x": 322,
+						"y": -157,
 						"width": 308.916905198355,
 						"height": 108.29318453728786,
 						"originX": 0,
@@ -109,14 +109,14 @@
 						}
 					},
 					"showing": true,
-					"locked": false,
+					"locked": true,
 					"world": {
 						"x": 512,
 						"y": 146,
-						"width": 1009.6773206336375,
-						"height": 433.4806742894533,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 364.9562815207002,
+						"height": 224.7677570389758,
+						"originX": 0.5878962536023055,
+						"originY": 0.5142857142857142,
 						"color": [
 							1,
 							1,
@@ -149,10 +149,10 @@
 					"world": {
 						"x": 623.5714603995067,
 						"y": 508,
-						"width": 1291.9788663236427,
-						"height": 373.9080827344847,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 1133.5095835011332,
+						"height": 223.30621607753946,
+						"originX": 0.5057880676758683,
+						"originY": 0.5023255813953489,
 						"color": [
 							1,
 							1,
@@ -281,7 +281,7 @@
 				{
 					"type": "Clock",
 					"properties": {
-						"text": "30",
+						"text": "3",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 50,
@@ -556,7 +556,13 @@
 					"sid": 589729442428837,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"showing": true,
 					"locked": false,
 					"world": {

@@ -172,8 +172,8 @@
 			"Option1",
 			"HitBoxCastelo",
 			"ButtonMg1",
-			"Text",
-			"Button",
+			"TextFimMG2",
+			"ButtonFimMG2",
 			"healthBar1",
 			"HealthBar2",
 			"vidaDebug"

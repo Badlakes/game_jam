@@ -1,9 +1,15 @@
 {
-	"name": "Button",
+	"name": "ButtonFimMG2",
 	"plugin-id": "Button",
 	"sid": 638780016327374,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": []
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 201499541055536
+		}
+	]
 }

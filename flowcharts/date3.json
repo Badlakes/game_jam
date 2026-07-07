@@ -3382,8 +3382,8 @@
 					"default": false
 				}
 			],
-			"x": 9147.5,
-			"y": 11374.5,
+			"x": 9191.5,
+			"y": 11383.5,
 			"w": 943,
 			"h": 333,
 			"t": "",
@@ -3736,14 +3736,6 @@
 					"value": "0",
 					"enable": true,
 					"default": false
-				},
-				{
-					"sid": 167056311170336,
-					"cnSID": null,
-					"name": "stop_music",
-					"value": "1",
-					"enable": true,
-					"default": false
 				}
 			],
 			"x": 9380.5,
@@ -3775,6 +3767,14 @@
 					"cnSID": null,
 					"name": "sprite_background",
 					"value": "2",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 902565256368129,
+					"cnSID": null,
+					"name": "stop_music",
+					"value": "100",
 					"enable": true,
 					"default": false
 				}

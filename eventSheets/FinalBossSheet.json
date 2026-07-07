@@ -9,7 +9,7 @@
 			"eventType": "variable",
 			"name": "RunFlow",
 			"type": "string",
-			"initialValue": "main",
+			"initialValue": "war3",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -1023,17 +1023,26 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "DialogBox",
-					"sid": 504106564481720,
+					"sid": 950587692756377,
 					"parameters": {
-						"opacity": "100"
+						"opacity": "Flow.OutputValue(\"stop_music\")=\"100\" ? 0 : 100"
 					}
 				},
 				{
 					"id": "set-opacity",
 					"objectClass": "LetraE",
-					"sid": 475714669377312,
+					"sid": 573928792254984,
 					"parameters": {
-						"opacity": "100"
+						"opacity": "Flow.OutputValue(\"stop_music\")=\"100\" ? 0 : 100"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "DialogImage",
+					"sid": 768014455594944,
+					"parameters": {
+						"animation": "str(Flow.OutputValue(\"sprite_hero\"))",
+						"from": "beginning"
 					}
 				}
 			],

@@ -788,6 +788,33 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "plateia",
+					"sid": 765063539475091,
+					"parameters": {
+						"animation": "\"plateia 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 661951281998885,
+					"parameters": {
+						"seconds": "0.5",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "plateia",
+					"sid": 857119467731663,
+					"parameters": {
+						"animation": "\"plateia 1\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 578028131022936,

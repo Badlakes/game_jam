@@ -44,7 +44,18 @@
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
-					},
+					}
+				],
+				"sid": 242104158167276,
+				"name": "plateia 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
 					{
 						"width": 4472,
 						"height": 2261,
@@ -54,7 +65,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6693101,
+						"imageSpriteId": 2167431,
 						"collisionPoly": {
 							"points": [
 								0.5518783542039356,
@@ -80,8 +91,8 @@
 						"tag": ""
 					}
 				],
-				"sid": 242104158167276,
-				"name": "Animation 1",
+				"sid": 278502036325426,
+				"name": "plateia 2",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

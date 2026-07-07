@@ -295,7 +295,7 @@
 					"type": "plateia",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "plateia 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -517,10 +517,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 315,
-						"y": -570,
+						"x": 318,
+						"y": -479,
 						"width": 510,
-						"height": 464,
+						"height": 296,
 						"originX": 0,
 						"originY": 0,
 						"color": [

@@ -85,7 +85,7 @@
 			"eventType": "variable",
 			"name": "array_words",
 			"type": "string",
-			"initialValue": "{   \"c2array\": true,   \"size\": [9,2,1],   \"data\": [    [       [\"wonder\"],       [\"[color=#ff0000]wonder[/color]\"]     ],  [       [\"mind\"],       [\"You keep being on my [color=#ff0000]mind[/color]\"]     ],     [       [\"right\"],       [\"Even though it’s not [color=#ff0000]right[/color]\"]     ],     [       [\"meant\"],       [\"We weren’t [color=#ff0000]meant[/color] to be\"]     ],     [       [\"mine\"],       [\"Still I want you to be [color=#ff0000]mine[/color]\"]     ],     [       [\"smile\"],       [\"I like the shape of your [color=#ff0000]smile[/color]\"]     ],     [       [\"sparkle\"],       [\"The timid [color=#ff0000]sparkle[/color] on your eyes\"]     ],     [       [\"understand\"],       [\"No one would never [color=#ff0000]understand[/color]\"]     ],     [       [\"wonder\"],       [\"The way I see [color=#ff0000]wonder[/color] in you\"]     ]   ] }",
+			"initialValue": "{   \"c2array\": true,   \"size\": [9,2,1],   \"data\": [    [       [\"wonder\"],       [\"[color=#c20502]wonder[/color]\"]     ],  [       [\"mind\"],       [\"You keep being on my [color=#c20502]mind[/color]\"]     ],     [       [\"right\"],       [\"Even though it’s not [color=#c20502]right[/color]\"]     ],     [       [\"meant\"],       [\"We weren’t [color=#c20502]meant[/color] to be\"]     ],     [       [\"mine\"],       [\"Still I want you to be [color=#c20502]mine[/color]\"]     ],     [       [\"smile\"],       [\"I like the shape of your [color=#c20502]smile[/color]\"]     ],     [       [\"sparkle\"],       [\"The timid [color=#c20502]sparkle[/color] on your eyes\"]     ],     [       [\"understand\"],       [\"No one would never [color=#c20502]understand[/color]\"]     ],     [       [\"wonder\"],       [\"The way I see [color=#c20502]wonder[/color] in you\"]     ]   ] }",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -95,7 +95,7 @@
 			"eventType": "variable",
 			"name": "array_words2",
 			"type": "string",
-			"initialValue": "{   \"c2array\": true,   \"size\": [10,2,1],   \"data\": [     [       [\"End of Passion\"],       [\"[color=#ff0000]End of Passion[/color]\"]     ],     [       [\"thought\"],       [\"You’re different than I [color=#ff0000]thought[/color] you’d be\"]     ],     [       [\"being\"],       [\"I hoped that ended up [color=#ff0000]being[/color] for good\"]     ],     [       [\"highly\"],       [\"For I already thought so [color=#ff0000]highly[/color] of you\"]     ],     [       [\"fantasy\"],       [\"And I didn't want to lose the [color=#ff0000]fantasy[/color]\"]     ],     [       [\"opposite\"],       [\"But it turned out to be the [color=#ff0000]opposite[/color]\"]     ],     [       [\"flaws\"],       [\"Now I see your [color=#ff0000]flaws[/color] and weaknesses\"]     ],     [       [\"heart\"],       [\"And you became real in my [color=#ff0000]heart[/color]\"]     ],     [       [\"passion\"],       [\"The blind [color=#ff0000]passion[/color] became something else\"]     ],     [       [\"impossible\"],       [\"Something stronger and [color=#ff0000]impossible[/color] to ignore.\"]     ]   ] }",
+			"initialValue": "{   \"c2array\": true,   \"size\": [10,2,1],   \"data\": [     [       [\"End of Passion\"],       [\"[color=#c20502]End of Passion[/color]\"]     ],     [       [\"thought\"],       [\"You’re different than I [color=#c20502]thought[/color] you’d be\"]     ],     [       [\"being\"],       [\"I hoped that ended up [color=#c20502]being[/color] for good\"]     ],     [       [\"highly\"],       [\"For I already thought so [color=#c20502]highly[/color] of you\"]     ],     [       [\"fantasy\"],       [\"And I didn't want to lose the [color=#c20502]fantasy[/color]\"]     ],     [       [\"opposite\"],       [\"But it turned out to be the [color=#c20502]opposite[/color]\"]     ],     [       [\"flaws\"],       [\"Now I see your [color=#c20502]flaws[/color] and weaknesses\"]     ],     [       [\"heart\"],       [\"And you became real in my [color=#c20502]heart[/color]\"]     ],     [       [\"passion\"],       [\"The blind [color=#c20502]passion[/color] became something else\"]     ],     [       [\"impossible\"],       [\"Something stronger and [color=#c20502]impossible[/color] to ignore.\"]     ]   ] }",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -105,7 +105,7 @@
 			"eventType": "variable",
 			"name": "array_words3",
 			"type": "string",
-			"initialValue": "{   \"c2array\": true,   \"size\": [13,2,1],   \"data\": [     [       [\"Kindness\"],       [\"[color=#ff0000]Kindness[/color]\"]     ],     [       [\"started\"],       [\"I don’t know when it [color=#ff0000]started[/color]\"]     ],     [       [\"know\"],       [\"I don't [color=#ff0000]know[/color] what that is\"]     ],     [       [\"sure\"],       [\"I’m not even [color=#ff0000]sure[/color] if I like it\"]     ],     [       [\"need\"],       [\"I just know I [color=#ff0000]need[/color] more\"]     ],     [       [\"kindness\"],       [\"More of your words, your [color=#ff0000]kindness[/color]\"]     ],     [       [\"eyes\"],       [\"More of myself in your [color=#ff0000]eyes[/color]\"]     ],     [       [\"happened\"],       [\"That never [color=#ff0000]happened[/color] before\"]     ],     [       [\"addiction\"],       [\"This [color=#ff0000]addiction[/color] to somebody else\"]     ],     [       [\"observing\"],       [\"I keep [color=#ff0000]observing[/color] from afar to find an answer\"]     ],     [       [\"captivate\"],       [\"As to why you [color=#ff0000]captivate[/color] me like you do\"]     ],     [       [\"mimicking\"],       [\"And start [color=#ff0000]mimicking[/color] over and over\"]     ],     [       [\"myself\"],       [\"Until I can be kind to [color=#ff0000]myself[/color] too\"]     ]   ] }",
+			"initialValue": "{   \"c2array\": true,   \"size\": [13,2,1],   \"data\": [     [       [\"Kindness\"],       [\"[color=#c20502]Kindness[/color]\"]     ],     [       [\"started\"],       [\"I don’t know when it [color=#c20502]started[/color]\"]     ],     [       [\"know\"],       [\"I don't [color=#c20502]know[/color] what that is\"]     ],     [       [\"sure\"],       [\"I’m not even [color=#c20502]sure[/color] if I like it\"]     ],     [       [\"need\"],       [\"I just know I [color=#c20502]need[/color] more\"]     ],     [       [\"kindness\"],       [\"More of your words, your [color=#c20502]kindness[/color]\"]     ],     [       [\"eyes\"],       [\"More of myself in your [color=#c20502]eyes[/color]\"]     ],     [       [\"happened\"],       [\"That never [color=#c20502]happened[/color] before\"]     ],     [       [\"addiction\"],       [\"This [color=#c20502]addiction[/color] to somebody else\"]     ],     [       [\"observing\"],       [\"I keep [color=#c20502]observing[/color] from afar to find an answer\"]     ],     [       [\"captivate\"],       [\"As to why you [color=#c20502]captivate[/color] me like you do\"]     ],     [       [\"mimicking\"],       [\"And start [color=#c20502]mimicking[/color] over and over\"]     ],     [       [\"myself\"],       [\"Until I can be kind to [color=#c20502]myself[/color] too\"]     ]   ] }",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -320,6 +320,14 @@
 						"x": "324.955872",
 						"y": "-500"
 					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "plateia",
+					"sid": 842939056780617,
+					"parameters": {
+						"opacity": "0"
+					}
 				}
 			],
 			"sid": 136228172705925,
@@ -425,6 +433,14 @@
 					"id": "set-opacity",
 					"objectClass": "SpriteBgClockMg2",
 					"sid": 249883962853171,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "plateia",
+					"sid": 632221746000872,
 					"parameters": {
 						"opacity": "100"
 					}
@@ -719,6 +735,14 @@
 							"id": "set-opacity",
 							"objectClass": "SpriteBgClockMg2",
 							"sid": 491539337459351,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "plateia",
+							"sid": 625602840329635,
 							"parameters": {
 								"opacity": "0"
 							}

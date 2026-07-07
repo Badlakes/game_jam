@@ -122,6 +122,14 @@
 					"parameters": {
 						"opacity": "0"
 					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "area_placa",
+					"sid": 498252660280888,
+					"parameters": {
+						"opacity": "0"
+					}
 				}
 			],
 			"sid": 357129064904952

@@ -361,271 +361,257 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 264236177646578
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 815336151398681,
+					"parameters": {
+						"key": 87
+					}
 				}
 			],
-			"actions": [],
-			"sid": 817045194011566,
-			"children": [
+			"actions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 258835555272571,
-							"parameters": {
-								"key": 87
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "MainHero",
-							"sid": 743384030760112,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "up"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "MainHero",
-							"sid": 948606142078626,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "MainHero",
-							"sid": 748604283370069,
-							"parameters": {
-								"animation": "\"WalkBack\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 350191206118254
+					"id": "simulate-control",
+					"objectClass": "MainHero",
+					"sid": 426518129373682,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"control": "up"
+					}
 				},
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 711560315941421,
-							"parameters": {
-								"key": 83
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "MainHero",
-							"sid": 664149228865345,
-							"parameters": {
-								"animation": "\"Walk\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "MainHero",
-							"sid": 205453804288561,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "simulate-control",
-							"objectClass": "MainHero",
-							"sid": 330851123978786,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "down"
-							}
-						}
-					],
-					"sid": 838385740571846
+					"id": "set-mirrored",
+					"objectClass": "MainHero",
+					"sid": 287445140248867,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				},
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 749767129208755,
-							"parameters": {
-								"key": 68
-							}
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 610458159144383,
-							"parameters": {
-								"key": 87
-							},
-							"isInverted": true
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 342532535022137,
-							"parameters": {
-								"key": 83
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "simulate-control",
-							"objectClass": "MainHero",
-							"sid": 387564279467922,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "right"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "MainHero",
-							"sid": 814784424359833,
-							"parameters": {
-								"animation": "\"WalkSide\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "MainHero",
-							"sid": 335773649587698,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						}
-					],
-					"sid": 243292402483441
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 795308349419846,
-							"parameters": {
-								"key": 65
-							}
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 119412688541535,
-							"parameters": {
-								"key": 87
-							},
-							"isInverted": true
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 468809151833545,
-							"parameters": {
-								"key": 83
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "MainHero",
-							"sid": 230187155364973,
-							"parameters": {
-								"animation": "\"WalkSide\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "MainHero",
-							"sid": 393630732202679,
-							"parameters": {
-								"state": "mirrored"
-							}
-						},
-						{
-							"id": "simulate-control",
-							"objectClass": "MainHero",
-							"sid": 637909789695649,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "left"
-							}
-						}
-					],
-					"sid": 383914285355999
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 725057521398498,
-							"parameters": {
-								"key": 87
-							},
-							"isInverted": true
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 896829781651924,
-							"parameters": {
-								"key": 65
-							},
-							"isInverted": true
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 925067295681321,
-							"parameters": {
-								"key": 83
-							},
-							"isInverted": true
-						},
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 791736209759930,
-							"parameters": {
-								"key": 68
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation-frame",
-							"objectClass": "MainHero",
-							"sid": 342025038323482,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 102177240120374
+					"id": "set-animation",
+					"objectClass": "MainHero",
+					"sid": 541021789899584,
+					"parameters": {
+						"animation": "\"WalkBack\"",
+						"from": "beginning"
+					}
 				}
-			]
+			],
+			"sid": 278636996653884
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 921025928988967,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MainHero",
+					"sid": 341912991216167,
+					"parameters": {
+						"animation": "\"Walk\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "MainHero",
+					"sid": 654302155697364,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "MainHero",
+					"sid": 517171418715936,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"control": "down"
+					}
+				}
+			],
+			"sid": 604237439177348
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 653250109536992,
+					"parameters": {
+						"key": 68
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 428507005986432,
+					"parameters": {
+						"key": 87
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 163499117642861,
+					"parameters": {
+						"key": 83
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "MainHero",
+					"sid": 257968099231624,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "MainHero",
+					"sid": 864616185772596,
+					"parameters": {
+						"animation": "\"WalkSide\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "MainHero",
+					"sid": 571696385605998,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 116872512655654
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 630523123011597,
+					"parameters": {
+						"key": 65
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 113258436733129,
+					"parameters": {
+						"key": 87
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 462059984631372,
+					"parameters": {
+						"key": 83
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MainHero",
+					"sid": 406215964448442,
+					"parameters": {
+						"animation": "\"WalkSide\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "MainHero",
+					"sid": 505690089158691,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "MainHero",
+					"sid": 602138664309292,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 680354942334436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 673389056918836,
+					"parameters": {
+						"key": 87
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 391437611540050,
+					"parameters": {
+						"key": 65
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 165604997042802,
+					"parameters": {
+						"key": 83
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 178573892986196,
+					"parameters": {
+						"key": 68
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MainHero",
+					"sid": 943521371015122,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 590007182453266
 		},
 		{
 			"eventType": "block",

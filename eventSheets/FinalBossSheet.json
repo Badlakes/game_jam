@@ -9,7 +9,7 @@
 			"eventType": "variable",
 			"name": "RunFlow",
 			"type": "string",
-			"initialValue": "war3",
+			"initialValue": "war1",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -1144,9 +1144,9 @@
 				{
 					"id": "set-width",
 					"objectClass": "HealthBar2",
-					"sid": 815449348008959,
+					"sid": 635586249010925,
 					"parameters": {
-						"width": "HealthBar2.Width-1"
+						"width": "HealthBar2.Width>217 ? HealthBar2.Width-1 : HealthBar2.Width"
 					}
 				},
 				{

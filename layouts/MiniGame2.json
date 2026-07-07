@@ -376,7 +376,7 @@
 				{
 					"type": "TextFimMG2",
 					"properties": {
-						"text": "Click on the [u]Training Dummy[/u] as fast as you can!",
+						"text": "Click on the  [u]Training Dummy[/u] \nas fast as you can!",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 28,
@@ -412,8 +412,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 362,
-						"y": -626,
+						"x": 357,
+						"y": -547,
 						"width": 528,
 						"height": 275,
 						"originX": 0,

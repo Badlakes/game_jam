@@ -3518,11 +3518,11 @@
 			"sid": 577287296008795,
 			"pnSIDs": [
 				237360092858353,
-				689775913818460
+				522233196621184
 			],
 			"poSIDs": [
 				650492128696147,
-				736580388802385
+				964736574811683
 			],
 			"nodeSIDs": [
 				811191119955167
@@ -3979,7 +3979,7 @@
 				787623832695185
 			],
 			"nodeSIDs": [
-				689775913818460
+				577287296008795
 			],
 			"outputs": [
 				{
@@ -3992,7 +3992,7 @@
 				},
 				{
 					"sid": 964736574811683,
-					"cnSID": 689775913818460,
+					"cnSID": 577287296008795,
 					"name": "next",
 					"value": "next_dialogue",
 					"enable": true,
@@ -4015,67 +4015,8 @@
 					"default": false
 				}
 			],
-			"x": 10169,
-			"y": 13462,
-			"w": 943,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 689775913818460,
-			"pnSIDs": [
-				522233196621184
-			],
-			"poSIDs": [
-				964736574811683
-			],
-			"nodeSIDs": [
-				577287296008795
-			],
-			"outputs": [
-				{
-					"sid": 128600129940465,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "He simply thanked her for listening and let her go. ",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 736580388802385,
-					"cnSID": 577287296008795,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 254211241541282,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 339185376376392,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 10181.5,
-			"y": 13794.5,
+			"x": 10109.5,
+			"y": 13632.5,
 			"w": 943,
 			"h": 333,
 			"t": "",

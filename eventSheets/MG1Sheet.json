@@ -746,6 +746,20 @@
 							"parameters": {
 								"opacity": "0"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 673557430988474,
+							"parameters": {
+								"audio-file": {
+									"path": "Win"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 651651662444858

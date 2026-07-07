@@ -491,6 +491,20 @@
 							"id": "destroy",
 							"objectClass": "GoblinDummy",
 							"sid": 193762372339978
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 973991771763281,
+							"parameters": {
+								"audio-file": {
+									"path": "Win"
+								},
+								"loop": "not-looping",
+								"volume": "-5",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 800414517909310

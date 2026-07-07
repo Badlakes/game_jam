@@ -673,6 +673,35 @@
 						{
 							"id": "else",
 							"objectClass": "System",
+							"sid": 215608789971044
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "MainHero",
+							"sid": 693377956703073,
+							"parameters": {
+								"object": "area_placa"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "DebugMain",
+							"sid": 998893725686780,
+							"parameters": {
+								"text": "\"Castle (Down)\" & newline & \n\"Poetry House (Left)\" & newline &\n\"Training Grounds (Right)\""
+							}
+						}
+					],
+					"sid": 470192101369669
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
 							"sid": 446335089825946
 						},
 						{

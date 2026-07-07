@@ -328,6 +328,20 @@
 					"parameters": {
 						"opacity": "0"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 904539927792991,
+					"parameters": {
+						"audio-file": {
+							"path": "MediMenu"
+						},
+						"loop": "looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 136228172705925,
@@ -644,6 +658,14 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 370636577454345,
+							"parameters": {
+								"tag": "\"\""
+							}
+						},
 						{
 							"id": "set-unfocused",
 							"objectClass": "PlayerTextBox",

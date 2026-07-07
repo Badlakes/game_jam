@@ -1,7 +1,7 @@
 .campo_texto_player {
     background: transparent;
     color: #222; /* texto escuro */
-    border: 2px solid #fff;
+    border: 2px solid transparent;
     border-radius: 8px;
     font-size: 45px;
     outline: none;
@@ -13,7 +13,7 @@
 .campo_texto_player:focus {
     background: transparent;
     color: #222;
-    border-color: #fff;
+    border-color: transparent;
     outline: none;
     box-shadow: none;
 }

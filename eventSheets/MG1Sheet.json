@@ -527,6 +527,16 @@
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 543487916371292
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 936759416512118,
+					"parameters": {
+						"first-value": "TotalTime",
+						"comparison": 1,
+						"second-value": "-1"
+					}
 				}
 			],
 			"actions": [
@@ -589,16 +599,6 @@
 							"sid": 677104285150203,
 							"parameters": {
 								"interval-seconds": "1.0"
-							}
-						},
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 368565180175900,
-							"parameters": {
-								"first-value": "TotalTime",
-								"comparison": 1,
-								"second-value": "-1"
 							}
 						}
 					],
@@ -673,6 +673,11 @@
 						"comparison": 0,
 						"second-value": "-1"
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 286598226869934
 				}
 			],
 			"actions": [
@@ -687,8 +692,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 166217757152671,
-					"disabled": true,
+					"sid": 886128798405598,
 					"parameters": {
 						"audio-file": {
 							"path": "Win"
@@ -696,7 +700,7 @@
 						"loop": "not-looping",
 						"volume": "-5",
 						"stereo-pan": "0",
-						"tag-optional": "\"WinMusic\""
+						"tag-optional": "\"\""
 					}
 				},
 				{

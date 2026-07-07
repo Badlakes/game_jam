@@ -26,18 +26,18 @@
 					"default": false
 				},
 				{
-					"sid": 307008472434610,
+					"sid": 204605882420083,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 204605882420083,
+					"sid": 307008472434610,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "4",
 					"enable": true,
 					"default": false
 				}
@@ -88,7 +88,7 @@
 					"sid": 350774872723505,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -96,7 +96,7 @@
 					"sid": 809137659023945,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -147,7 +147,7 @@
 					"sid": 151728216435174,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -155,7 +155,7 @@
 					"sid": 608890426163450,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -206,7 +206,7 @@
 					"sid": 950273900246402,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -214,7 +214,7 @@
 					"sid": 531650667910241,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -265,7 +265,7 @@
 					"sid": 751176640167568,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -273,7 +273,7 @@
 					"sid": 341689223633508,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -324,7 +324,7 @@
 					"sid": 300940084261893,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -332,7 +332,7 @@
 					"sid": 477480313877390,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -383,7 +383,7 @@
 					"sid": 162650107203842,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -391,7 +391,7 @@
 					"sid": 319889658432151,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -459,7 +459,7 @@
 					"sid": 136222916224526,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
@@ -467,7 +467,7 @@
 					"sid": 990172589248289,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -515,23 +515,23 @@
 					"default": false
 				},
 				{
-					"sid": 892065583977691,
+					"sid": 404506637777466,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 404506637777466,
+					"sid": 892065583977691,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 2686.5,
+			"x": 2657.5,
 			"y": 5429.5,
 			"w": 943,
 			"h": 333,
@@ -574,18 +574,18 @@
 					"default": false
 				},
 				{
-					"sid": 888934944565230,
+					"sid": 783454260037278,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 783454260037278,
+					"sid": 888934944565230,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -633,18 +633,18 @@
 					"default": false
 				},
 				{
-					"sid": 195400905760158,
+					"sid": 651040270281218,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 651040270281218,
+					"sid": 195400905760158,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -692,23 +692,23 @@
 					"default": false
 				},
 				{
-					"sid": 111659577629136,
+					"sid": 986698295687612,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 986698295687612,
+					"sid": 111659577629136,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 2697.5,
+			"x": 2674.5,
 			"y": 6428.5,
 			"w": 943,
 			"h": 333,
@@ -751,18 +751,18 @@
 					"default": false
 				},
 				{
-					"sid": 384804475388230,
+					"sid": 196836368084616,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 196836368084616,
+					"sid": 384804475388230,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -810,18 +810,18 @@
 					"default": false
 				},
 				{
-					"sid": 656815347900826,
+					"sid": 845225181414560,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "5",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 845225181414560,
+					"sid": 656815347900826,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -869,18 +869,18 @@
 					"default": false
 				},
 				{
-					"sid": 602859861275321,
+					"sid": 124631335251689,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 124631335251689,
+					"sid": 602859861275321,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -928,18 +928,18 @@
 					"default": false
 				},
 				{
-					"sid": 573631267145100,
+					"sid": 635965147503129,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 635965147503129,
+					"sid": 573631267145100,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -987,18 +987,18 @@
 					"default": false
 				},
 				{
-					"sid": 674629884714496,
+					"sid": 434705543838840,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 434705543838840,
+					"sid": 674629884714496,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1046,18 +1046,18 @@
 					"default": false
 				},
 				{
-					"sid": 568961738636811,
+					"sid": 834765844765440,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 834765844765440,
+					"sid": 568961738636811,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1105,18 +1105,18 @@
 					"default": false
 				},
 				{
-					"sid": 475065305346531,
+					"sid": 742159520649424,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 742159520649424,
+					"sid": 475065305346531,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1164,18 +1164,18 @@
 					"default": false
 				},
 				{
-					"sid": 581370111188926,
+					"sid": 141166791069505,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 141166791069505,
+					"sid": 581370111188926,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1223,18 +1223,18 @@
 					"default": false
 				},
 				{
-					"sid": 440485368678971,
+					"sid": 868133987021318,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 868133987021318,
+					"sid": 440485368678971,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1282,18 +1282,18 @@
 					"default": false
 				},
 				{
-					"sid": 684384221819090,
+					"sid": 298940789581105,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 298940789581105,
+					"sid": 684384221819090,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1341,18 +1341,18 @@
 					"default": false
 				},
 				{
-					"sid": 485852526611436,
+					"sid": 250148195040681,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 250148195040681,
+					"sid": 485852526611436,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1400,18 +1400,18 @@
 					"default": false
 				},
 				{
-					"sid": 351095533501091,
+					"sid": 911849019891250,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 911849019891250,
+					"sid": 351095533501091,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1459,18 +1459,18 @@
 					"default": false
 				},
 				{
-					"sid": 764118347855146,
+					"sid": 265221711774127,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 265221711774127,
+					"sid": 764118347855146,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1505,7 +1505,7 @@
 					"sid": 757210357775628,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: lonely?",
+					"value": "HERO: …Sometimes I do.",
 					"enable": true,
 					"default": false
 				},
@@ -1518,18 +1518,18 @@
 					"default": false
 				},
 				{
-					"sid": 889663033882097,
+					"sid": 241706404534322,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 241706404534322,
+					"sid": 889663033882097,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -1579,24 +1579,24 @@
 					"default": false
 				},
 				{
-					"sid": 758376551345090,
+					"sid": 484952866562873,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 484952866562873,
+					"sid": 758376551345090,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 6577.5,
-			"y": 7738.5,
+			"x": 5257.5,
+			"y": 10205.5,
 			"w": 943,
 			"h": 333,
 			"t": "",
@@ -1638,18 +1638,18 @@
 					"default": false
 				},
 				{
-					"sid": 285490822731196,
+					"sid": 718988389850631,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 718988389850631,
+					"sid": 285490822731196,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1697,23 +1697,23 @@
 					"default": false
 				},
 				{
-					"sid": 332797015427287,
+					"sid": 614562693465714,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 614562693465714,
+					"sid": 332797015427287,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 6578.5,
+			"x": 6585.5,
 			"y": 8404.5,
 			"w": 943,
 			"h": 333,
@@ -1756,18 +1756,18 @@
 					"default": false
 				},
 				{
-					"sid": 197074716604331,
+					"sid": 457001583832579,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 457001583832579,
+					"sid": 197074716604331,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1815,25 +1815,25 @@
 					"default": false
 				},
 				{
-					"sid": 420734628354638,
+					"sid": 118093592270589,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 118093592270589,
+					"sid": 420734628354638,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 6591.5,
+			"x": 6725.610436156866,
 			"y": 9070.5,
-			"w": 943,
+			"w": 1211,
 			"h": 333,
 			"t": "",
 			"s": false,
@@ -1874,18 +1874,18 @@
 					"default": false
 				},
 				{
-					"sid": 758440850975458,
+					"sid": 404138711450086,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 404138711450086,
+					"sid": 758440850975458,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1933,18 +1933,18 @@
 					"default": false
 				},
 				{
-					"sid": 518657370473480,
+					"sid": 690198263151805,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 690198263151805,
+					"sid": 518657370473480,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -1992,18 +1992,18 @@
 					"default": false
 				},
 				{
-					"sid": 377822654466848,
+					"sid": 736448323501446,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 736448323501446,
+					"sid": 377822654466848,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2051,18 +2051,18 @@
 					"default": false
 				},
 				{
-					"sid": 237559654845404,
+					"sid": 255652361298284,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 255652361298284,
+					"sid": 237559654845404,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2090,7 +2090,7 @@
 				535379793409946
 			],
 			"nodeSIDs": [
-				843762733847157
+				934410716287355
 			],
 			"outputs": [
 				{
@@ -2103,17 +2103,9 @@
 				},
 				{
 					"sid": 886475103914134,
-					"cnSID": 843762733847157,
+					"cnSID": 934410716287355,
 					"name": "next",
 					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 835591350390910,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
 					"enable": true,
 					"default": false
 				},
@@ -2121,7 +2113,15 @@
 					"sid": 236658372320719,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 835591350390910,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2141,71 +2141,12 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 843762733847157,
+			"sid": 934410716287355,
 			"pnSIDs": [
 				138174149787608
 			],
 			"poSIDs": [
 				886475103914134
-			],
-			"nodeSIDs": [
-				934410716287355
-			],
-			"outputs": [
-				{
-					"sid": 817144340614349,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "HERO: I’m very nice and people recognize that",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 636907007432455,
-					"cnSID": 934410716287355,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 460050198290116,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 807346295226952,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 6603.5,
-			"y": 11113.5,
-			"w": 943,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 934410716287355,
-			"pnSIDs": [
-				843762733847157
-			],
-			"poSIDs": [
-				636907007432455
 			],
 			"nodeSIDs": [
 				322713280385058
@@ -2228,18 +2169,18 @@
 					"default": false
 				},
 				{
-					"sid": 857209684295577,
+					"sid": 623557510966152,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 623557510966152,
+					"sid": 857209684295577,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2267,7 +2208,7 @@
 				384704533196568
 			],
 			"nodeSIDs": [
-				722966057896612
+				597557280260304
 			],
 			"outputs": [
 				{
@@ -2280,17 +2221,9 @@
 				},
 				{
 					"sid": 278000061924604,
-					"cnSID": 722966057896612,
+					"cnSID": 597557280260304,
 					"name": "next",
 					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 689058679638124,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
 					"enable": true,
 					"default": false
 				},
@@ -2298,7 +2231,15 @@
 					"sid": 546260519977742,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 689058679638124,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2318,7 +2259,7 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 722966057896612,
+			"sid": 597557280260304,
 			"pnSIDs": [
 				322713280385058
 			],
@@ -2326,66 +2267,7 @@
 				278000061924604
 			],
 			"nodeSIDs": [
-				597557280260304
-			],
-			"outputs": [
-				{
-					"sid": 356317767559351,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "BOSS: But… don’t you feel the yearn to be desired? ",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 826857352338999,
-					"cnSID": 597557280260304,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 180340586077612,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 954048014789165,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 6610.5,
-			"y": 12125.5,
-			"w": 943,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 597557280260304,
-			"pnSIDs": [
-				722966057896612
-			],
-			"poSIDs": [
-				826857352338999
-			],
-			"nodeSIDs": [
-				714142386857421
+				377493034116650
 			],
 			"outputs": [
 				{
@@ -2398,17 +2280,9 @@
 				},
 				{
 					"sid": 750741194628577,
-					"cnSID": 714142386857421,
+					"cnSID": 377493034116650,
 					"name": "next",
 					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 523481174232625,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
 					"enable": true,
 					"default": false
 				},
@@ -2416,7 +2290,15 @@
 					"sid": 439728096788854,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "1",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 523481174232625,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -2436,71 +2318,12 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 714142386857421,
+			"sid": 377493034116650,
 			"pnSIDs": [
 				597557280260304
 			],
 			"poSIDs": [
 				750741194628577
-			],
-			"nodeSIDs": [
-				377493034116650
-			],
-			"outputs": [
-				{
-					"sid": 384449900631743,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "BOSS: Don’t you feel… ",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 864307635516600,
-					"cnSID": 377493034116650,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 864000194957622,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 929761562221091,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 6623.5,
-			"y": 12903.5,
-			"w": 943,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 377493034116650,
-			"pnSIDs": [
-				714142386857421
-			],
-			"poSIDs": [
-				864307635516600
 			],
 			"nodeSIDs": [
 				769613179078317
@@ -2523,18 +2346,18 @@
 					"default": false
 				},
 				{
-					"sid": 996001881268293,
+					"sid": 245491802624148,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 245491802624148,
+					"sid": 996001881268293,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2582,18 +2405,18 @@
 					"default": false
 				},
 				{
-					"sid": 460527656811707,
+					"sid": 752889173604813,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 752889173604813,
+					"sid": 460527656811707,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2641,18 +2464,18 @@
 					"default": false
 				},
 				{
-					"sid": 610140513736212,
+					"sid": 954320660046291,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 954320660046291,
+					"sid": 610140513736212,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2687,7 +2510,7 @@
 					"sid": 809774107376680,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "BOSS: And I’d be kind to the world, ",
+					"value": "BOSS: And I’d be kind to the world",
 					"enable": true,
 					"default": false
 				},
@@ -2700,18 +2523,18 @@
 					"default": false
 				},
 				{
-					"sid": 823740581078642,
+					"sid": 472491813538737,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 472491813538737,
+					"sid": 823740581078642,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2759,18 +2582,18 @@
 					"default": false
 				},
 				{
-					"sid": 333881110755517,
+					"sid": 190728364203566,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 190728364203566,
+					"sid": 333881110755517,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2818,18 +2641,18 @@
 					"default": false
 				},
 				{
-					"sid": 437913209522509,
+					"sid": 375748445065531,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 375748445065531,
+					"sid": 437913209522509,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2877,18 +2700,18 @@
 					"default": false
 				},
 				{
-					"sid": 164702431583965,
+					"sid": 765691231592147,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 765691231592147,
+					"sid": 164702431583965,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -2936,18 +2759,18 @@
 					"default": false
 				},
 				{
-					"sid": 391804795569408,
+					"sid": 270508029754755,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 270508029754755,
+					"sid": 391804795569408,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -2995,18 +2818,18 @@
 					"default": false
 				},
 				{
-					"sid": 501411774500405,
+					"sid": 878236644652365,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 878236644652365,
+					"sid": 501411774500405,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -3054,18 +2877,18 @@
 					"default": false
 				},
 				{
-					"sid": 116251195100757,
+					"sid": 582305825511261,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 582305825511261,
+					"sid": 116251195100757,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -3113,18 +2936,18 @@
 					"default": false
 				},
 				{
-					"sid": 632053981678373,
+					"sid": 341633189403162,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 341633189403162,
+					"sid": 632053981678373,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -3172,18 +2995,18 @@
 					"default": false
 				},
 				{
-					"sid": 909413573349406,
+					"sid": 952668226936726,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 952668226936726,
+					"sid": 909413573349406,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -3231,18 +3054,18 @@
 					"default": false
 				},
 				{
-					"sid": 796348666679463,
+					"sid": 132008346883948,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 132008346883948,
+					"sid": 796348666679463,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -3294,7 +3117,7 @@
 					"sid": 296526210278880,
 					"cnSID": 392444703098672,
 					"name": "option0",
-					"value": "[ Accept. ]",
+					"value": "Accept",
 					"enable": true,
 					"default": false
 				},
@@ -3302,7 +3125,7 @@
 					"sid": 478277375584360,
 					"cnSID": 127632478904020,
 					"name": "option1",
-					"value": "[ Decline ]",
+					"value": "Decline",
 					"enable": true,
 					"default": false
 				},
@@ -3310,7 +3133,7 @@
 					"sid": 887683345441599,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -3318,7 +3141,7 @@
 					"sid": 322676316604092,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -3369,7 +3192,7 @@
 					"sid": 620775058694479,
 					"cnSID": null,
 					"name": "sprite_boss",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				},
@@ -3377,7 +3200,7 @@
 					"sid": 920652508337190,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -3822,18 +3645,18 @@
 					"default": false
 				},
 				{
-					"sid": 445961203071359,
+					"sid": 225347246778027,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 225347246778027,
+					"sid": 445961203071359,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -4294,18 +4117,18 @@
 					"default": false
 				},
 				{
-					"sid": 161213088555403,
+					"sid": 265510414265570,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 265510414265570,
+					"sid": 161213088555403,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -4353,18 +4176,18 @@
 					"default": false
 				},
 				{
-					"sid": 315511350158706,
+					"sid": 400662306154872,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 400662306154872,
+					"sid": 315511350158706,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -4412,18 +4235,18 @@
 					"default": false
 				},
 				{
-					"sid": 844256058613067,
+					"sid": 418203174076164,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "1",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 418203174076164,
+					"sid": 844256058613067,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -4471,18 +4294,18 @@
 					"default": false
 				},
 				{
-					"sid": 552951802645603,
+					"sid": 899698719639863,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 899698719639863,
+					"sid": 552951802645603,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "1",
 					"enable": true,
 					"default": false
 				}
@@ -4530,18 +4353,18 @@
 					"default": false
 				},
 				{
-					"sid": 567877180464380,
+					"sid": 435798172731981,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 435798172731981,
+					"sid": 567877180464380,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4589,18 +4412,18 @@
 					"default": false
 				},
 				{
-					"sid": 280373257559378,
+					"sid": 283555880594787,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 283555880594787,
+					"sid": 280373257559378,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4648,18 +4471,18 @@
 					"default": false
 				},
 				{
-					"sid": 283667201693257,
+					"sid": 654743613718808,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "2",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 654743613718808,
+					"sid": 283667201693257,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4707,18 +4530,18 @@
 					"default": false
 				},
 				{
-					"sid": 585241525927249,
+					"sid": 434783496569879,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 434783496569879,
+					"sid": 585241525927249,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4766,18 +4589,18 @@
 					"default": false
 				},
 				{
-					"sid": 903582680318828,
+					"sid": 366499369126298,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 366499369126298,
+					"sid": 903582680318828,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4825,18 +4648,18 @@
 					"default": false
 				},
 				{
-					"sid": 677594073157004,
+					"sid": 410781777887406,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 410781777887406,
+					"sid": 677594073157004,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "2",
 					"enable": true,
 					"default": false
 				}
@@ -4864,7 +4687,7 @@
 				451206851039801
 			],
 			"nodeSIDs": [
-				398677293764841
+				288742415641974
 			],
 			"outputs": [
 				{
@@ -4877,17 +4700,9 @@
 				},
 				{
 					"sid": 469245632194455,
-					"cnSID": 398677293764841,
+					"cnSID": 288742415641974,
 					"name": "next",
 					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 694964378260019,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
 					"enable": true,
 					"default": false
 				},
@@ -4895,7 +4710,15 @@
 					"sid": 762407510200025,
 					"cnSID": null,
 					"name": "sprite_hero",
-					"value": "0",
+					"value": "6",
+					"enable": true,
+					"default": false
+				},
+				{
+					"sid": 694964378260019,
+					"cnSID": null,
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
@@ -4915,71 +4738,12 @@
 			"prfnsid": null
 		},
 		{
-			"sid": 398677293764841,
+			"sid": 288742415641974,
 			"pnSIDs": [
 				886845390922011
 			],
 			"poSIDs": [
 				469245632194455
-			],
-			"nodeSIDs": [
-				288742415641974
-			],
-			"outputs": [
-				{
-					"sid": 523695427195004,
-					"cnSID": null,
-					"name": "dialogue",
-					"value": "BOSS: I… What? ",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 344946013214218,
-					"cnSID": 288742415641974,
-					"name": "next",
-					"value": "next_dialogue",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 972758881995693,
-					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
-					"enable": true,
-					"default": false
-				},
-				{
-					"sid": 851572304692733,
-					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
-					"enable": true,
-					"default": false
-				}
-			],
-			"x": 4080.5,
-			"y": 9159.5,
-			"w": 839,
-			"h": 333,
-			"t": "",
-			"s": false,
-			"e": true,
-			"pi": 0,
-			"c": "Flowchart node",
-			"ty": "dictionary",
-			"pr": false,
-			"prfsid": null,
-			"prfnsid": null
-		},
-		{
-			"sid": 288742415641974,
-			"pnSIDs": [
-				398677293764841
-			],
-			"poSIDs": [
-				344946013214218
 			],
 			"nodeSIDs": [
 				668541014796034
@@ -5002,24 +4766,24 @@
 					"default": false
 				},
 				{
-					"sid": 281382305665451,
+					"sid": 618550088074694,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 618550088074694,
+					"sid": 281382305665451,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 4079.5,
-			"y": 9567.5,
+			"x": 4067.5,
+			"y": 9178.5,
 			"w": 839,
 			"h": 333,
 			"t": "",
@@ -5061,24 +4825,24 @@
 					"default": false
 				},
 				{
-					"sid": 562381292527271,
+					"sid": 656165036285081,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 656165036285081,
+					"sid": 562381292527271,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 4106.5,
-			"y": 9938.5,
+			"x": 4094.5,
+			"y": 9549.5,
 			"w": 839,
 			"h": 333,
 			"t": "",
@@ -5120,24 +4884,24 @@
 					"default": false
 				},
 				{
-					"sid": 798846914266024,
+					"sid": 517269320594890,
 					"cnSID": null,
-					"name": "sprite_boss",
-					"value": "0",
+					"name": "sprite_hero",
+					"value": "6",
 					"enable": true,
 					"default": false
 				},
 				{
-					"sid": 517269320594890,
+					"sid": 798846914266024,
 					"cnSID": null,
-					"name": "sprite_hero",
-					"value": "0",
+					"name": "sprite_boss",
+					"value": "3",
 					"enable": true,
 					"default": false
 				}
 			],
-			"x": 4076.5,
-			"y": 10283.5,
+			"x": 4101.5,
+			"y": 9903.5,
 			"w": 839,
 			"h": 333,
 			"t": "",

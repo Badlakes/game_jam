@@ -70,9 +70,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "LogStatus",
-					"sid": 470724763978948,
+					"sid": 927710732418692,
 					"parameters": {
-						"text": "lowercase(trim(RunFlow)) =\"date1\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date2\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date3\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"war1\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war2\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war3\"  ? \"Total Strenght: \" &str(StrenghtPoints): \"0\"\n"
+						"text": "lowercase(trim(RunFlow)) =\"date1\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date2\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"date3\" ? \"Total Poetry: \"&str(PoetryPoints):\nlowercase(trim(RunFlow)) =\"war1\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war2\"  ? \"Total Strenght: \" &str(StrenghtPoints):\r\nlowercase(trim(RunFlow)) =\"war3\"  ? \"Total Strenght: \" &str(StrenghtPoints): \"Enter the castle\"\n"
 					}
 				},
 				{

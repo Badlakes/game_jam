@@ -1,0 +1,58 @@
+{
+	"name": "placa",
+	"plugin-id": "Sprite",
+	"sid": 316707568196085,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 470,
+						"height": 370,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4575614,
+						"collisionPoly": {
+							"points": [
+								0.47239583333333335,
+								0.19143518518518518,
+								0.5901041666666667,
+								0.3002314814814815,
+								0.61328125,
+								0.5289351851851852,
+								0.4298177083333333,
+								0.8379629629629629,
+								0.37018229166666666,
+								0.6780092592592593,
+								0.348828125,
+								0.23842592592592593,
+								0.39765625,
+								0.21087962962962964
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 989765303613766,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

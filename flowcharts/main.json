@@ -332,7 +332,7 @@
 					"sid": 735964065844828,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "A mighty hero appeared,  with unmatched talent and determination  she decided to finally put an end to the reign of terror the big bad evil Demon Boss had created.  However…",
+					"value": "A mighty hero appeared,  with unmatched talent and determination  she decided to finally put an end to the reign of terror the big bad evil Demon Boss had created. ",
 					"enable": true,
 					"default": false
 				},
@@ -391,7 +391,7 @@
 					"sid": 241640095349726,
 					"cnSID": null,
 					"name": "dialogue",
-					"value": "She failed…   terribly so…  it honestly wasn’t even much of a fight, like this poor girl can't never-",
+					"value": "However… She failed…   terribly so…  it honestly wasn’t even much of a fight, like this poor girl can't never-",
 					"enable": true,
 					"default": false
 				},

@@ -718,6 +718,15 @@
 					}
 				},
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 971283391774587,
+					"parameters": {
+						"variable": "PoetryPoints",
+						"value": "PoetryPoints+PlayerTextBox.NumberPoints"
+					}
+				},
+				{
 					"id": "set-text",
 					"objectClass": "TextFimMG1",
 					"sid": 414831394898441,
@@ -731,15 +740,6 @@
 					"sid": 972007036527447,
 					"parameters": {
 						"text": "\"\""
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 153542464323222,
-					"parameters": {
-						"variable": "PoetryPoints",
-						"value": "PoetryPoints+PlayerTextBox.NumberPoints"
 					}
 				},
 				{
